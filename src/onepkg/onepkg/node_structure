@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node
+
+class CreateNode(Node):
+    def __init__(self):
+        super().__init__("test")
+
+def main(args=None):
+    rclpy.init(args=args)
+    node1 = CreateNode()
+    rclpy.spin(node=node1)
+    rclpy.shutdown()
+
+if __name__== "__main__":
+    main()

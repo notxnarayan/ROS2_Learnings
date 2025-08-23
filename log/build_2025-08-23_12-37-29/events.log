@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.001037] (-) JobUnselected: {'identifier': 'onepkg'}
+[0.001473] (TransNum) JobQueued: {'identifier': 'TransNum', 'dependencies': OrderedDict()}
+[0.004929] (TransNum) JobStarted: {'identifier': 'TransNum'}
+[0.099502] (-) TimerEvent: {}
+[0.200807] (-) TimerEvent: {}
+[0.302107] (-) TimerEvent: {}
+[0.403713] (-) TimerEvent: {}
+[0.505321] (-) TimerEvent: {}
+[0.606721] (-) TimerEvent: {}
+[0.707933] (-) TimerEvent: {}
+[0.809163] (-) TimerEvent: {}
+[0.910507] (-) TimerEvent: {}
+[1.011795] (-) TimerEvent: {}
+[1.113088] (-) TimerEvent: {}
+[1.214475] (-) TimerEvent: {}
+[1.315467] (-) TimerEvent: {}
+[1.416081] (-) TimerEvent: {}
+[1.517263] (-) TimerEvent: {}
+[1.618554] (-) TimerEvent: {}
+[1.719687] (-) TimerEvent: {}
+[1.820879] (-) TimerEvent: {}
+[1.922082] (-) TimerEvent: {}
+[2.023269] (-) TimerEvent: {}
+[2.124523] (-) TimerEvent: {}
+[2.225580] (-) TimerEvent: {}
+[2.326768] (-) TimerEvent: {}
+[2.427878] (-) TimerEvent: {}
+[2.529250] (-) TimerEvent: {}
+[2.630528] (-) TimerEvent: {}
+[2.731634] (-) TimerEvent: {}
+[2.832890] (-) TimerEvent: {}
+[2.934250] (-) TimerEvent: {}
+[3.035634] (-) TimerEvent: {}
+[3.136710] (-) TimerEvent: {}
+[3.237467] (-) TimerEvent: {}
+[3.338733] (-) TimerEvent: {}
+[3.440047] (-) TimerEvent: {}
+[3.541479] (-) TimerEvent: {}
+[3.642641] (-) TimerEvent: {}
+[3.743816] (-) TimerEvent: {}
+[3.845163] (-) TimerEvent: {}
+[3.946434] (-) TimerEvent: {}
+[4.047628] (-) TimerEvent: {}
+[4.148707] (-) TimerEvent: {}
+[4.249329] (-) TimerEvent: {}
+[4.350586] (-) TimerEvent: {}
+[4.451717] (-) TimerEvent: {}
+[4.552891] (-) TimerEvent: {}
+[4.654179] (-) TimerEvent: {}
+[4.755453] (-) TimerEvent: {}
+[4.856596] (-) TimerEvent: {}
+[4.957721] (-) TimerEvent: {}
+[5.058941] (-) TimerEvent: {}
+[5.160074] (-) TimerEvent: {}
+[5.260911] (-) TimerEvent: {}
+[5.362158] (-) TimerEvent: {}
+[5.463570] (-) TimerEvent: {}
+[5.564693] (-) TimerEvent: {}
+[5.665946] (-) TimerEvent: {}
+[5.767140] (-) TimerEvent: {}
+[5.868329] (-) TimerEvent: {}
+[5.969662] (-) TimerEvent: {}
+[6.070848] (-) TimerEvent: {}
+[6.172022] (-) TimerEvent: {}
+[6.273098] (-) TimerEvent: {}
+[6.373775] (-) TimerEvent: {}
+[6.475018] (-) TimerEvent: {}
+[6.576275] (-) TimerEvent: {}
+[6.677561] (-) TimerEvent: {}
+[6.778703] (-) TimerEvent: {}
+[6.879922] (-) TimerEvent: {}
+[6.981304] (-) TimerEvent: {}
+[7.082343] (-) TimerEvent: {}
+[7.183001] (-) TimerEvent: {}
+[7.284217] (-) TimerEvent: {}
+[7.385624] (-) TimerEvent: {}
+[7.486887] (-) TimerEvent: {}
+[7.588270] (-) TimerEvent: {}
+[7.691753] (-) TimerEvent: {}
+[7.792972] (-) TimerEvent: {}
+[7.894159] (-) TimerEvent: {}
+[7.995299] (-) TimerEvent: {}
+[8.097633] (-) TimerEvent: {}
+[8.198915] (-) TimerEvent: {}
+[8.300274] (-) TimerEvent: {}
+[8.401506] (-) TimerEvent: {}
+[8.502564] (-) TimerEvent: {}
+[8.603771] (-) TimerEvent: {}
+[8.704942] (-) TimerEvent: {}
+[8.806098] (-) TimerEvent: {}
+[8.907518] (-) TimerEvent: {}
+[9.009772] (-) TimerEvent: {}
+[9.111914] (-) TimerEvent: {}
+[9.213524] (-) TimerEvent: {}
+[9.317205] (-) TimerEvent: {}
+[9.418987] (-) TimerEvent: {}
+[9.481350] (TransNum) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/TransNum', 'build', '--build-base', '/home/narayan/ros2_ws/build/TransNum/build', 'install', '--record', '/home/narayan/ros2_ws/build/TransNum/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/narayan/ros2_ws/src/TransNum', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '2a132f2f-98c5-4fd6-aef9-c2f42c7fc0f5', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2108', 'SYSTEMD_EXEC_PID': '2353', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6671', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:19586', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2316,unix/narayan-desktop:/tmp/.ICE-unix/2316', 'INVOCATION_ID': 'a648f8515c4e4f7eb09c706050953719', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.66SYB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:488262b1-8909-41f2-972a-a940f1b807c5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/TransNum', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/build/TransNum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[9.519269] (-) TimerEvent: {}
+[9.620621] (-) TimerEvent: {}
+[9.721818] (-) TimerEvent: {}
+[9.822997] (-) TimerEvent: {}
+[9.924281] (-) TimerEvent: {}
+[10.025578] (-) TimerEvent: {}
+[10.126643] (-) TimerEvent: {}
+[10.227307] (-) TimerEvent: {}
+[10.328608] (-) TimerEvent: {}
+[10.429760] (-) TimerEvent: {}
+[10.531199] (-) TimerEvent: {}
+[10.632992] (-) TimerEvent: {}
+[10.734290] (-) TimerEvent: {}
+[10.835607] (-) TimerEvent: {}
+[10.936725] (-) TimerEvent: {}
+[11.038037] (-) TimerEvent: {}
+[11.139216] (-) TimerEvent: {}
+[11.240555] (-) TimerEvent: {}
+[11.341797] (-) TimerEvent: {}
+[11.442863] (-) TimerEvent: {}
+[11.543570] (-) TimerEvent: {}
+[11.644705] (-) TimerEvent: {}
+[11.745944] (-) TimerEvent: {}
+[11.847339] (-) TimerEvent: {}
+[11.948600] (-) TimerEvent: {}
+[12.049942] (-) TimerEvent: {}
+[12.151231] (-) TimerEvent: {}
+[12.252658] (-) TimerEvent: {}
+[12.353876] (-) TimerEvent: {}
+[12.455241] (-) TimerEvent: {}
+[12.560280] (-) TimerEvent: {}
+[12.661600] (-) TimerEvent: {}
+[12.765988] (-) TimerEvent: {}
+[12.867729] (-) TimerEvent: {}
+[12.968926] (-) TimerEvent: {}
+[13.070212] (-) TimerEvent: {}
+[13.154347] (TransNum) StdoutLine: {'line': b'running egg_info\n'}
+[13.170570] (-) TimerEvent: {}
+[13.273233] (-) TimerEvent: {}
+[13.374694] (-) TimerEvent: {}
+[13.469922] (TransNum) StdoutLine: {'line': b'writing ../../build/TransNum/TransNum.egg-info/PKG-INFO\n'}
+[13.475074] (-) TimerEvent: {}
+[13.476710] (TransNum) StdoutLine: {'line': b'writing dependency_links to ../../build/TransNum/TransNum.egg-info/dependency_links.txt\n'}
+[13.479306] (TransNum) StdoutLine: {'line': b'writing entry points to ../../build/TransNum/TransNum.egg-info/entry_points.txt\n'}
+[13.482677] (TransNum) StdoutLine: {'line': b'writing requirements to ../../build/TransNum/TransNum.egg-info/requires.txt\n'}
+[13.484119] (TransNum) StdoutLine: {'line': b'writing top-level names to ../../build/TransNum/TransNum.egg-info/top_level.txt\n'}
+[13.575454] (-) TimerEvent: {}
+[13.676615] (-) TimerEvent: {}
+[13.778951] (-) TimerEvent: {}
+[13.880214] (-) TimerEvent: {}
+[13.981523] (-) TimerEvent: {}
+[14.082641] (-) TimerEvent: {}
+[14.094047] (TransNum) StdoutLine: {'line': b"reading manifest file '../../build/TransNum/TransNum.egg-info/SOURCES.txt'\n"}
+[14.104332] (TransNum) StdoutLine: {'line': b"writing manifest file '../../build/TransNum/TransNum.egg-info/SOURCES.txt'\n"}
+[14.106628] (TransNum) StdoutLine: {'line': b'running build\n'}
+[14.108532] (TransNum) StdoutLine: {'line': b'running build_py\n'}
+[14.111520] (TransNum) StdoutLine: {'line': b'copying TransNum/TwoWayComp.py -> /home/narayan/ros2_ws/build/TransNum/build/lib/TransNum\n'}
+[14.117349] (TransNum) StdoutLine: {'line': b'running install\n'}
+[14.182974] (-) TimerEvent: {}
+[14.213912] (TransNum) StdoutLine: {'line': b'running install_lib\n'}
+[14.283719] (-) TimerEvent: {}
+[14.385205] (-) TimerEvent: {}
+[14.486591] (-) TimerEvent: {}
+[14.531408] (TransNum) StdoutLine: {'line': b'copying /home/narayan/ros2_ws/build/TransNum/build/lib/TransNum/TwoWayComp.py -> /home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum\n'}
+[14.541623] (TransNum) StdoutLine: {'line': b'byte-compiling /home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum/TwoWayComp.py to TwoWayComp.cpython-312.pyc\n'}
+[14.550247] (TransNum) StdoutLine: {'line': b'running install_data\n'}
+[14.552019] (TransNum) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.586898] (-) TimerEvent: {}
+[14.688309] (-) TimerEvent: {}
+[14.790001] (-) TimerEvent: {}
+[14.891526] (-) TimerEvent: {}
+[14.924051] (TransNum) StdoutLine: {'line': b"removing '/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[14.929884] (TransNum) StdoutLine: {'line': b'Copying ../../build/TransNum/TransNum.egg-info to /home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum-0.0.0-py3.12.egg-info\n'}
+[14.947186] (TransNum) StdoutLine: {'line': b'running install_scripts\n'}
+[14.991803] (-) TimerEvent: {}
+[15.094662] (-) TimerEvent: {}
+[15.199264] (-) TimerEvent: {}
+[15.304885] (-) TimerEvent: {}
+[15.406444] (-) TimerEvent: {}
+[15.510206] (-) TimerEvent: {}
+[15.611483] (-) TimerEvent: {}
+[15.715647] (-) TimerEvent: {}
+[15.816924] (-) TimerEvent: {}
+[15.918133] (-) TimerEvent: {}
+[16.019531] (-) TimerEvent: {}
+[16.121574] (-) TimerEvent: {}
+[16.223121] (-) TimerEvent: {}
+[16.324767] (-) TimerEvent: {}
+[16.426172] (-) TimerEvent: {}
+[16.527347] (-) TimerEvent: {}
+[16.628889] (-) TimerEvent: {}
+[16.730168] (-) TimerEvent: {}
+[16.831712] (-) TimerEvent: {}
+[16.932768] (-) TimerEvent: {}
+[17.038019] (-) TimerEvent: {}
+[17.139276] (-) TimerEvent: {}
+[17.242683] (-) TimerEvent: {}
+[17.345143] (-) TimerEvent: {}
+[17.375511] (TransNum) StdoutLine: {'line': b'Installing number_publisher script to /home/narayan/ros2_ws/install/TransNum/lib/TransNum\n'}
+[17.383079] (TransNum) StdoutLine: {'line': b'Installing two_way script to /home/narayan/ros2_ws/install/TransNum/lib/TransNum\n'}
+[17.388574] (TransNum) StdoutLine: {'line': b"writing list of installed files to '/home/narayan/ros2_ws/build/TransNum/install.log'\n"}
+[17.447644] (-) TimerEvent: {}
+[17.551804] (-) TimerEvent: {}
+[17.654031] (-) TimerEvent: {}
+[17.717493] (TransNum) CommandEnded: {'returncode': 0}
+[17.757584] (-) TimerEvent: {}
+[17.862590] (-) TimerEvent: {}
+[17.884310] (TransNum) JobEnded: {'identifier': 'TransNum', 'rc': 0}
+[17.896281] (-) EventReactorShutdown: {}

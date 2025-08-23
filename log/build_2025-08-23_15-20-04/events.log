@@ -1,0 +1,983 @@
+[0.000000] (-) TimerEvent: {}
+[0.000403] (-) JobUnselected: {'identifier': 'TransNum'}
+[0.000662] (-) JobUnselected: {'identifier': 'onepkg'}
+[0.000754] (my_interfaces) JobQueued: {'identifier': 'my_interfaces', 'dependencies': OrderedDict()}
+[0.001987] (my_interfaces) JobStarted: {'identifier': 'my_interfaces'}
+[0.063851] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'cmake'}
+[0.066174] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/narayan/ros2_ws/src/my_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/narayan/ros2_ws/install/my_interfaces'], 'cwd': '/home/narayan/ros2_ws/build/my_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '992acd61-d671-48aa-8c72-e6bf2929373f', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan/ros2_ws/src/my_interfaces/msg', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2003', 'SYSTEMD_EXEC_PID': '2254', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3465', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:15240', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2214,unix/narayan-desktop:/tmp/.ICE-unix/2214', 'INVOCATION_ID': '7baca3ff73144f5ab5af9ff2edb3df19', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NDYYB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6aa22d0b-3c2f-4288-a832-e09e10e5c449', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/my_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy'}), 'shell': False}
+[0.099402] (-) TimerEvent: {}
+[0.200100] (-) TimerEvent: {}
+[0.300823] (-) TimerEvent: {}
+[0.401710] (-) TimerEvent: {}
+[0.502629] (-) TimerEvent: {}
+[0.603486] (-) TimerEvent: {}
+[0.704307] (-) TimerEvent: {}
+[0.805506] (-) TimerEvent: {}
+[0.906433] (-) TimerEvent: {}
+[1.007267] (-) TimerEvent: {}
+[1.108056] (-) TimerEvent: {}
+[1.117016] (my_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.208289] (-) TimerEvent: {}
+[1.309166] (-) TimerEvent: {}
+[1.410099] (-) TimerEvent: {}
+[1.511021] (-) TimerEvent: {}
+[1.611937] (-) TimerEvent: {}
+[1.712837] (-) TimerEvent: {}
+[1.813641] (-) TimerEvent: {}
+[1.914900] (-) TimerEvent: {}
+[2.016215] (-) TimerEvent: {}
+[2.117682] (-) TimerEvent: {}
+[2.219114] (-) TimerEvent: {}
+[2.226076] (my_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.319291] (-) TimerEvent: {}
+[2.353771] (my_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.419490] (-) TimerEvent: {}
+[2.520199] (-) TimerEvent: {}
+[2.621554] (-) TimerEvent: {}
+[2.722803] (-) TimerEvent: {}
+[2.824087] (-) TimerEvent: {}
+[2.925499] (-) TimerEvent: {}
+[3.026542] (-) TimerEvent: {}
+[3.127292] (-) TimerEvent: {}
+[3.169565] (my_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.200969] (my_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.202787] (my_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.205177] (my_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.227517] (-) TimerEvent: {}
+[3.257621] (my_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.327721] (-) TimerEvent: {}
+[3.428329] (-) TimerEvent: {}
+[3.529134] (-) TimerEvent: {}
+[3.630516] (-) TimerEvent: {}
+[3.731799] (-) TimerEvent: {}
+[3.833182] (-) TimerEvent: {}
+[3.934688] (-) TimerEvent: {}
+[4.035978] (-) TimerEvent: {}
+[4.139496] (-) TimerEvent: {}
+[4.166160] (my_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.198773] (my_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.199707] (my_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.201276] (my_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.239681] (-) TimerEvent: {}
+[4.261360] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.339870] (-) TimerEvent: {}
+[4.440602] (-) TimerEvent: {}
+[4.541742] (-) TimerEvent: {}
+[4.643009] (-) TimerEvent: {}
+[4.744273] (-) TimerEvent: {}
+[4.845560] (-) TimerEvent: {}
+[4.946814] (-) TimerEvent: {}
+[5.047948] (-) TimerEvent: {}
+[5.148530] (-) TimerEvent: {}
+[5.249161] (-) TimerEvent: {}
+[5.350555] (-) TimerEvent: {}
+[5.451749] (-) TimerEvent: {}
+[5.552982] (-) TimerEvent: {}
+[5.654273] (-) TimerEvent: {}
+[5.755632] (-) TimerEvent: {}
+[5.856847] (-) TimerEvent: {}
+[5.935064] (my_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.957023] (-) TimerEvent: {}
+[6.057785] (-) TimerEvent: {}
+[6.158608] (-) TimerEvent: {}
+[6.259252] (-) TimerEvent: {}
+[6.360352] (-) TimerEvent: {}
+[6.461647] (-) TimerEvent: {}
+[6.562817] (-) TimerEvent: {}
+[6.664067] (-) TimerEvent: {}
+[6.765301] (-) TimerEvent: {}
+[6.866473] (-) TimerEvent: {}
+[6.967178] (-) TimerEvent: {}
+[7.068803] (-) TimerEvent: {}
+[7.170089] (-) TimerEvent: {}
+[7.210946] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[7.270432] (-) TimerEvent: {}
+[7.371653] (-) TimerEvent: {}
+[7.400015] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.471961] (-) TimerEvent: {}
+[7.573058] (-) TimerEvent: {}
+[7.673683] (-) TimerEvent: {}
+[7.774232] (-) TimerEvent: {}
+[7.874854] (-) TimerEvent: {}
+[7.931552] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.975010] (-) TimerEvent: {}
+[8.075550] (-) TimerEvent: {}
+[8.176106] (-) TimerEvent: {}
+[8.276775] (-) TimerEvent: {}
+[8.313725] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[8.376909] (-) TimerEvent: {}
+[8.477490] (-) TimerEvent: {}
+[8.578252] (-) TimerEvent: {}
+[8.679652] (-) TimerEvent: {}
+[8.780919] (-) TimerEvent: {}
+[8.882278] (-) TimerEvent: {}
+[8.983622] (-) TimerEvent: {}
+[9.084790] (-) TimerEvent: {}
+[9.188566] (-) TimerEvent: {}
+[9.291303] (-) TimerEvent: {}
+[9.392682] (-) TimerEvent: {}
+[9.493924] (-) TimerEvent: {}
+[9.594465] (-) TimerEvent: {}
+[9.695070] (-) TimerEvent: {}
+[9.795737] (-) TimerEvent: {}
+[9.896655] (-) TimerEvent: {}
+[9.998586] (-) TimerEvent: {}
+[10.099892] (-) TimerEvent: {}
+[10.201226] (-) TimerEvent: {}
+[10.302584] (-) TimerEvent: {}
+[10.403840] (-) TimerEvent: {}
+[10.505295] (-) TimerEvent: {}
+[10.606664] (-) TimerEvent: {}
+[10.707832] (-) TimerEvent: {}
+[10.809024] (-) TimerEvent: {}
+[10.910125] (-) TimerEvent: {}
+[11.010812] (-) TimerEvent: {}
+[11.111491] (-) TimerEvent: {}
+[11.212103] (-) TimerEvent: {}
+[11.312766] (-) TimerEvent: {}
+[11.413449] (-) TimerEvent: {}
+[11.514143] (-) TimerEvent: {}
+[11.614800] (-) TimerEvent: {}
+[11.715325] (-) TimerEvent: {}
+[11.815985] (-) TimerEvent: {}
+[11.916528] (-) TimerEvent: {}
+[12.017065] (-) TimerEvent: {}
+[12.117627] (-) TimerEvent: {}
+[12.199504] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[12.217775] (-) TimerEvent: {}
+[12.318332] (-) TimerEvent: {}
+[12.418998] (-) TimerEvent: {}
+[12.519746] (-) TimerEvent: {}
+[12.620445] (-) TimerEvent: {}
+[12.721239] (-) TimerEvent: {}
+[12.822614] (-) TimerEvent: {}
+[12.923841] (-) TimerEvent: {}
+[13.025092] (-) TimerEvent: {}
+[13.126504] (-) TimerEvent: {}
+[13.227607] (-) TimerEvent: {}
+[13.328806] (-) TimerEvent: {}
+[13.430070] (-) TimerEvent: {}
+[13.531286] (-) TimerEvent: {}
+[13.632071] (-) TimerEvent: {}
+[13.733552] (-) TimerEvent: {}
+[13.834730] (-) TimerEvent: {}
+[13.936105] (-) TimerEvent: {}
+[14.037466] (-) TimerEvent: {}
+[14.138650] (-) TimerEvent: {}
+[14.240038] (-) TimerEvent: {}
+[14.341505] (-) TimerEvent: {}
+[14.442348] (-) TimerEvent: {}
+[14.543041] (-) TimerEvent: {}
+[14.643729] (-) TimerEvent: {}
+[14.744268] (-) TimerEvent: {}
+[14.844885] (-) TimerEvent: {}
+[14.945468] (-) TimerEvent: {}
+[15.046215] (-) TimerEvent: {}
+[15.147684] (-) TimerEvent: {}
+[15.248941] (-) TimerEvent: {}
+[15.350249] (-) TimerEvent: {}
+[15.451610] (-) TimerEvent: {}
+[15.552854] (-) TimerEvent: {}
+[15.654192] (-) TimerEvent: {}
+[15.657154] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.754357] (-) TimerEvent: {}
+[15.854900] (-) TimerEvent: {}
+[15.955474] (-) TimerEvent: {}
+[16.056000] (-) TimerEvent: {}
+[16.156561] (-) TimerEvent: {}
+[16.257109] (-) TimerEvent: {}
+[16.357754] (-) TimerEvent: {}
+[16.458451] (-) TimerEvent: {}
+[16.559089] (-) TimerEvent: {}
+[16.659898] (-) TimerEvent: {}
+[16.760558] (-) TimerEvent: {}
+[16.861163] (-) TimerEvent: {}
+[16.961919] (-) TimerEvent: {}
+[17.062535] (-) TimerEvent: {}
+[17.163167] (-) TimerEvent: {}
+[17.263799] (-) TimerEvent: {}
+[17.364358] (-) TimerEvent: {}
+[17.465027] (-) TimerEvent: {}
+[17.565666] (-) TimerEvent: {}
+[17.666300] (-) TimerEvent: {}
+[17.767054] (-) TimerEvent: {}
+[17.867804] (-) TimerEvent: {}
+[17.968526] (-) TimerEvent: {}
+[18.069286] (-) TimerEvent: {}
+[18.170071] (-) TimerEvent: {}
+[18.270825] (-) TimerEvent: {}
+[18.275950] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[18.304692] (my_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[18.370965] (-) TimerEvent: {}
+[18.471483] (-) TimerEvent: {}
+[18.572060] (-) TimerEvent: {}
+[18.672734] (-) TimerEvent: {}
+[18.773264] (-) TimerEvent: {}
+[18.873793] (-) TimerEvent: {}
+[18.945050] (my_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[18.973979] (-) TimerEvent: {}
+[19.074778] (-) TimerEvent: {}
+[19.175492] (-) TimerEvent: {}
+[19.276182] (-) TimerEvent: {}
+[19.376891] (-) TimerEvent: {}
+[19.477873] (-) TimerEvent: {}
+[19.579284] (-) TimerEvent: {}
+[19.680916] (-) TimerEvent: {}
+[19.782154] (-) TimerEvent: {}
+[19.883477] (-) TimerEvent: {}
+[19.984652] (-) TimerEvent: {}
+[20.086019] (-) TimerEvent: {}
+[20.187345] (-) TimerEvent: {}
+[20.288959] (-) TimerEvent: {}
+[20.389632] (-) TimerEvent: {}
+[20.490159] (-) TimerEvent: {}
+[20.590707] (-) TimerEvent: {}
+[20.691284] (-) TimerEvent: {}
+[20.791907] (-) TimerEvent: {}
+[20.892513] (-) TimerEvent: {}
+[20.993178] (-) TimerEvent: {}
+[21.093771] (-) TimerEvent: {}
+[21.194446] (-) TimerEvent: {}
+[21.295150] (-) TimerEvent: {}
+[21.396075] (-) TimerEvent: {}
+[21.496941] (-) TimerEvent: {}
+[21.597650] (-) TimerEvent: {}
+[21.698219] (-) TimerEvent: {}
+[21.798827] (-) TimerEvent: {}
+[21.899447] (-) TimerEvent: {}
+[22.000000] (-) TimerEvent: {}
+[22.002760] (my_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[22.100279] (-) TimerEvent: {}
+[22.201467] (-) TimerEvent: {}
+[22.266098] (my_interfaces) StdoutLine: {'line': b'-- Configuring done (22.1s)\n'}
+[22.301645] (-) TimerEvent: {}
+[22.402890] (-) TimerEvent: {}
+[22.504270] (-) TimerEvent: {}
+[22.605545] (-) TimerEvent: {}
+[22.706787] (-) TimerEvent: {}
+[22.780030] (my_interfaces) StdoutLine: {'line': b'-- Generating done (0.4s)\n'}
+[22.807103] (-) TimerEvent: {}
+[22.866174] (my_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/narayan/ros2_ws/build/my_interfaces\n'}
+[22.886655] (my_interfaces) CommandEnded: {'returncode': 0}
+[22.888180] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'build'}
+[22.889994] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/narayan/ros2_ws/build/my_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/narayan/ros2_ws/build/my_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '992acd61-d671-48aa-8c72-e6bf2929373f', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan/ros2_ws/src/my_interfaces/msg', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2003', 'SYSTEMD_EXEC_PID': '2254', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3465', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:15240', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2214,unix/narayan-desktop:/tmp/.ICE-unix/2214', 'INVOCATION_ID': '7baca3ff73144f5ab5af9ff2edb3df19', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NDYYB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6aa22d0b-3c2f-4288-a832-e09e10e5c449', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/my_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy'}), 'shell': False}
+[22.907264] (-) TimerEvent: {}
+[23.008074] (-) TimerEvent: {}
+[23.108768] (-) TimerEvent: {}
+[23.149750] (my_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[23.209148] (-) TimerEvent: {}
+[23.231320] (my_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_my_interfaces\n'}
+[23.309518] (-) TimerEvent: {}
+[23.412613] (-) TimerEvent: {}
+[23.514161] (-) TimerEvent: {}
+[23.618031] (-) TimerEvent: {}
+[23.719456] (-) TimerEvent: {}
+[23.821014] (-) TimerEvent: {}
+[23.924704] (-) TimerEvent: {}
+[24.027702] (-) TimerEvent: {}
+[24.130636] (-) TimerEvent: {}
+[24.231947] (-) TimerEvent: {}
+[24.333200] (-) TimerEvent: {}
+[24.433899] (-) TimerEvent: {}
+[24.535219] (-) TimerEvent: {}
+[24.636555] (-) TimerEvent: {}
+[24.737884] (-) TimerEvent: {}
+[24.839123] (-) TimerEvent: {}
+[24.940558] (-) TimerEvent: {}
+[25.044985] (-) TimerEvent: {}
+[25.146358] (-) TimerEvent: {}
+[25.247774] (-) TimerEvent: {}
+[25.349143] (-) TimerEvent: {}
+[25.454033] (-) TimerEvent: {}
+[25.554893] (-) TimerEvent: {}
+[25.584559] (my_interfaces) StdoutLine: {'line': b'[  2%] Built target my_interfaces__rosidl_generator_type_description\n'}
+[25.657651] (-) TimerEvent: {}
+[25.759245] (-) TimerEvent: {}
+[25.841603] (my_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[25.863649] (-) TimerEvent: {}
+[25.965064] (-) TimerEvent: {}
+[25.985952] (my_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[26.069637] (-) TimerEvent: {}
+[26.171171] (-) TimerEvent: {}
+[26.276162] (-) TimerEvent: {}
+[26.377864] (-) TimerEvent: {}
+[26.480636] (-) TimerEvent: {}
+[26.583675] (-) TimerEvent: {}
+[26.686806] (-) TimerEvent: {}
+[26.756637] (my_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[26.768694] (my_interfaces) StdoutLine: {'line': b'creating my_interfaces.egg-info\n'}
+[26.787101] (-) TimerEvent: {}
+[26.891984] (-) TimerEvent: {}
+[26.995077] (-) TimerEvent: {}
+[27.096464] (-) TimerEvent: {}
+[27.155177] (my_interfaces) StdoutLine: {'line': b'writing my_interfaces.egg-info/PKG-INFO\n'}
+[27.157567] (my_interfaces) StdoutLine: {'line': b'writing dependency_links to my_interfaces.egg-info/dependency_links.txt\n'}
+[27.160349] (my_interfaces) StdoutLine: {'line': b'writing top-level names to my_interfaces.egg-info/top_level.txt\n'}
+[27.161799] (my_interfaces) StdoutLine: {'line': b"writing manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[27.196658] (-) TimerEvent: {}
+[27.297961] (-) TimerEvent: {}
+[27.404033] (-) TimerEvent: {}
+[27.508076] (-) TimerEvent: {}
+[27.609718] (-) TimerEvent: {}
+[27.714233] (-) TimerEvent: {}
+[27.818238] (-) TimerEvent: {}
+[27.920649] (-) TimerEvent: {}
+[28.024640] (-) TimerEvent: {}
+[28.128638] (-) TimerEvent: {}
+[28.230109] (-) TimerEvent: {}
+[28.334628] (-) TimerEvent: {}
+[28.436110] (-) TimerEvent: {}
+[28.500799] (my_interfaces) StdoutLine: {'line': b"reading manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[28.507344] (my_interfaces) StdoutLine: {'line': b"writing manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[28.537456] (-) TimerEvent: {}
+[28.656670] (-) TimerEvent: {}
+[28.759652] (-) TimerEvent: {}
+[28.838176] (my_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_my_interfaces_egg\n'}
+[28.861736] (-) TimerEvent: {}
+[28.963586] (-) TimerEvent: {}
+[29.067761] (-) TimerEvent: {}
+[29.172772] (-) TimerEvent: {}
+[29.274711] (-) TimerEvent: {}
+[29.377654] (-) TimerEvent: {}
+[29.420669] (my_interfaces) StdoutLine: {'line': b'[  8%] Built target my_interfaces__cpp\n'}
+[29.478015] (-) TimerEvent: {}
+[29.584327] (-) TimerEvent: {}
+[29.685488] (-) TimerEvent: {}
+[29.766138] (my_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/hd_status__description.c.o\x1b[0m\n'}
+[29.771139] (my_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/hd_status__functions.c.o\x1b[0m\n'}
+[29.781035] (my_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/hd_status__type_support.c.o\x1b[0m\n'}
+[29.785913] (-) TimerEvent: {}
+[29.887312] (-) TimerEvent: {}
+[29.988770] (-) TimerEvent: {}
+[30.092076] (-) TimerEvent: {}
+[30.193664] (-) TimerEvent: {}
+[30.298095] (-) TimerEvent: {}
+[30.399296] (-) TimerEvent: {}
+[30.435233] (my_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[30.499540] (-) TimerEvent: {}
+[30.600266] (-) TimerEvent: {}
+[30.638342] (my_interfaces) StdoutLine: {'line': b'[ 20%] Built target my_interfaces__rosidl_generator_c\n'}
+[30.702870] (-) TimerEvent: {}
+[30.728868] (my_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[30.751885] (my_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[30.757812] (my_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[30.762692] (my_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[30.803464] (-) TimerEvent: {}
+[30.906636] (-) TimerEvent: {}
+[31.009659] (-) TimerEvent: {}
+[31.113671] (-) TimerEvent: {}
+[31.215063] (-) TimerEvent: {}
+[31.319682] (-) TimerEvent: {}
+[31.421535] (-) TimerEvent: {}
+[31.525042] (-) TimerEvent: {}
+[31.630529] (-) TimerEvent: {}
+[31.732201] (-) TimerEvent: {}
+[31.833193] (-) TimerEvent: {}
+[31.938987] (-) TimerEvent: {}
+[32.040481] (-) TimerEvent: {}
+[32.143639] (-) TimerEvent: {}
+[32.251630] (-) TimerEvent: {}
+[32.353095] (-) TimerEvent: {}
+[32.457710] (-) TimerEvent: {}
+[32.565209] (-) TimerEvent: {}
+[32.666804] (-) TimerEvent: {}
+[32.772197] (-) TimerEvent: {}
+[32.878260] (-) TimerEvent: {}
+[32.981471] (-) TimerEvent: {}
+[33.087898] (-) TimerEvent: {}
+[33.195658] (-) TimerEvent: {}
+[33.300283] (-) TimerEvent: {}
+[33.401941] (-) TimerEvent: {}
+[33.508635] (-) TimerEvent: {}
+[33.609994] (-) TimerEvent: {}
+[33.710923] (-) TimerEvent: {}
+[33.814695] (-) TimerEvent: {}
+[33.919221] (-) TimerEvent: {}
+[34.023173] (-) TimerEvent: {}
+[34.129046] (-) TimerEvent: {}
+[34.234056] (-) TimerEvent: {}
+[34.335641] (-) TimerEvent: {}
+[34.440071] (-) TimerEvent: {}
+[34.542662] (-) TimerEvent: {}
+[34.567769] (my_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/hd_status__type_support.cpp.o\x1b[0m\n'}
+[34.643154] (-) TimerEvent: {}
+[34.747315] (-) TimerEvent: {}
+[34.851737] (-) TimerEvent: {}
+[34.955753] (-) TimerEvent: {}
+[35.057345] (-) TimerEvent: {}
+[35.115614] (my_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/hd_status__type_support.cpp.o\x1b[0m\n'}
+[35.160707] (-) TimerEvent: {}
+[35.243849] (my_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/hd_status__type_support.cpp.o\x1b[0m\n'}
+[35.261022] (-) TimerEvent: {}
+[35.367328] (-) TimerEvent: {}
+[35.371092] (my_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/hd_status__type_support_c.cpp.o\x1b[0m\n'}
+[35.467682] (-) TimerEvent: {}
+[35.570469] (-) TimerEvent: {}
+[35.674532] (-) TimerEvent: {}
+[35.778751] (-) TimerEvent: {}
+[35.883238] (-) TimerEvent: {}
+[35.986945] (-) TimerEvent: {}
+[36.090700] (-) TimerEvent: {}
+[36.192960] (-) TimerEvent: {}
+[36.298325] (-) TimerEvent: {}
+[36.400685] (-) TimerEvent: {}
+[36.505106] (-) TimerEvent: {}
+[36.608692] (-) TimerEvent: {}
+[36.712679] (-) TimerEvent: {}
+[36.814525] (-) TimerEvent: {}
+[36.920897] (-) TimerEvent: {}
+[37.024070] (-) TimerEvent: {}
+[37.129100] (-) TimerEvent: {}
+[37.234717] (-) TimerEvent: {}
+[37.337707] (-) TimerEvent: {}
+[37.442207] (-) TimerEvent: {}
+[37.547298] (-) TimerEvent: {}
+[37.650853] (-) TimerEvent: {}
+[37.761607] (-) TimerEvent: {}
+[37.863111] (-) TimerEvent: {}
+[37.972725] (-) TimerEvent: {}
+[38.074579] (-) TimerEvent: {}
+[38.179356] (-) TimerEvent: {}
+[38.285720] (-) TimerEvent: {}
+[38.390473] (-) TimerEvent: {}
+[38.496550] (-) TimerEvent: {}
+[38.600851] (-) TimerEvent: {}
+[38.709340] (-) TimerEvent: {}
+[38.819727] (-) TimerEvent: {}
+[38.924705] (-) TimerEvent: {}
+[39.030724] (-) TimerEvent: {}
+[39.132652] (-) TimerEvent: {}
+[39.239544] (-) TimerEvent: {}
+[39.345762] (-) TimerEvent: {}
+[39.448585] (-) TimerEvent: {}
+[39.549829] (-) TimerEvent: {}
+[39.658707] (-) TimerEvent: {}
+[39.762783] (-) TimerEvent: {}
+[39.865843] (-) TimerEvent: {}
+[39.973849] (-) TimerEvent: {}
+[40.076704] (-) TimerEvent: {}
+[40.190017] (-) TimerEvent: {}
+[40.292466] (-) TimerEvent: {}
+[40.709088] (-) TimerEvent: {}
+[40.813534] (-) TimerEvent: {}
+[40.919845] (-) TimerEvent: {}
+[41.022920] (-) TimerEvent: {}
+[41.126593] (-) TimerEvent: {}
+[41.232683] (-) TimerEvent: {}
+[41.335827] (-) TimerEvent: {}
+[41.439726] (-) TimerEvent: {}
+[41.543682] (-) TimerEvent: {}
+[41.645536] (-) TimerEvent: {}
+[41.747002] (-) TimerEvent: {}
+[41.854700] (-) TimerEvent: {}
+[41.956171] (-) TimerEvent: {}
+[42.057663] (-) TimerEvent: {}
+[42.159098] (-) TimerEvent: {}
+[42.260689] (-) TimerEvent: {}
+[42.367765] (-) TimerEvent: {}
+[42.473356] (-) TimerEvent: {}
+[42.577708] (-) TimerEvent: {}
+[42.679455] (-) TimerEvent: {}
+[42.781778] (-) TimerEvent: {}
+[42.883251] (-) TimerEvent: {}
+[42.984865] (-) TimerEvent: {}
+[43.086261] (-) TimerEvent: {}
+[43.188073] (-) TimerEvent: {}
+[43.289568] (-) TimerEvent: {}
+[43.391048] (-) TimerEvent: {}
+[43.498842] (-) TimerEvent: {}
+[43.600582] (-) TimerEvent: {}
+[43.705935] (-) TimerEvent: {}
+[43.807301] (-) TimerEvent: {}
+[43.908645] (-) TimerEvent: {}
+[44.010104] (-) TimerEvent: {}
+[44.112710] (-) TimerEvent: {}
+[44.220170] (-) TimerEvent: {}
+[44.326288] (-) TimerEvent: {}
+[44.431729] (-) TimerEvent: {}
+[44.533559] (-) TimerEvent: {}
+[44.634908] (-) TimerEvent: {}
+[44.747908] (-) TimerEvent: {}
+[44.866814] (-) TimerEvent: {}
+[44.999756] (-) TimerEvent: {}
+[45.102243] (-) TimerEvent: {}
+[45.209990] (-) TimerEvent: {}
+[45.335727] (-) TimerEvent: {}
+[45.437717] (-) TimerEvent: {}
+[45.545129] (-) TimerEvent: {}
+[45.651806] (-) TimerEvent: {}
+[45.766727] (-) TimerEvent: {}
+[45.869318] (-) TimerEvent: {}
+[45.974299] (-) TimerEvent: {}
+[46.081698] (-) TimerEvent: {}
+[46.188204] (-) TimerEvent: {}
+[46.311660] (-) TimerEvent: {}
+[46.450958] (-) TimerEvent: {}
+[46.582946] (-) TimerEvent: {}
+[46.722259] (-) TimerEvent: {}
+[46.881173] (-) TimerEvent: {}
+[47.009766] (-) TimerEvent: {}
+[47.114136] (-) TimerEvent: {}
+[47.223506] (-) TimerEvent: {}
+[47.326979] (-) TimerEvent: {}
+[47.418678] (my_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[47.444140] (-) TimerEvent: {}
+[47.548486] (-) TimerEvent: {}
+[47.657068] (-) TimerEvent: {}
+[47.667448] (my_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[47.758843] (-) TimerEvent: {}
+[47.869308] (-) TimerEvent: {}
+[47.888966] (my_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[47.985914] (-) TimerEvent: {}
+[48.130803] (-) TimerEvent: {}
+[48.255830] (-) TimerEvent: {}
+[48.363705] (-) TimerEvent: {}
+[48.481920] (-) TimerEvent: {}
+[48.593527] (-) TimerEvent: {}
+[48.704834] (-) TimerEvent: {}
+[48.822659] (-) TimerEvent: {}
+[48.893934] (my_interfaces) StdoutLine: {'line': b'[ 52%] Built target my_interfaces__rosidl_typesupport_cpp\n'}
+[48.922857] (-) TimerEvent: {}
+[49.029657] (-) TimerEvent: {}
+[49.140817] (-) TimerEvent: {}
+[49.245443] (-) TimerEvent: {}
+[49.351774] (-) TimerEvent: {}
+[49.455803] (-) TimerEvent: {}
+[49.457637] (my_interfaces) StdoutLine: {'line': b'[ 52%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[49.561751] (-) TimerEvent: {}
+[49.667733] (-) TimerEvent: {}
+[49.771178] (-) TimerEvent: {}
+[49.828981] (my_interfaces) StdoutLine: {'line': b'[ 52%] Built target my_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[49.880060] (-) TimerEvent: {}
+[49.987755] (-) TimerEvent: {}
+[50.099773] (-) TimerEvent: {}
+[50.211710] (-) TimerEvent: {}
+[50.320879] (-) TimerEvent: {}
+[50.432300] (-) TimerEvent: {}
+[50.538869] (-) TimerEvent: {}
+[50.642816] (-) TimerEvent: {}
+[50.745348] (-) TimerEvent: {}
+[50.852826] (-) TimerEvent: {}
+[50.958566] (-) TimerEvent: {}
+[51.059582] (-) TimerEvent: {}
+[51.160873] (-) TimerEvent: {}
+[51.262209] (-) TimerEvent: {}
+[51.369171] (-) TimerEvent: {}
+[51.471744] (-) TimerEvent: {}
+[51.573744] (-) TimerEvent: {}
+[51.675761] (-) TimerEvent: {}
+[51.779704] (-) TimerEvent: {}
+[51.884199] (-) TimerEvent: {}
+[51.986321] (-) TimerEvent: {}
+[52.088229] (-) TimerEvent: {}
+[52.190584] (-) TimerEvent: {}
+[52.306351] (-) TimerEvent: {}
+[52.416276] (-) TimerEvent: {}
+[52.524278] (-) TimerEvent: {}
+[52.602501] (my_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[52.624461] (-) TimerEvent: {}
+[52.726819] (-) TimerEvent: {}
+[52.835593] (-) TimerEvent: {}
+[52.944636] (-) TimerEvent: {}
+[53.058254] (-) TimerEvent: {}
+[53.163596] (-) TimerEvent: {}
+[53.266936] (-) TimerEvent: {}
+[53.370744] (-) TimerEvent: {}
+[53.479496] (-) TimerEvent: {}
+[53.587015] (-) TimerEvent: {}
+[53.701831] (-) TimerEvent: {}
+[53.810837] (-) TimerEvent: {}
+[53.913973] (-) TimerEvent: {}
+[54.038793] (-) TimerEvent: {}
+[54.140721] (-) TimerEvent: {}
+[54.178608] (my_interfaces) StdoutLine: {'line': b'[ 55%] Built target my_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[54.248794] (-) TimerEvent: {}
+[54.353700] (-) TimerEvent: {}
+[54.458707] (-) TimerEvent: {}
+[54.560356] (-) TimerEvent: {}
+[54.667854] (-) TimerEvent: {}
+[54.784823] (-) TimerEvent: {}
+[54.891740] (-) TimerEvent: {}
+[54.965847] (my_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[54.994340] (-) TimerEvent: {}
+[55.101328] (-) TimerEvent: {}
+[55.207593] (-) TimerEvent: {}
+[55.318169] (-) TimerEvent: {}
+[55.422742] (-) TimerEvent: {}
+[55.526179] (-) TimerEvent: {}
+[55.627333] (-) TimerEvent: {}
+[55.728026] (-) TimerEvent: {}
+[55.829348] (-) TimerEvent: {}
+[55.930973] (-) TimerEvent: {}
+[56.033647] (-) TimerEvent: {}
+[56.135068] (-) TimerEvent: {}
+[56.236360] (-) TimerEvent: {}
+[56.337793] (-) TimerEvent: {}
+[56.440588] (-) TimerEvent: {}
+[56.541774] (-) TimerEvent: {}
+[56.646469] (-) TimerEvent: {}
+[56.751582] (-) TimerEvent: {}
+[56.852776] (-) TimerEvent: {}
+[56.954281] (-) TimerEvent: {}
+[57.055715] (-) TimerEvent: {}
+[57.156975] (-) TimerEvent: {}
+[57.259984] (-) TimerEvent: {}
+[57.361445] (-) TimerEvent: {}
+[57.462633] (-) TimerEvent: {}
+[57.564663] (-) TimerEvent: {}
+[57.669660] (-) TimerEvent: {}
+[57.779724] (-) TimerEvent: {}
+[57.881508] (-) TimerEvent: {}
+[57.982687] (-) TimerEvent: {}
+[58.047679] (my_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/hd_status__type_support.cpp.o\x1b[0m\n'}
+[58.082855] (-) TimerEvent: {}
+[58.183629] (-) TimerEvent: {}
+[58.284940] (-) TimerEvent: {}
+[58.386734] (-) TimerEvent: {}
+[58.488464] (-) TimerEvent: {}
+[58.495075] (my_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[58.588708] (-) TimerEvent: {}
+[58.690146] (-) TimerEvent: {}
+[58.791618] (-) TimerEvent: {}
+[58.893284] (-) TimerEvent: {}
+[58.915773] (my_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_interfaces__rosidl_typesupport_c\n'}
+[58.993648] (-) TimerEvent: {}
+[59.072273] (my_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[59.093938] (-) TimerEvent: {}
+[59.195169] (-) TimerEvent: {}
+[59.296562] (-) TimerEvent: {}
+[59.397689] (-) TimerEvent: {}
+[59.498237] (-) TimerEvent: {}
+[59.598822] (-) TimerEvent: {}
+[59.699356] (-) TimerEvent: {}
+[59.800088] (-) TimerEvent: {}
+[59.901595] (-) TimerEvent: {}
+[60.002797] (-) TimerEvent: {}
+[60.104318] (-) TimerEvent: {}
+[60.205615] (-) TimerEvent: {}
+[60.312022] (-) TimerEvent: {}
+[60.418983] (-) TimerEvent: {}
+[60.522699] (-) TimerEvent: {}
+[60.626740] (-) TimerEvent: {}
+[60.728942] (-) TimerEvent: {}
+[60.830745] (-) TimerEvent: {}
+[60.936623] (-) TimerEvent: {}
+[61.040653] (-) TimerEvent: {}
+[61.144129] (-) TimerEvent: {}
+[61.246140] (-) TimerEvent: {}
+[61.351885] (-) TimerEvent: {}
+[61.459690] (-) TimerEvent: {}
+[61.561645] (-) TimerEvent: {}
+[61.665505] (-) TimerEvent: {}
+[61.757198] (my_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/hd_status__type_support.c.o\x1b[0m\n'}
+[61.765764] (-) TimerEvent: {}
+[61.870090] (-) TimerEvent: {}
+[61.971861] (-) TimerEvent: {}
+[62.073140] (-) TimerEvent: {}
+[62.174445] (-) TimerEvent: {}
+[62.276004] (-) TimerEvent: {}
+[62.343460] (my_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[62.376290] (-) TimerEvent: {}
+[62.477657] (-) TimerEvent: {}
+[62.579008] (-) TimerEvent: {}
+[62.680512] (-) TimerEvent: {}
+[62.734986] (my_interfaces) StdoutLine: {'line': b'[ 73%] Built target my_interfaces__rosidl_typesupport_introspection_c\n'}
+[62.780732] (-) TimerEvent: {}
+[62.882047] (-) TimerEvent: {}
+[62.939850] (my_interfaces) StdoutLine: {'line': b'[ 73%] Built target my_interfaces\n'}
+[62.982698] (-) TimerEvent: {}
+[63.088700] (-) TimerEvent: {}
+[63.193252] (-) TimerEvent: {}
+[63.295115] (-) TimerEvent: {}
+[63.397942] (-) TimerEvent: {}
+[63.500157] (-) TimerEvent: {}
+[63.508296] (my_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[63.602685] (-) TimerEvent: {}
+[63.705595] (-) TimerEvent: {}
+[63.811827] (-) TimerEvent: {}
+[63.913603] (-) TimerEvent: {}
+[64.015496] (-) TimerEvent: {}
+[64.116829] (-) TimerEvent: {}
+[64.218140] (-) TimerEvent: {}
+[64.324090] (-) TimerEvent: {}
+[64.425765] (-) TimerEvent: {}
+[64.527740] (-) TimerEvent: {}
+[64.629129] (-) TimerEvent: {}
+[64.730637] (-) TimerEvent: {}
+[64.832047] (-) TimerEvent: {}
+[64.933319] (-) TimerEvent: {}
+[65.034793] (-) TimerEvent: {}
+[65.136266] (-) TimerEvent: {}
+[65.237420] (-) TimerEvent: {}
+[65.337930] (-) TimerEvent: {}
+[65.438618] (-) TimerEvent: {}
+[65.543814] (-) TimerEvent: {}
+[65.649949] (-) TimerEvent: {}
+[65.758547] (-) TimerEvent: {}
+[65.860061] (-) TimerEvent: {}
+[65.961631] (-) TimerEvent: {}
+[66.062830] (-) TimerEvent: {}
+[66.164277] (-) TimerEvent: {}
+[66.265992] (-) TimerEvent: {}
+[66.367839] (-) TimerEvent: {}
+[66.470542] (-) TimerEvent: {}
+[66.575116] (-) TimerEvent: {}
+[66.677641] (-) TimerEvent: {}
+[66.779639] (-) TimerEvent: {}
+[66.881761] (-) TimerEvent: {}
+[66.985716] (-) TimerEvent: {}
+[67.087269] (-) TimerEvent: {}
+[67.192827] (-) TimerEvent: {}
+[67.295959] (-) TimerEvent: {}
+[67.397673] (-) TimerEvent: {}
+[67.499244] (-) TimerEvent: {}
+[67.598283] (my_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_interfaces__py\n'}
+[67.599997] (-) TimerEvent: {}
+[67.704545] (-) TimerEvent: {}
+[67.805581] (-) TimerEvent: {}
+[67.908762] (-) TimerEvent: {}
+[67.966232] (my_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_hd_status_s.c.o\x1b[0m\n'}
+[68.009096] (-) TimerEvent: {}
+[68.118627] (-) TimerEvent: {}
+[68.229288] (-) TimerEvent: {}
+[68.330490] (-) TimerEvent: {}
+[68.433822] (-) TimerEvent: {}
+[68.536051] (-) TimerEvent: {}
+[68.641319] (-) TimerEvent: {}
+[68.757228] (-) TimerEvent: {}
+[68.861924] (-) TimerEvent: {}
+[68.970194] (-) TimerEvent: {}
+[69.075844] (-) TimerEvent: {}
+[69.179750] (-) TimerEvent: {}
+[69.283741] (-) TimerEvent: {}
+[69.387845] (-) TimerEvent: {}
+[69.489887] (-) TimerEvent: {}
+[69.591495] (-) TimerEvent: {}
+[69.692710] (-) TimerEvent: {}
+[69.796073] (-) TimerEvent: {}
+[69.897352] (-) TimerEvent: {}
+[69.998651] (-) TimerEvent: {}
+[70.099988] (-) TimerEvent: {}
+[70.201350] (-) TimerEvent: {}
+[70.302806] (-) TimerEvent: {}
+[70.363474] (my_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[70.403141] (-) TimerEvent: {}
+[70.507303] (-) TimerEvent: {}
+[70.608686] (-) TimerEvent: {}
+[70.710323] (-) TimerEvent: {}
+[70.811874] (-) TimerEvent: {}
+[70.872534] (my_interfaces) StdoutLine: {'line': b'[ 82%] Built target my_interfaces__rosidl_generator_py\n'}
+[70.912224] (-) TimerEvent: {}
+[71.013582] (-) TimerEvent: {}
+[71.114830] (-) TimerEvent: {}
+[71.179732] (my_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[71.215215] (-) TimerEvent: {}
+[71.317063] (-) TimerEvent: {}
+[71.418333] (-) TimerEvent: {}
+[71.519483] (-) TimerEvent: {}
+[71.620094] (-) TimerEvent: {}
+[71.720938] (-) TimerEvent: {}
+[71.821845] (-) TimerEvent: {}
+[71.923553] (-) TimerEvent: {}
+[72.025967] (-) TimerEvent: {}
+[72.122701] (my_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[72.126302] (-) TimerEvent: {}
+[72.239552] (-) TimerEvent: {}
+[72.341145] (-) TimerEvent: {}
+[72.442563] (-) TimerEvent: {}
+[72.529030] (my_interfaces) StdoutLine: {'line': b'[ 88%] Built target my_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[72.542857] (-) TimerEvent: {}
+[72.644065] (-) TimerEvent: {}
+[72.671863] (my_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[72.744504] (-) TimerEvent: {}
+[72.845899] (-) TimerEvent: {}
+[72.947169] (-) TimerEvent: {}
+[73.048642] (-) TimerEvent: {}
+[73.149911] (-) TimerEvent: {}
+[73.251564] (-) TimerEvent: {}
+[73.353168] (-) TimerEvent: {}
+[73.454629] (-) TimerEvent: {}
+[73.555905] (-) TimerEvent: {}
+[73.657068] (-) TimerEvent: {}
+[73.757998] (-) TimerEvent: {}
+[73.819491] (my_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[73.858301] (-) TimerEvent: {}
+[73.959641] (-) TimerEvent: {}
+[74.060901] (-) TimerEvent: {}
+[74.162216] (-) TimerEvent: {}
+[74.263674] (-) TimerEvent: {}
+[74.275172] (my_interfaces) StdoutLine: {'line': b'[ 94%] Built target my_interfaces_s__rosidl_typesupport_c\n'}
+[74.363842] (-) TimerEvent: {}
+[74.389849] (my_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/my_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[74.464028] (-) TimerEvent: {}
+[74.564663] (-) TimerEvent: {}
+[74.665548] (-) TimerEvent: {}
+[74.766861] (-) TimerEvent: {}
+[74.868343] (-) TimerEvent: {}
+[74.969671] (-) TimerEvent: {}
+[75.071006] (-) TimerEvent: {}
+[75.172343] (-) TimerEvent: {}
+[75.204831] (my_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[75.272662] (-) TimerEvent: {}
+[75.373831] (-) TimerEvent: {}
+[75.447132] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[75.474038] (-) TimerEvent: {}
+[75.505739] (my_interfaces) CommandEnded: {'returncode': 0}
+[75.507801] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'install'}
+[75.548961] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/narayan/ros2_ws/build/my_interfaces'], 'cwd': '/home/narayan/ros2_ws/build/my_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '992acd61-d671-48aa-8c72-e6bf2929373f', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan/ros2_ws/src/my_interfaces/msg', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2003', 'SYSTEMD_EXEC_PID': '2254', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3465', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:15240', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2214,unix/narayan-desktop:/tmp/.ICE-unix/2214', 'INVOCATION_ID': '7baca3ff73144f5ab5af9ff2edb3df19', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NDYYB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6aa22d0b-3c2f-4288-a832-e09e10e5c449', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/my_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy'}), 'shell': False}
+[75.574256] (-) TimerEvent: {}
+[75.594720] (my_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[75.596181] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces\n'}
+[75.597699] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HdStatus.json\n'}
+[75.598701] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[75.599340] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[75.599871] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/hd_status.h\n'}
+[75.600932] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[75.602113] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[75.602999] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__description.c\n'}
+[75.604016] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__type_support.h\n'}
+[75.607058] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__type_support.c\n'}
+[75.610302] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__functions.h\n'}
+[75.613883] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__struct.h\n'}
+[75.617305] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__functions.c\n'}
+[75.622749] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh\n'}
+[75.628155] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv\n'}
+[75.633306] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so\n'}
+[75.642147] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""\n'}
+[75.643671] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[75.648982] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[75.654887] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[75.657789] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[75.659592] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__rosidl_typesupport_fastrtps_c.h\n'}
+[75.660920] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[75.664504] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[75.666684] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[75.669566] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[75.671143] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[75.674681] (-) TimerEvent: {}
+[75.675737] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[75.677255] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__type_support.c\n'}
+[75.681894] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__rosidl_typesupport_introspection_c.h\n'}
+[75.691237] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[75.693506] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[75.697457] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so\n'}
+[75.704967] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[75.714557] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[75.716185] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[75.724435] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[75.728246] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/hd_status.hpp\n'}
+[75.732125] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[75.735117] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__type_support.hpp\n'}
+[75.741988] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__traits.hpp\n'}
+[75.755211] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__builder.hpp\n'}
+[75.756828] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__struct.hpp\n'}
+[75.760032] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[75.761613] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[75.763179] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[75.766019] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[75.767662] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[75.771806] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dds_fastrtps\n'}
+[75.775243] (-) TimerEvent: {}
+[75.779920] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[75.787832] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[75.800332] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[75.817963] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[75.828333] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[75.843117] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__type_support.cpp\n'}
+[75.856258] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[75.870887] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[75.878954] (-) TimerEvent: {}
+[75.895886] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[75.905901] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so\n'}
+[75.911116] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[75.926618] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh\n'}
+[75.939316] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv\n'}
+[75.949771] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info\n'}
+[75.959150] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[75.967939] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[75.973616] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[75.979196] (-) TimerEvent: {}
+[75.988213] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[75.997990] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces\n'}
+[76.010905] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[76.020607] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[76.031305] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.so\n'}
+[76.036064] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg\n'}
+[76.041699] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg/_hd_status_s.c\n'}
+[76.048168] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg/_hd_status.py\n'}
+[76.058650] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg/__init__.py\n'}
+[76.067694] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[76.074224] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/__init__.py\n'}
+[76.083129] (-) TimerEvent: {}
+[76.091914] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[76.105821] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[76.183753] (-) TimerEvent: {}
+[76.293991] (-) TimerEvent: {}
+[76.397708] (-) TimerEvent: {}
+[76.499856] (-) TimerEvent: {}
+[76.602144] (-) TimerEvent: {}
+[76.708292] (-) TimerEvent: {}
+[76.741805] (my_interfaces) StdoutLine: {'line': b"Listing '/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces'...\n"}
+[76.751108] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/__init__.py'...\n"}
+[76.757553] (my_interfaces) StdoutLine: {'line': b"Listing '/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg'...\n"}
+[76.764642] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg/__init__.py'...\n"}
+[76.769308] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg/_hd_status.py'...\n"}
+[76.812770] (-) TimerEvent: {}
+[76.880635] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[76.896703] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[76.910959] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[76.918175] (-) TimerEvent: {}
+[76.919752] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[76.921629] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.so\n'}
+[76.924632] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[76.926818] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so\n'}
+[76.940895] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""\n'}
+[76.947333] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HdStatus.idl\n'}
+[76.950067] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HdStatus.msg\n'}
+[76.956336] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces\n'}
+[76.965472] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces\n'}
+[76.971032] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh\n'}
+[76.976845] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv\n'}
+[76.981139] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.sh\n'}
+[76.986186] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv\n'}
+[76.989304] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.bash\n'}
+[76.992523] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.sh\n'}
+[76.995774] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh\n'}
+[76.999662] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv\n'}
+[77.003072] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/package.dsv\n'}
+[77.007178] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces\n'}
+[77.011464] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake\n'}
+[77.015865] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[77.018425] (-) TimerEvent: {}
+[77.022075] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[77.025015] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[77.030836] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[77.035682] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[77.040791] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[77.047591] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[77.051853] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake\n'}
+[77.056807] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[77.060906] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[77.065253] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[77.069350] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[77.073602] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[77.077240] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[77.081250] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake\n'}
+[77.084914] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[77.088452] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[77.091578] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[77.095116] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[77.098581] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[77.101784] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[77.105198] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[77.108643] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[77.111902] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake\n'}
+[77.114629] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake\n'}
+[77.117734] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/package.xml\n'}
+[77.118998] (-) TimerEvent: {}
+[77.143152] (my_interfaces) CommandEnded: {'returncode': 0}
+[77.219477] (-) TimerEvent: {}
+[77.321881] (-) TimerEvent: {}
+[77.419058] (my_interfaces) JobEnded: {'identifier': 'my_interfaces', 'rc': 0}
+[77.426320] (-) TimerEvent: {}
+[77.432627] (-) EventReactorShutdown: {}

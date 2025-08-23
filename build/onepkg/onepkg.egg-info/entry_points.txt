@@ -1,0 +1,6 @@
+[console_scripts]
+client = onepkg.server_client:main
+firstnode = onepkg.first_node:main
+server = onepkg.server_test:main
+smphnode = onepkg.smartphone:main
+transnode = onepkg.topic_test:main

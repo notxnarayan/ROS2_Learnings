@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages",
+        "/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages",
+        "/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages",
+        "/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages",
+        "/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

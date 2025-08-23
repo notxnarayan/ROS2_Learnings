@@ -1,0 +1,6 @@
+source;share/TransNum/hook/pythonpath.ps1
+source;share/TransNum/hook/pythonpath.dsv
+source;share/TransNum/hook/pythonpath.sh
+source;share/TransNum/hook/ament_prefix_path.ps1
+source;share/TransNum/hook/ament_prefix_path.dsv
+source;share/TransNum/hook/ament_prefix_path.sh

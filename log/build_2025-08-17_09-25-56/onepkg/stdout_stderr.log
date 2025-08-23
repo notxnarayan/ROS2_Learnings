@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/onepkg/onepkg.egg-info
+writing ../../build/onepkg/onepkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/onepkg/onepkg.egg-info/dependency_links.txt
+writing entry points to ../../build/onepkg/onepkg.egg-info/entry_points.txt
+writing requirements to ../../build/onepkg/onepkg.egg-info/requires.txt
+writing top-level names to ../../build/onepkg/onepkg.egg-info/top_level.txt
+writing manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/narayan/ros2_ws/build/onepkg/build
+creating /home/narayan/ros2_ws/build/onepkg/build/lib
+creating /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg
+copying onepkg/topic_test.py -> /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg
+copying onepkg/__init__.py -> /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg
+copying onepkg/first_node.py -> /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg
+running install
+running install_lib
+creating /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+copying /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg/topic_test.py -> /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+copying /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg/__init__.py -> /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+copying /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg/first_node.py -> /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+byte-compiling /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/topic_test.py to topic_test.cpython-312.pyc
+byte-compiling /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/first_node.py to first_node.cpython-312.pyc
+running install_data
+creating /home/narayan/ros2_ws/install/onepkg/share/ament_index
+creating /home/narayan/ros2_ws/install/onepkg/share/ament_index/resource_index
+creating /home/narayan/ros2_ws/install/onepkg/share/ament_index/resource_index/packages
+copying resource/onepkg -> /home/narayan/ros2_ws/install/onepkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/narayan/ros2_ws/install/onepkg/share/onepkg
+running install_egg_info
+Copying ../../build/onepkg/onepkg.egg-info to /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing firstnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+Installing transnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+writing list of installed files to '/home/narayan/ros2_ws/build/onepkg/install.log'

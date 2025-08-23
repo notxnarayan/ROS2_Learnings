@@ -1,0 +1,25 @@
+[10.494s] Invoking command in '/home/narayan/ros2_ws/src/TransNum': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/TransNum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/TransNum build --build-base /home/narayan/ros2_ws/build/TransNum/build install --record /home/narayan/ros2_ws/build/TransNum/install.log --single-version-externally-managed install_data
+[13.626s] running egg_info
+[13.911s] writing ../../build/TransNum/TransNum.egg-info/PKG-INFO
+[13.915s] writing dependency_links to ../../build/TransNum/TransNum.egg-info/dependency_links.txt
+[13.918s] writing entry points to ../../build/TransNum/TransNum.egg-info/entry_points.txt
+[13.919s] writing requirements to ../../build/TransNum/TransNum.egg-info/requires.txt
+[13.922s] writing top-level names to ../../build/TransNum/TransNum.egg-info/top_level.txt
+[14.354s] reading manifest file '../../build/TransNum/TransNum.egg-info/SOURCES.txt'
+[14.368s] writing manifest file '../../build/TransNum/TransNum.egg-info/SOURCES.txt'
+[14.370s] running build
+[14.371s] running build_py
+[14.375s] copying TransNum/TwoWayComp.py -> /home/narayan/ros2_ws/build/TransNum/build/lib/TransNum
+[14.380s] running install
+[14.459s] running install_lib
+[14.747s] copying /home/narayan/ros2_ws/build/TransNum/build/lib/TransNum/TwoWayComp.py -> /home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum
+[14.756s] byte-compiling /home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum/TwoWayComp.py to TwoWayComp.cpython-312.pyc
+[14.765s] running install_data
+[14.767s] running install_egg_info
+[15.071s] removing '/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum-0.0.0-py3.12.egg-info' (and everything under it)
+[15.076s] Copying ../../build/TransNum/TransNum.egg-info to /home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum-0.0.0-py3.12.egg-info
+[15.091s] running install_scripts
+[16.799s] Installing number_publisher script to /home/narayan/ros2_ws/install/TransNum/lib/TransNum
+[16.801s] Installing two_way script to /home/narayan/ros2_ws/install/TransNum/lib/TransNum
+[16.803s] writing list of installed files to '/home/narayan/ros2_ws/build/TransNum/install.log'
+[16.981s] Invoked command in '/home/narayan/ros2_ws/src/TransNum' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/TransNum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/TransNum build --build-base /home/narayan/ros2_ws/build/TransNum/build install --record /home/narayan/ros2_ws/build/TransNum/install.log --single-version-externally-managed install_data

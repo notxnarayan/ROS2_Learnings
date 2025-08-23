@@ -1,0 +1,18 @@
+[3.562s] Invoking command in '/home/narayan/ros2_ws/src/TransNum': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/TransNum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/TransNum build --build-base /home/narayan/ros2_ws/build/TransNum/build install --record /home/narayan/ros2_ws/build/TransNum/install.log --single-version-externally-managed install_data
+[4.679s] running egg_info
+[4.680s] creating ../../build/TransNum/transnum.egg-info
+[4.764s] writing ../../build/TransNum/transnum.egg-info/PKG-INFO
+[4.765s] writing dependency_links to ../../build/TransNum/transnum.egg-info/dependency_links.txt
+[4.765s] writing entry points to ../../build/TransNum/transnum.egg-info/entry_points.txt
+[4.766s] writing requirements to ../../build/TransNum/transnum.egg-info/requires.txt
+[4.766s] writing top-level names to ../../build/TransNum/transnum.egg-info/top_level.txt
+[4.767s] writing manifest file '../../build/TransNum/transnum.egg-info/SOURCES.txt'
+[4.935s] reading manifest file '../../build/TransNum/transnum.egg-info/SOURCES.txt'
+[4.939s] writing manifest file '../../build/TransNum/transnum.egg-info/SOURCES.txt'
+[4.939s] running build
+[4.940s] running build_py
+[4.941s] running install
+[4.963s] running install_lib
+[5.047s] running install_data
+[5.048s] error: can't copy 'resource/transnum': doesn't exist or not a regular file
+[5.159s] Invoked command in '/home/narayan/ros2_ws/src/TransNum' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/TransNum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/TransNum build --build-base /home/narayan/ros2_ws/build/TransNum/build install --record /home/narayan/ros2_ws/build/TransNum/install.log --single-version-externally-managed install_data

@@ -1,0 +1,160 @@
+[1.976s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'onepkg']
+[1.976s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['onepkg'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff86f96f60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff870581d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff870581d0>>, mixin_verb=('build',))
+[2.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.318s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/narayan/ros2_ws'
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/TransNum) by extensions ['ignore', 'ignore_ament_install']
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/TransNum) by extension 'ignore'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/TransNum) by extension 'ignore_ament_install'
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/TransNum) by extensions ['colcon_pkg']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/TransNum) by extension 'colcon_pkg'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/TransNum) by extensions ['colcon_meta']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/TransNum) by extension 'colcon_meta'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/TransNum) by extensions ['ros']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/TransNum) by extension 'ros'
+[2.562s] DEBUG:colcon.colcon_core.package_identification:Package 'src/TransNum' with type 'ros.ament_python' and name 'TransNum'
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_activity) by extensions ['ignore', 'ignore_ament_install']
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_activity) by extension 'ignore'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_activity) by extension 'ignore_ament_install'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_activity) by extensions ['colcon_pkg']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_activity) by extension 'colcon_pkg'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_activity) by extensions ['colcon_meta']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_activity) by extension 'colcon_meta'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_activity) by extensions ['ros']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_activity) by extension 'ros'
+[2.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/led_activity' with type 'ros.ament_python' and name 'led_activity'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ignore'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ignore_ament_install'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['colcon_pkg']
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'colcon_pkg'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['colcon_meta']
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'colcon_meta'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['ros']
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ros'
+[2.589s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_interfaces' with type 'ros.ament_cmake' and name 'my_interfaces'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/onepkg) by extensions ['ignore', 'ignore_ament_install']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/onepkg) by extension 'ignore'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/onepkg) by extension 'ignore_ament_install'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/onepkg) by extensions ['colcon_pkg']
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/onepkg) by extension 'colcon_pkg'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/onepkg) by extensions ['colcon_meta']
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/onepkg) by extension 'colcon_meta'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/onepkg) by extensions ['ros']
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/onepkg) by extension 'ros'
+[2.595s] DEBUG:colcon.colcon_core.package_identification:Package 'src/onepkg' with type 'ros.ament_python' and name 'onepkg'
+[2.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.725s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'TransNum' in 'src/TransNum'
+[2.725s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_interfaces' in 'src/my_interfaces'
+[2.725s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'led_activity' in 'src/led_activity'
+[2.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.764s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/narayan/ros2_ws/install
+[2.786s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[2.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.164s] Level 5:colcon.colcon_core.verb:set package 'onepkg' build argument 'cmake_args' from command line to 'None'
+[3.164s] Level 5:colcon.colcon_core.verb:set package 'onepkg' build argument 'cmake_target' from command line to 'None'
+[3.164s] Level 5:colcon.colcon_core.verb:set package 'onepkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.164s] Level 5:colcon.colcon_core.verb:set package 'onepkg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.164s] Level 5:colcon.colcon_core.verb:set package 'onepkg' build argument 'cmake_clean_first' from command line to 'False'
+[3.164s] Level 5:colcon.colcon_core.verb:set package 'onepkg' build argument 'cmake_force_configure' from command line to 'False'
+[3.164s] Level 5:colcon.colcon_core.verb:set package 'onepkg' build argument 'ament_cmake_args' from command line to 'None'
+[3.164s] Level 5:colcon.colcon_core.verb:set package 'onepkg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.164s] Level 5:colcon.colcon_core.verb:set package 'onepkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.165s] DEBUG:colcon.colcon_core.verb:Building package 'onepkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/narayan/ros2_ws/build/onepkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/narayan/ros2_ws/install/onepkg', 'merge_install': False, 'path': '/home/narayan/ros2_ws/src/onepkg', 'symlink_install': False, 'test_result_base': None}
+[3.165s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.168s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.168s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/narayan/ros2_ws/src/onepkg' with build type 'ament_python'
+[3.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('onepkg', 'ament_prefix_path')
+[3.193s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/narayan/ros2_ws/install/onepkg/share/onepkg/hook/ament_prefix_path.ps1'
+[3.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/narayan/ros2_ws/install/onepkg/share/onepkg/hook/ament_prefix_path.dsv'
+[3.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/narayan/ros2_ws/install/onepkg/share/onepkg/hook/ament_prefix_path.sh'
+[3.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.204s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/narayan/ros2_ws/src/onepkg'
+[4.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/narayan/ros2_ws/src/onepkg': CMAKE_PREFIX_PATH=/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onepkg build --build-base /home/narayan/ros2_ws/build/onepkg/build install --record /home/narayan/ros2_ws/build/onepkg/install.log --single-version-externally-managed install_data
+[9.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/narayan/ros2_ws/src/onepkg' returned '0': CMAKE_PREFIX_PATH=/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onepkg build --build-base /home/narayan/ros2_ws/build/onepkg/build install --record /home/narayan/ros2_ws/build/onepkg/install.log --single-version-externally-managed install_data
+[9.977s] Level 1:colcon.colcon_core.environment:checking '/home/narayan/ros2_ws/install/onepkg' for CMake module files
+[9.980s] Level 1:colcon.colcon_core.environment:checking '/home/narayan/ros2_ws/install/onepkg' for CMake config files
+[9.985s] Level 1:colcon.colcon_core.environment:checking '/home/narayan/ros2_ws/install/onepkg/lib'
+[9.986s] Level 1:colcon.colcon_core.environment:checking '/home/narayan/ros2_ws/install/onepkg/bin'
+[9.986s] Level 1:colcon.colcon_core.environment:checking '/home/narayan/ros2_ws/install/onepkg/lib/pkgconfig/onepkg.pc'
+[9.987s] Level 1:colcon.colcon_core.environment:checking '/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages'
+[9.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('onepkg', 'pythonpath')
+[9.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/narayan/ros2_ws/install/onepkg/share/onepkg/hook/pythonpath.ps1'
+[9.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/narayan/ros2_ws/install/onepkg/share/onepkg/hook/pythonpath.dsv'
+[9.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/narayan/ros2_ws/install/onepkg/share/onepkg/hook/pythonpath.sh'
+[9.994s] Level 1:colcon.colcon_core.environment:checking '/home/narayan/ros2_ws/install/onepkg/bin'
+[9.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(onepkg)
+[9.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/narayan/ros2_ws/install/onepkg/share/onepkg/package.ps1'
+[9.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/narayan/ros2_ws/install/onepkg/share/onepkg/package.dsv'
+[10.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/narayan/ros2_ws/install/onepkg/share/onepkg/package.sh'
+[10.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/narayan/ros2_ws/install/onepkg/share/onepkg/package.bash'
+[10.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/narayan/ros2_ws/install/onepkg/share/onepkg/package.zsh'
+[10.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/narayan/ros2_ws/install/onepkg/share/colcon-core/packages/onepkg)
+[10.020s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.021s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.022s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.108s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.109s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.109s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.187s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/narayan/ros2_ws/install/local_setup.ps1'
+[10.193s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/narayan/ros2_ws/install/_local_setup_util_ps1.py'
+[10.200s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/narayan/ros2_ws/install/setup.ps1'
+[10.206s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/narayan/ros2_ws/install/local_setup.sh'
+[10.210s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/narayan/ros2_ws/install/_local_setup_util_sh.py'
+[10.214s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/narayan/ros2_ws/install/setup.sh'
+[10.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/narayan/ros2_ws/install/local_setup.bash'
+[10.223s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/narayan/ros2_ws/install/setup.bash'
+[10.227s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/narayan/ros2_ws/install/local_setup.zsh'
+[10.231s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/narayan/ros2_ws/install/setup.zsh'

@@ -10,6 +10,7 @@ setup.py
 ../../build/onepkg/onepkg.egg-info/zip-safe
 onepkg/__init__.py
 onepkg/first_node.py
+onepkg/interface_test.py
 onepkg/server_client.py
 onepkg/server_test.py
 onepkg/smartphone.py

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_interfaces/msg/LEDstatus",
+      "fields": [
+        {
+          "name": "ledx_status",
+          "type": {
+            "type_id": 152,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_interfaces/msg/LEDstatus",
+      "hash_string": "RIHS01_1eb78d832880f56b58aeb10d6df7d4687adb6176f2a0596eda9e94aa4f28aaae"
+    }
+  ]
+}

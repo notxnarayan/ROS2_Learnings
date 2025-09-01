@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.001492] (-) JobUnselected: {'identifier': 'TransNum'}
+[0.002556] (-) JobUnselected: {'identifier': 'my_interfaces'}
+[0.002757] (onepkg) JobQueued: {'identifier': 'onepkg', 'dependencies': OrderedDict({'my_interfaces': '/home/narayan/ros2_ws/install/my_interfaces'})}
+[0.002858] (onepkg) JobStarted: {'identifier': 'onepkg'}
+[0.099367] (-) TimerEvent: {}
+[0.200108] (-) TimerEvent: {}
+[0.300642] (-) TimerEvent: {}
+[0.401213] (-) TimerEvent: {}
+[0.501759] (-) TimerEvent: {}
+[0.602262] (-) TimerEvent: {}
+[0.702791] (-) TimerEvent: {}
+[0.803277] (-) TimerEvent: {}
+[0.903911] (-) TimerEvent: {}
+[1.005093] (-) TimerEvent: {}
+[1.105758] (-) TimerEvent: {}
+[1.206356] (-) TimerEvent: {}
+[1.307014] (-) TimerEvent: {}
+[1.407594] (-) TimerEvent: {}
+[1.508113] (-) TimerEvent: {}
+[1.608611] (-) TimerEvent: {}
+[1.709125] (-) TimerEvent: {}
+[1.809666] (-) TimerEvent: {}
+[1.910178] (-) TimerEvent: {}
+[2.010785] (-) TimerEvent: {}
+[2.111433] (-) TimerEvent: {}
+[2.212075] (-) TimerEvent: {}
+[2.312596] (-) TimerEvent: {}
+[2.413191] (-) TimerEvent: {}
+[2.513916] (-) TimerEvent: {}
+[2.614566] (-) TimerEvent: {}
+[2.715257] (-) TimerEvent: {}
+[2.815947] (-) TimerEvent: {}
+[2.916557] (-) TimerEvent: {}
+[3.017139] (-) TimerEvent: {}
+[3.117644] (-) TimerEvent: {}
+[3.218160] (-) TimerEvent: {}
+[3.318745] (-) TimerEvent: {}
+[3.419248] (-) TimerEvent: {}
+[3.519800] (-) TimerEvent: {}
+[3.620290] (-) TimerEvent: {}
+[3.720834] (-) TimerEvent: {}
+[3.821342] (-) TimerEvent: {}
+[3.921910] (-) TimerEvent: {}
+[4.022437] (-) TimerEvent: {}
+[4.123018] (-) TimerEvent: {}
+[4.223784] (-) TimerEvent: {}
+[4.324644] (-) TimerEvent: {}
+[4.353018] (onepkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/onepkg', 'build', '--build-base', '/home/narayan/ros2_ws/build/onepkg/build', 'install', '--record', '/home/narayan/ros2_ws/build/onepkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/narayan/ros2_ws/src/onepkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'e12ddd67-2f17-458a-a07f-688c5cb71618', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/narayan/ros2_ws/install/my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2043', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3896', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:17167', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2247,unix/narayan-desktop:/tmp/.ICE-unix/2247', 'INVOCATION_ID': '383a35520872461887b3d03c50198178', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OTBQB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:803b58c0-811b-4cf8-aec8-08ee1420dbe8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/onepkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/narayan/ros2_ws/install/my_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.424786] (-) TimerEvent: {}
+[4.525343] (-) TimerEvent: {}
+[4.625934] (-) TimerEvent: {}
+[4.726581] (-) TimerEvent: {}
+[4.827075] (-) TimerEvent: {}
+[4.927576] (-) TimerEvent: {}
+[5.028070] (-) TimerEvent: {}
+[5.128672] (-) TimerEvent: {}
+[5.229205] (-) TimerEvent: {}
+[5.329760] (-) TimerEvent: {}
+[5.430262] (-) TimerEvent: {}
+[5.452060] (onepkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.523670] (onepkg) StdoutLine: {'line': b'writing ../../build/onepkg/onepkg.egg-info/PKG-INFO\n'}
+[5.525920] (onepkg) StdoutLine: {'line': b'writing dependency_links to ../../build/onepkg/onepkg.egg-info/dependency_links.txt\n'}
+[5.527861] (onepkg) StdoutLine: {'line': b'writing entry points to ../../build/onepkg/onepkg.egg-info/entry_points.txt\n'}
+[5.528581] (onepkg) StdoutLine: {'line': b'writing requirements to ../../build/onepkg/onepkg.egg-info/requires.txt\n'}
+[5.529184] (onepkg) StdoutLine: {'line': b'writing top-level names to ../../build/onepkg/onepkg.egg-info/top_level.txt\n'}
+[5.530370] (-) TimerEvent: {}
+[5.630867] (-) TimerEvent: {}
+[5.699633] (onepkg) StdoutLine: {'line': b"reading manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'\n"}
+[5.703570] (onepkg) StdoutLine: {'line': b"writing manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'\n"}
+[5.704332] (onepkg) StdoutLine: {'line': b'running build\n'}
+[5.704768] (onepkg) StdoutLine: {'line': b'running build_py\n'}
+[5.710259] (onepkg) StdoutLine: {'line': b'copying onepkg/interface_test.py -> /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg\n'}
+[5.712167] (onepkg) StdoutLine: {'line': b'running install\n'}
+[5.731002] (-) TimerEvent: {}
+[5.737865] (onepkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.817646] (onepkg) StdoutLine: {'line': b'copying /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg/interface_test.py -> /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg\n'}
+[5.823446] (onepkg) StdoutLine: {'line': b'byte-compiling /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/interface_test.py to interface_test.cpython-312.pyc\n'}
+[5.826260] (onepkg) StdoutLine: {'line': b'running install_data\n'}
+[5.827535] (onepkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.831124] (-) TimerEvent: {}
+[5.913359] (onepkg) StdoutLine: {'line': b"removing '/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.915582] (onepkg) StdoutLine: {'line': b'Copying ../../build/onepkg/onepkg.egg-info to /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info\n'}
+[5.921167] (onepkg) StdoutLine: {'line': b'running install_scripts\n'}
+[5.931338] (-) TimerEvent: {}
+[6.031914] (-) TimerEvent: {}
+[6.132455] (-) TimerEvent: {}
+[6.233009] (-) TimerEvent: {}
+[6.333556] (-) TimerEvent: {}
+[6.434074] (-) TimerEvent: {}
+[6.514832] (onepkg) StdoutLine: {'line': b'Installing client script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg\n'}
+[6.515653] (onepkg) StdoutLine: {'line': b'Installing firstnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg\n'}
+[6.516864] (onepkg) StdoutLine: {'line': b'Installing interface_test script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg\n'}
+[6.517615] (onepkg) StdoutLine: {'line': b'Installing server script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg\n'}
+[6.518519] (onepkg) StdoutLine: {'line': b'Installing smphnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg\n'}
+[6.519261] (onepkg) StdoutLine: {'line': b'Installing transnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg\n'}
+[6.520965] (onepkg) StdoutLine: {'line': b"writing list of installed files to '/home/narayan/ros2_ws/build/onepkg/install.log'\n"}
+[6.534321] (-) TimerEvent: {}
+[6.635179] (-) TimerEvent: {}
+[6.664105] (onepkg) CommandEnded: {'returncode': 0}
+[6.721564] (onepkg) JobEnded: {'identifier': 'onepkg', 'rc': 0}
+[6.724965] (-) EventReactorShutdown: {}

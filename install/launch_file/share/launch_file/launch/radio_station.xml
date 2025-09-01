@@ -1,0 +1,20 @@
+<launch>
+    <node pkg="onepkg" exec="transnode" name="Transmitter" namespace="/radio">
+        <param name="name" value="Tom" />
+    </node>
+    <node pkg="onepkg" exec="transnode" name="Transmitter" namespace="/radio">
+        <param name="name" value="John" />
+    </node>
+    <node pkg="onepkg" exec="transnode" name="Transmitter" namespace="/radio">
+        <param name="name" value="Alex" />
+    </node>
+    <node pkg="onepkg" exec="transnode" name="Transmitter" namespace="/radio">
+        <param name="name" value="Jerry" />
+    </node>
+    <node pkg="onepkg" exec="transnode" name="Transmitter" namespace="/radio">
+        <param name="name" value="Max" />
+    </node>
+
+    <node pkg="onepkg" exec="smphnode" name="Smartphone" namespace="/radio">
+    </node>
+</launch>

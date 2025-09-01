@@ -1,2 +1,8 @@
 msg/HdStatus.idl
 msg/HdStatus.msg
+msg/LEDstatus.idl
+msg/LEDstatus.msg
+srv/SetLED.idl
+srv/SetLED.srv
+srv/TurtleHead.idl
+srv/TurtleHead.srv

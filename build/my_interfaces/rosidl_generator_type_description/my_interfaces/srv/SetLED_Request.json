@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_interfaces/srv/SetLED_Request",
+      "fields": [
+        {
+          "name": "led_val",
+          "type": {
+            "type_id": 152,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_interfaces/srv/SetLED_Request",
+      "hash_string": "RIHS01_1de226233792496e20beaec00062e7cb45e50bde12bd8dd0a9920c485b96cc7b"
+    }
+  ]
+}

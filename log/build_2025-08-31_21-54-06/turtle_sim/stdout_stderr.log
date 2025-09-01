@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/turtle_sim/turtle_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_sim/turtle_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_sim/turtle_sim.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_sim/turtle_sim.egg-info/requires.txt
+writing top-level names to ../../build/turtle_sim/turtle_sim.egg-info/top_level.txt
+reading manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtle_sim/spawner.py -> /home/narayan/ros2_ws/build/turtle_sim/build/lib/turtle_sim
+running install
+running install_lib
+copying /home/narayan/ros2_ws/build/turtle_sim/build/lib/turtle_sim/spawner.py -> /home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim
+byte-compiling /home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim/spawner.py to spawner.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/turtle_sim/turtle_sim.egg-info to /home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim-0.0.0-py3.12.egg-info
+running install_scripts
+Installing server script to /home/narayan/ros2_ws/install/turtle_sim/lib/turtle_sim
+Installing spawner script to /home/narayan/ros2_ws/install/turtle_sim/lib/turtle_sim
+writing list of installed files to '/home/narayan/ros2_ws/build/turtle_sim/install.log'

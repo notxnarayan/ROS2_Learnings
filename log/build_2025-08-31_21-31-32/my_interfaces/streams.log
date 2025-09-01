@@ -1,0 +1,58 @@
+[0.057s] Invoking command in '/home/narayan/ros2_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/narayan/ros2_ws/build/my_interfaces -- -j4 -l4
+[0.196s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.714s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.725s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.911s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.026s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.760s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[1.761s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.761s]   my_interfaces --arguments-file
+[1.762s]   /home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter__arguments__my_interfaces.json
+[1.762s]   --output-dir
+[1.762s]   /home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces
+[1.763s]   --output-file
+[1.763s]   /home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces.idls)
+[1.763s]   returned error code 1:
+[1.764s] 
+[1.764s]   Error processing 'float xv' of 'my_interfaces/TurtleHead_Request': ''float'
+[1.764s]   is an invalid message name.  It should have the pattern
+[1.765s]   '^[A-Z][A-Za-z0-9]*$''
+[1.765s] 
+[1.765s]   Traceback (most recent call last):
+[1.766s] 
+[1.766s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[1.766s]     File "<frozen runpy>", line 88, in _run_code
+[1.767s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.767s]       sys.exit(main())
+[1.768s]                ^^^^^^
+[1.768s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.768s]       abs_idl_file = convert_to_idl(
+[1.769s]                      ^^^^^^^^^^^^^^^
+[1.770s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[1.771s]       return convert_srv_to_idl(
+[1.772s]              ^^^^^^^^^^^^^^^^^^^
+[1.774s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[1.775s]       srv = parse_service_string(package_name, input_file.stem, content)
+[1.775s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.776s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 860, in parse_service_string
+[1.776s]       request_message = parse_message_string(
+[1.777s]                         ^^^^^^^^^^^^^^^^^^^^^
+[1.777s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 521, in parse_message_string
+[1.777s]       Type(type_string, context_package_name=pkg_name),
+[1.777s]       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.778s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 278, in __init__
+[1.778s]       super(Type, self).__init__(
+[1.778s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[1.779s]       raise InvalidResourceName(
+[1.779s] 
+[1.779s]   rosidl_adapter.parser.InvalidResourceName: 'float' is an invalid message
+[1.780s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.780s] 
+[1.780s] Call Stack (most recent call first):
+[1.781s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[1.781s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.781s] 
+[1.782s] [0m
+[1.782s] -- Configuring incomplete, errors occurred!
+[1.783s] gmake: *** [Makefile:1355: cmake_check_build_system] Error 1
+[1.790s] Invoked command in '/home/narayan/ros2_ws/build/my_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/narayan/ros2_ws/build/my_interfaces -- -j4 -l4

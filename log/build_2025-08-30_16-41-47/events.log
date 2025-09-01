@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.000421] (-) JobUnselected: {'identifier': 'TransNum'}
+[0.001077] (-) JobUnselected: {'identifier': 'my_interfaces'}
+[0.001161] (-) JobUnselected: {'identifier': 'onepkg'}
+[0.001227] (led_activity) JobQueued: {'identifier': 'led_activity', 'dependencies': OrderedDict({'my_interfaces': '/home/narayan/ros2_ws/install/my_interfaces'})}
+[0.002097] (led_activity) JobStarted: {'identifier': 'led_activity'}
+[0.099408] (-) TimerEvent: {}
+[0.200081] (-) TimerEvent: {}
+[0.300769] (-) TimerEvent: {}
+[0.401483] (-) TimerEvent: {}
+[0.502175] (-) TimerEvent: {}
+[0.602762] (-) TimerEvent: {}
+[0.703304] (-) TimerEvent: {}
+[0.803810] (-) TimerEvent: {}
+[0.904368] (-) TimerEvent: {}
+[1.004985] (-) TimerEvent: {}
+[1.105751] (-) TimerEvent: {}
+[1.206375] (-) TimerEvent: {}
+[1.306891] (-) TimerEvent: {}
+[1.407399] (-) TimerEvent: {}
+[1.507914] (-) TimerEvent: {}
+[1.608499] (-) TimerEvent: {}
+[1.709004] (-) TimerEvent: {}
+[1.809544] (-) TimerEvent: {}
+[1.910044] (-) TimerEvent: {}
+[2.010593] (-) TimerEvent: {}
+[2.111194] (-) TimerEvent: {}
+[2.211936] (-) TimerEvent: {}
+[2.312688] (-) TimerEvent: {}
+[2.413376] (-) TimerEvent: {}
+[2.513947] (-) TimerEvent: {}
+[2.614510] (-) TimerEvent: {}
+[2.715072] (-) TimerEvent: {}
+[2.815691] (-) TimerEvent: {}
+[2.916288] (-) TimerEvent: {}
+[3.016770] (-) TimerEvent: {}
+[3.117344] (-) TimerEvent: {}
+[3.217939] (-) TimerEvent: {}
+[3.318476] (-) TimerEvent: {}
+[3.418977] (-) TimerEvent: {}
+[3.519539] (-) TimerEvent: {}
+[3.620058] (-) TimerEvent: {}
+[3.720607] (-) TimerEvent: {}
+[3.821094] (-) TimerEvent: {}
+[3.921647] (-) TimerEvent: {}
+[4.022168] (-) TimerEvent: {}
+[4.122789] (-) TimerEvent: {}
+[4.223577] (-) TimerEvent: {}
+[4.232094] (led_activity) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/led_activity', 'build', '--build-base', '/home/narayan/ros2_ws/build/led_activity/build', 'install', '--record', '/home/narayan/ros2_ws/build/led_activity/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/narayan/ros2_ws/src/led_activity', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '2fea722e-a5b3-4b2e-80cf-b11ed79d4761', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/narayan/ros2_ws/install/my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2015', 'SYSTEMD_EXEC_PID': '2283', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3239', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:17292', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2248,unix/narayan-desktop:/tmp/.ICE-unix/2248', 'INVOCATION_ID': '06eb7dbb1eb247b28975b7021e40ea65', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XJ1KC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:07d945bd-0774-4903-8772-2e6716356e97', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/led_activity', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/build/led_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.323727] (-) TimerEvent: {}
+[4.424317] (-) TimerEvent: {}
+[4.524826] (-) TimerEvent: {}
+[4.625366] (-) TimerEvent: {}
+[4.725899] (-) TimerEvent: {}
+[4.826404] (-) TimerEvent: {}
+[4.926907] (-) TimerEvent: {}
+[5.027458] (-) TimerEvent: {}
+[5.127968] (-) TimerEvent: {}
+[5.228525] (-) TimerEvent: {}
+[5.334489] (-) TimerEvent: {}
+[5.388588] (led_activity) StdoutLine: {'line': b'running egg_info\n'}
+[5.436417] (-) TimerEvent: {}
+[5.537015] (-) TimerEvent: {}
+[5.614710] (led_activity) StdoutLine: {'line': b'writing ../../build/led_activity/led_activity.egg-info/PKG-INFO\n'}
+[5.616602] (led_activity) StdoutLine: {'line': b'writing dependency_links to ../../build/led_activity/led_activity.egg-info/dependency_links.txt\n'}
+[5.618196] (led_activity) StdoutLine: {'line': b'writing entry points to ../../build/led_activity/led_activity.egg-info/entry_points.txt\n'}
+[5.619345] (led_activity) StdoutLine: {'line': b'writing requirements to ../../build/led_activity/led_activity.egg-info/requires.txt\n'}
+[5.620858] (led_activity) StdoutLine: {'line': b'writing top-level names to ../../build/led_activity/led_activity.egg-info/top_level.txt\n'}
+[5.637153] (-) TimerEvent: {}
+[5.737735] (-) TimerEvent: {}
+[5.791214] (led_activity) StdoutLine: {'line': b"reading manifest file '../../build/led_activity/led_activity.egg-info/SOURCES.txt'\n"}
+[5.795322] (led_activity) StdoutLine: {'line': b"writing manifest file '../../build/led_activity/led_activity.egg-info/SOURCES.txt'\n"}
+[5.795890] (led_activity) StdoutLine: {'line': b'running build\n'}
+[5.796326] (led_activity) StdoutLine: {'line': b'running build_py\n'}
+[5.799119] (led_activity) StdoutLine: {'line': b'copying led_activity/battery_node.py -> /home/narayan/ros2_ws/build/led_activity/build/lib/led_activity\n'}
+[5.800649] (led_activity) StdoutLine: {'line': b'running install\n'}
+[5.823221] (led_activity) StdoutLine: {'line': b'running install_lib\n'}
+[5.837862] (-) TimerEvent: {}
+[5.904586] (led_activity) StdoutLine: {'line': b'copying /home/narayan/ros2_ws/build/led_activity/build/lib/led_activity/battery_node.py -> /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity\n'}
+[5.907633] (led_activity) StdoutLine: {'line': b'byte-compiling /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity/battery_node.py to battery_node.cpython-312.pyc\n'}
+[5.913522] (led_activity) StdoutLine: {'line': b'running install_data\n'}
+[5.915397] (led_activity) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.938371] (-) TimerEvent: {}
+[6.009734] (led_activity) StdoutLine: {'line': b"removing '/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[6.011370] (led_activity) StdoutLine: {'line': b'Copying ../../build/led_activity/led_activity.egg-info to /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity-0.0.0-py3.12.egg-info\n'}
+[6.017509] (led_activity) StdoutLine: {'line': b'running install_scripts\n'}
+[6.038510] (-) TimerEvent: {}
+[6.139050] (-) TimerEvent: {}
+[6.239855] (-) TimerEvent: {}
+[6.340344] (-) TimerEvent: {}
+[6.440840] (-) TimerEvent: {}
+[6.541376] (-) TimerEvent: {}
+[6.632790] (led_activity) StdoutLine: {'line': b'Installing battery script to /home/narayan/ros2_ws/install/led_activity/lib/led_activity\n'}
+[6.634695] (led_activity) StdoutLine: {'line': b'Installing led_server script to /home/narayan/ros2_ws/install/led_activity/lib/led_activity\n'}
+[6.636528] (led_activity) StdoutLine: {'line': b"writing list of installed files to '/home/narayan/ros2_ws/build/led_activity/install.log'\n"}
+[6.641616] (-) TimerEvent: {}
+[6.742483] (-) TimerEvent: {}
+[6.786905] (led_activity) CommandEnded: {'returncode': 0}
+[6.842663] (-) TimerEvent: {}
+[6.855838] (led_activity) JobEnded: {'identifier': 'led_activity', 'rc': 0}
+[6.858593] (-) EventReactorShutdown: {}

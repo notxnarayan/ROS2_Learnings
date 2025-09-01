@@ -5,6 +5,13 @@ file(REMOVE_RECURSE
   "/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/msg/__init__.py"
   "/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/msg/_hd_status.py"
   "/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/msg/_hd_status_s.c"
+  "/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/msg/_le_dstatus.py"
+  "/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/msg/_le_dstatus_s.c"
+  "/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/__init__.py"
+  "/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/_set_led.py"
+  "/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/_set_led_s.c"
+  "/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/_turtle_head.py"
+  "/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/_turtle_head_s.c"
   "CMakeFiles/my_interfaces__py"
 )
 

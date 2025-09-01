@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_interfaces__rosidl_generator_type_description"
   "rosidl_generator_type_description/my_interfaces/msg/HdStatus.json"
+  "rosidl_generator_type_description/my_interfaces/msg/LEDstatus.json"
+  "rosidl_generator_type_description/my_interfaces/srv/SetLED.json"
+  "rosidl_generator_type_description/my_interfaces/srv/TurtleHead.json"
 )
 
 # Per-language clean rules from dependency scanning.

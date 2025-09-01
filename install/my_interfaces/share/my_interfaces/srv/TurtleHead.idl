@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_interfaces/srv/TurtleHead.srv
+// generated code does not contain a copyright notice
+
+
+module my_interfaces {
+  module srv {
+    struct TurtleHead_Request {
+      string name;
+
+      double x;
+
+      double y;
+    };
+    struct TurtleHead_Response {
+      boolean success;
+    };
+  };
+};

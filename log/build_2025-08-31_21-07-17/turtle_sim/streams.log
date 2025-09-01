@@ -1,0 +1,24 @@
+[3.970s] Invoking command in '/home/narayan/ros2_ws/src/turtle_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/turtle_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_sim build --build-base /home/narayan/ros2_ws/build/turtle_sim/build install --record /home/narayan/ros2_ws/build/turtle_sim/install.log --single-version-externally-managed install_data
+[5.489s] running egg_info
+[5.577s] writing ../../build/turtle_sim/turtle_sim.egg-info/PKG-INFO
+[5.578s] writing dependency_links to ../../build/turtle_sim/turtle_sim.egg-info/dependency_links.txt
+[5.579s] writing entry points to ../../build/turtle_sim/turtle_sim.egg-info/entry_points.txt
+[5.580s] writing requirements to ../../build/turtle_sim/turtle_sim.egg-info/requires.txt
+[5.581s] writing top-level names to ../../build/turtle_sim/turtle_sim.egg-info/top_level.txt
+[5.767s] reading manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+[5.770s] writing manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+[5.770s] running build
+[5.771s] running build_py
+[5.771s] copying turtle_sim/spawner.py -> /home/narayan/ros2_ws/build/turtle_sim/build/lib/turtle_sim
+[5.773s] running install
+[5.795s] running install_lib
+[5.889s] copying /home/narayan/ros2_ws/build/turtle_sim/build/lib/turtle_sim/spawner.py -> /home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim
+[5.892s] byte-compiling /home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim/spawner.py to spawner.cpython-312.pyc
+[5.895s] running install_data
+[5.895s] running install_egg_info
+[5.989s] removing '/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim-0.0.0-py3.12.egg-info' (and everything under it)
+[5.991s] Copying ../../build/turtle_sim/turtle_sim.egg-info to /home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim-0.0.0-py3.12.egg-info
+[5.996s] running install_scripts
+[6.684s] Installing spawner script to /home/narayan/ros2_ws/install/turtle_sim/lib/turtle_sim
+[6.686s] writing list of installed files to '/home/narayan/ros2_ws/build/turtle_sim/install.log'
+[6.832s] Invoked command in '/home/narayan/ros2_ws/src/turtle_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/turtle_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_sim build --build-base /home/narayan/ros2_ws/build/turtle_sim/build install --record /home/narayan/ros2_ws/build/turtle_sim/install.log --single-version-externally-managed install_data

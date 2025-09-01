@@ -25,6 +25,7 @@ setup(
             "smphnode = onepkg.smartphone:main",
             "server = onepkg.server_test:main",
             "client = onepkg.server_client:main",
+            "interface_test = onepkg.interface_test:main",
         ],
     },
 )

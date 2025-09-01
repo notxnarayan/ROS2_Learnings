@@ -1,10 +1,22 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/hd_status__type_support.cpp.o"
   "CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/hd_status__type_support.cpp.o.d"
+  "CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/le_dstatus__type_support.cpp.o"
+  "CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/le_dstatus__type_support.cpp.o.d"
+  "CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/set_led__type_support.cpp.o"
+  "CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/set_led__type_support.cpp.o.d"
+  "CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/turtle_head__type_support.cpp.o"
+  "CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/turtle_head__type_support.cpp.o.d"
   "libmy_interfaces__rosidl_typesupport_introspection_cpp.pdb"
   "libmy_interfaces__rosidl_typesupport_introspection_cpp.so"
   "rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/hd_status__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/hd_status__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/le_dstatus__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/le_dstatus__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/set_led__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/turtle_head__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/turtle_head__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

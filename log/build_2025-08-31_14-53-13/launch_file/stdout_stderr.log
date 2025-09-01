@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/launch
+-- Installing: /home/narayan/ros2_ws/install/launch_file/share/launch_file/launch/python_launcher.xml
+-- Installing: /home/narayan/ros2_ws/install/launch_file/share/launch_file/launch/number_counter_launch.py
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/launch/number_counter_launch.xml
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/ament_index/resource_index/package_run_dependencies/launch_file
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/ament_index/resource_index/parent_prefix_path/launch_file
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/environment/ament_prefix_path.sh
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/environment/path.sh
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/environment/path.dsv
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/local_setup.bash
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/local_setup.sh
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/local_setup.zsh
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/local_setup.dsv
+-- Installing: /home/narayan/ros2_ws/install/launch_file/share/launch_file/package.dsv
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/ament_index/resource_index/packages/launch_file
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/cmake/launch_fileConfig.cmake
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/cmake/launch_fileConfig-version.cmake
+-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/package.xml

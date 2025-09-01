@@ -1,0 +1,13 @@
+<launch>
+    <node pkg="TransNum" exec="number_publisher" name="SKIBIDI" namespace="/abc">
+        <remap from="number" to="my_number"/>
+        <!-- <param name="time_period" value="0.5" />
+        <param name="min_num" value="1000" />
+        <param name="max_num" value="10000" /> -->
+        <param from="$(find-pkg-share launch_file)/config/number_params.yaml" />
+    </node>
+
+    <node pkg="TransNum" exec="two_way" name="SKIBIDITOILET" namespace="/abc">
+        <remap from="number" to="my_number"/>
+    </node>
+</launch>

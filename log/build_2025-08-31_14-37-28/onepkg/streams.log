@@ -1,0 +1,26 @@
+[5.537s] Invoking command in '/home/narayan/ros2_ws/src/onepkg': CMAKE_PREFIX_PATH=/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onepkg build --build-base /home/narayan/ros2_ws/build/onepkg/build install --record /home/narayan/ros2_ws/build/onepkg/install.log --single-version-externally-managed install_data
+[7.280s] running egg_info
+[7.424s] writing ../../build/onepkg/onepkg.egg-info/PKG-INFO
+[7.425s] writing dependency_links to ../../build/onepkg/onepkg.egg-info/dependency_links.txt
+[7.427s] writing entry points to ../../build/onepkg/onepkg.egg-info/entry_points.txt
+[7.429s] writing requirements to ../../build/onepkg/onepkg.egg-info/requires.txt
+[7.430s] writing top-level names to ../../build/onepkg/onepkg.egg-info/top_level.txt
+[7.694s] reading manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+[7.711s] writing manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+[7.714s] running build
+[7.715s] running build_py
+[7.735s] running install
+[7.764s] running install_lib
+[7.940s] running install_data
+[7.943s] running install_egg_info
+[8.071s] removing '/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info' (and everything under it)
+[8.076s] Copying ../../build/onepkg/onepkg.egg-info to /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info
+[8.083s] running install_scripts
+[8.962s] Installing client script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[8.967s] Installing firstnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[8.968s] Installing interface_test script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[8.969s] Installing server script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[8.969s] Installing smphnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[8.970s] Installing transnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[8.973s] writing list of installed files to '/home/narayan/ros2_ws/build/onepkg/install.log'
+[9.124s] Invoked command in '/home/narayan/ros2_ws/src/onepkg' returned '0': CMAKE_PREFIX_PATH=/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onepkg build --build-base /home/narayan/ros2_ws/build/onepkg/build install --record /home/narayan/ros2_ws/build/onepkg/install.log --single-version-externally-managed install_data

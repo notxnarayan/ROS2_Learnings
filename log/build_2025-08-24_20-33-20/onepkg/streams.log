@@ -1,0 +1,29 @@
+[4.314s] Invoking command in '/home/narayan/ros2_ws/src/onepkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onepkg build --build-base /home/narayan/ros2_ws/build/onepkg/build install --record /home/narayan/ros2_ws/build/onepkg/install.log --single-version-externally-managed install_data
+[5.391s] running egg_info
+[5.467s] writing ../../build/onepkg/onepkg.egg-info/PKG-INFO
+[5.469s] writing dependency_links to ../../build/onepkg/onepkg.egg-info/dependency_links.txt
+[5.475s] writing entry points to ../../build/onepkg/onepkg.egg-info/entry_points.txt
+[5.475s] writing requirements to ../../build/onepkg/onepkg.egg-info/requires.txt
+[5.476s] writing top-level names to ../../build/onepkg/onepkg.egg-info/top_level.txt
+[5.640s] reading manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+[5.644s] writing manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+[5.644s] running build
+[5.645s] running build_py
+[5.648s] copying onepkg/interface_test.py -> /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg
+[5.649s] running install
+[5.672s] running install_lib
+[5.751s] copying /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg/interface_test.py -> /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+[5.757s] byte-compiling /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/interface_test.py to interface_test.cpython-312.pyc
+[5.759s] running install_data
+[5.760s] running install_egg_info
+[5.850s] removing '/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info' (and everything under it)
+[5.851s] Copying ../../build/onepkg/onepkg.egg-info to /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info
+[5.857s] running install_scripts
+[6.454s] Installing client script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[6.455s] Installing firstnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[6.456s] Installing interface_test script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[6.460s] Installing server script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[6.461s] Installing smphnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[6.464s] Installing transnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[6.467s] writing list of installed files to '/home/narayan/ros2_ws/build/onepkg/install.log'
+[6.605s] Invoked command in '/home/narayan/ros2_ws/src/onepkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onepkg build --build-base /home/narayan/ros2_ws/build/onepkg/build install --record /home/narayan/ros2_ws/build/onepkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+battery = led_activity.battery_node:main
+led_server = led_activity.led_panel:main

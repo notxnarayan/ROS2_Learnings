@@ -1,0 +1,18 @@
+[0.086s] Invoking command in '/home/narayan/ros2_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/narayan/ros2_ws/build/my_interfaces -- -j4 -l4
+[0.234s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.365s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.768s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.000s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.158s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.174s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[1.175s]   rosidl_generate_interfaces() the passed file 'srv/LEDstatus.srv' doesn't
+[1.176s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.177s]   '/home/narayan/ros2_ws/src/my_interfaces'
+[1.179s] Call Stack (most recent call first):
+[1.182s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.183s] 
+[1.184s] [0m
+[1.186s] -- Configuring incomplete, errors occurred!
+[1.192s] gmake: *** [Makefile:1085: cmake_check_build_system] Error 1
+[1.239s] Invoked command in '/home/narayan/ros2_ws/build/my_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/narayan/ros2_ws/build/my_interfaces -- -j4 -l4

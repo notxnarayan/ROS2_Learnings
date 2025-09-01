@@ -1,0 +1,29 @@
+[4.472s] Invoking command in '/home/narayan/ros2_ws/src/onepkg': CMAKE_PREFIX_PATH=/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onepkg build --build-base /home/narayan/ros2_ws/build/onepkg/build install --record /home/narayan/ros2_ws/build/onepkg/install.log --single-version-externally-managed install_data
+[5.561s] running egg_info
+[5.638s] writing ../../build/onepkg/onepkg.egg-info/PKG-INFO
+[5.641s] writing dependency_links to ../../build/onepkg/onepkg.egg-info/dependency_links.txt
+[5.643s] writing entry points to ../../build/onepkg/onepkg.egg-info/entry_points.txt
+[5.643s] writing requirements to ../../build/onepkg/onepkg.egg-info/requires.txt
+[5.644s] writing top-level names to ../../build/onepkg/onepkg.egg-info/top_level.txt
+[5.805s] reading manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+[5.809s] writing manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+[5.810s] running build
+[5.810s] running build_py
+[5.816s] copying onepkg/topic_test.py -> /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg
+[5.824s] running install
+[5.853s] running install_lib
+[5.932s] copying /home/narayan/ros2_ws/build/onepkg/build/lib/onepkg/topic_test.py -> /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+[5.939s] byte-compiling /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/topic_test.py to topic_test.cpython-312.pyc
+[5.943s] running install_data
+[5.945s] running install_egg_info
+[6.027s] removing '/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info' (and everything under it)
+[6.029s] Copying ../../build/onepkg/onepkg.egg-info to /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info
+[6.035s] running install_scripts
+[6.633s] Installing client script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[6.635s] Installing firstnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[6.637s] Installing interface_test script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[6.638s] Installing server script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[6.641s] Installing smphnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[6.643s] Installing transnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[6.645s] writing list of installed files to '/home/narayan/ros2_ws/build/onepkg/install.log'
+[6.783s] Invoked command in '/home/narayan/ros2_ws/src/onepkg' returned '0': CMAKE_PREFIX_PATH=/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onepkg build --build-base /home/narayan/ros2_ws/build/onepkg/build install --record /home/narayan/ros2_ws/build/onepkg/install.log --single-version-externally-managed install_data

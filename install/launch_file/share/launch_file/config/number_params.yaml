@@ -1,0 +1,5 @@
+/abc/SKIBIDI:
+  ros__parameters:
+    time_period: 2.0
+    max_num: 2
+    min_num: 1

@@ -1,0 +1,35 @@
+[6.927s] Invoking command in '/home/narayan/ros2_ws/src/led_activity': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/led_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/led_activity build --build-base /home/narayan/ros2_ws/build/led_activity/build install --record /home/narayan/ros2_ws/build/led_activity/install.log --single-version-externally-managed install_data
+[8.609s] running egg_info
+[8.610s] creating ../../build/led_activity/led_activity.egg-info
+[8.810s] writing ../../build/led_activity/led_activity.egg-info/PKG-INFO
+[8.813s] writing dependency_links to ../../build/led_activity/led_activity.egg-info/dependency_links.txt
+[8.816s] writing requirements to ../../build/led_activity/led_activity.egg-info/requires.txt
+[8.817s] writing top-level names to ../../build/led_activity/led_activity.egg-info/top_level.txt
+[8.820s] writing manifest file '../../build/led_activity/led_activity.egg-info/SOURCES.txt'
+[9.177s] reading manifest file '../../build/led_activity/led_activity.egg-info/SOURCES.txt'
+[9.199s] writing manifest file '../../build/led_activity/led_activity.egg-info/SOURCES.txt'
+[9.199s] running build
+[9.200s] running build_py
+[9.206s] creating /home/narayan/ros2_ws/build/led_activity/build
+[9.208s] creating /home/narayan/ros2_ws/build/led_activity/build/lib
+[9.208s] creating /home/narayan/ros2_ws/build/led_activity/build/lib/led_activity
+[9.212s] copying led_activity/__init__.py -> /home/narayan/ros2_ws/build/led_activity/build/lib/led_activity
+[9.213s] copying led_activity/battery_node.py -> /home/narayan/ros2_ws/build/led_activity/build/lib/led_activity
+[9.214s] copying led_activity/led_panel.py -> /home/narayan/ros2_ws/build/led_activity/build/lib/led_activity
+[9.215s] running install
+[9.238s] running install_lib
+[9.420s] creating /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity
+[9.422s] copying /home/narayan/ros2_ws/build/led_activity/build/lib/led_activity/__init__.py -> /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity
+[9.426s] copying /home/narayan/ros2_ws/build/led_activity/build/lib/led_activity/battery_node.py -> /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity
+[9.427s] copying /home/narayan/ros2_ws/build/led_activity/build/lib/led_activity/led_panel.py -> /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity
+[9.427s] byte-compiling /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity/__init__.py to __init__.cpython-312.pyc
+[9.428s] byte-compiling /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity/battery_node.py to battery_node.cpython-312.pyc
+[9.430s] byte-compiling /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity/led_panel.py to led_panel.cpython-312.pyc
+[9.435s] running install_data
+[9.436s] copying resource/led_activity -> /home/narayan/ros2_ws/install/led_activity/share/ament_index/resource_index/packages
+[9.437s] copying package.xml -> /home/narayan/ros2_ws/install/led_activity/share/led_activity
+[9.441s] running install_egg_info
+[9.660s] Copying ../../build/led_activity/led_activity.egg-info to /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity-0.0.0-py3.12.egg-info
+[9.671s] running install_scripts
+[11.167s] writing list of installed files to '/home/narayan/ros2_ws/build/led_activity/install.log'
+[11.450s] Invoked command in '/home/narayan/ros2_ws/src/led_activity' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/led_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/led_activity build --build-base /home/narayan/ros2_ws/build/led_activity/build install --record /home/narayan/ros2_ws/build/led_activity/install.log --single-version-externally-managed install_data

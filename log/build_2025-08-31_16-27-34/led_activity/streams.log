@@ -1,0 +1,22 @@
+[6.282s] Invoking command in '/home/narayan/ros2_ws/src/led_activity': CMAKE_PREFIX_PATH=/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/launch_file:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/led_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/led_activity build --build-base /home/narayan/ros2_ws/build/led_activity/build install --record /home/narayan/ros2_ws/build/led_activity/install.log --single-version-externally-managed install_data
+[7.960s] running egg_info
+[8.098s] writing ../../build/led_activity/led_activity.egg-info/PKG-INFO
+[8.099s] writing dependency_links to ../../build/led_activity/led_activity.egg-info/dependency_links.txt
+[8.101s] writing entry points to ../../build/led_activity/led_activity.egg-info/entry_points.txt
+[8.102s] writing requirements to ../../build/led_activity/led_activity.egg-info/requires.txt
+[8.104s] writing top-level names to ../../build/led_activity/led_activity.egg-info/top_level.txt
+[8.453s] reading manifest file '../../build/led_activity/led_activity.egg-info/SOURCES.txt'
+[8.459s] writing manifest file '../../build/led_activity/led_activity.egg-info/SOURCES.txt'
+[8.460s] running build
+[8.460s] running build_py
+[8.461s] running install
+[8.484s] running install_lib
+[8.661s] running install_data
+[8.662s] running install_egg_info
+[8.794s] removing '/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity-0.0.0-py3.12.egg-info' (and everything under it)
+[8.796s] Copying ../../build/led_activity/led_activity.egg-info to /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity-0.0.0-py3.12.egg-info
+[8.806s] running install_scripts
+[9.554s] Installing battery script to /home/narayan/ros2_ws/install/led_activity/lib/led_activity
+[9.556s] Installing led_server script to /home/narayan/ros2_ws/install/led_activity/lib/led_activity
+[9.559s] writing list of installed files to '/home/narayan/ros2_ws/build/led_activity/install.log'
+[9.783s] Invoked command in '/home/narayan/ros2_ws/src/led_activity' returned '0': CMAKE_PREFIX_PATH=/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/launch_file:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/led_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/led_activity build --build-base /home/narayan/ros2_ws/build/led_activity/build install --record /home/narayan/ros2_ws/build/led_activity/install.log --single-version-externally-managed install_data

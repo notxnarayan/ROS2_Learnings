@@ -1,0 +1,5 @@
+[0.082s] Invoking command in '/home/narayan/ros2_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/narayan/ros2_ws/build/my_interfaces -- -j4 -l4
+[0.345s] gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_my_interfaces.dir/build.make:85: CMakeFiles/ament_cmake_python_copy_my_interfaces.dir/depend] Interrupt
+[0.346s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/my_interfaces__rosidl_generator_type_description.dir/all] Interrupt
+[0.350s] gmake[1]: *** [CMakeFiles/Makefile2:451: CMakeFiles/ament_cmake_python_copy_my_interfaces.dir/all] Interrupt
+[0.351s] gmake: *** [Makefile:146: all] Interrupt

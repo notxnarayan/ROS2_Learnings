@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000904] (-) JobUnselected: {'identifier': 'TransNum'}
+[0.001919] (-) JobUnselected: {'identifier': 'launch_file'}
+[0.002563] (-) JobUnselected: {'identifier': 'led_activity'}
+[0.002660] (-) JobUnselected: {'identifier': 'my_interfaces'}
+[0.002724] (-) JobUnselected: {'identifier': 'onepkg'}
+[0.002797] (turtle_sim) JobQueued: {'identifier': 'turtle_sim', 'dependencies': OrderedDict({'my_interfaces': '/home/narayan/ros2_ws/install/my_interfaces'})}
+[0.002905] (turtle_sim) JobStarted: {'identifier': 'turtle_sim'}
+[0.099473] (-) TimerEvent: {}
+[0.200192] (-) TimerEvent: {}
+[0.300929] (-) TimerEvent: {}
+[0.404547] (-) TimerEvent: {}
+[0.511774] (-) TimerEvent: {}
+[0.612573] (-) TimerEvent: {}
+[0.713720] (-) TimerEvent: {}
+[0.814643] (-) TimerEvent: {}
+[0.915409] (-) TimerEvent: {}
+[1.016173] (-) TimerEvent: {}
+[1.116709] (-) TimerEvent: {}
+[1.217294] (-) TimerEvent: {}
+[1.317920] (-) TimerEvent: {}
+[1.418955] (-) TimerEvent: {}
+[1.519720] (-) TimerEvent: {}
+[1.620491] (-) TimerEvent: {}
+[1.721195] (-) TimerEvent: {}
+[1.821787] (-) TimerEvent: {}
+[1.925389] (-) TimerEvent: {}
+[2.025918] (-) TimerEvent: {}
+[2.126514] (-) TimerEvent: {}
+[2.227123] (-) TimerEvent: {}
+[2.327710] (-) TimerEvent: {}
+[2.428392] (-) TimerEvent: {}
+[2.528999] (-) TimerEvent: {}
+[2.629765] (-) TimerEvent: {}
+[2.730554] (-) TimerEvent: {}
+[2.831228] (-) TimerEvent: {}
+[2.931912] (-) TimerEvent: {}
+[3.032635] (-) TimerEvent: {}
+[3.133415] (-) TimerEvent: {}
+[3.234347] (-) TimerEvent: {}
+[3.335155] (-) TimerEvent: {}
+[3.435853] (-) TimerEvent: {}
+[3.536598] (-) TimerEvent: {}
+[3.637488] (-) TimerEvent: {}
+[3.738427] (-) TimerEvent: {}
+[3.838996] (-) TimerEvent: {}
+[3.939568] (-) TimerEvent: {}
+[4.040171] (-) TimerEvent: {}
+[4.140922] (-) TimerEvent: {}
+[4.241541] (-) TimerEvent: {}
+[4.342119] (-) TimerEvent: {}
+[4.442688] (-) TimerEvent: {}
+[4.543258] (-) TimerEvent: {}
+[4.643819] (-) TimerEvent: {}
+[4.744437] (-) TimerEvent: {}
+[4.845126] (-) TimerEvent: {}
+[4.945718] (-) TimerEvent: {}
+[5.046355] (-) TimerEvent: {}
+[5.147319] (-) TimerEvent: {}
+[5.166999] (turtle_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_sim', 'build', '--build-base', '/home/narayan/ros2_ws/build/turtle_sim/build', 'install', '--record', '/home/narayan/ros2_ws/build/turtle_sim/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/narayan/ros2_ws/src/turtle_sim', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '00c821be-18b1-46a4-8144-bdd5c88029b4', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/narayan/ros2_ws/install/my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2112', 'SYSTEMD_EXEC_PID': '2368', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3109', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:19619', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2335,unix/narayan-desktop:/tmp/.ICE-unix/2335', 'INVOCATION_ID': '411c2a7557c245fd94ebe426e9422824', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AZ4JC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:1293f361-851d-4824-89d1-d58196802eeb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/turtle_sim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/build/turtle_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.247471] (-) TimerEvent: {}
+[5.348162] (-) TimerEvent: {}
+[5.448772] (-) TimerEvent: {}
+[5.549379] (-) TimerEvent: {}
+[5.650162] (-) TimerEvent: {}
+[5.751106] (-) TimerEvent: {}
+[5.851692] (-) TimerEvent: {}
+[5.952334] (-) TimerEvent: {}
+[6.052896] (-) TimerEvent: {}
+[6.153503] (-) TimerEvent: {}
+[6.254026] (-) TimerEvent: {}
+[6.354576] (-) TimerEvent: {}
+[6.439781] (turtle_sim) StdoutLine: {'line': b'running egg_info\n'}
+[6.454734] (-) TimerEvent: {}
+[6.539865] (turtle_sim) StdoutLine: {'line': b'writing ../../build/turtle_sim/turtle_sim.egg-info/PKG-INFO\n'}
+[6.541908] (turtle_sim) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_sim/turtle_sim.egg-info/dependency_links.txt\n'}
+[6.543087] (turtle_sim) StdoutLine: {'line': b'writing entry points to ../../build/turtle_sim/turtle_sim.egg-info/entry_points.txt\n'}
+[6.543904] (turtle_sim) StdoutLine: {'line': b'writing requirements to ../../build/turtle_sim/turtle_sim.egg-info/requires.txt\n'}
+[6.544673] (turtle_sim) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_sim/turtle_sim.egg-info/top_level.txt\n'}
+[6.554862] (-) TimerEvent: {}
+[6.655495] (-) TimerEvent: {}
+[6.752777] (turtle_sim) StdoutLine: {'line': b"reading manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'\n"}
+[6.755789] (-) TimerEvent: {}
+[6.756953] (turtle_sim) StdoutLine: {'line': b"writing manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'\n"}
+[6.758551] (turtle_sim) StdoutLine: {'line': b'running build\n'}
+[6.759324] (turtle_sim) StdoutLine: {'line': b'running build_py\n'}
+[6.761720] (turtle_sim) StdoutLine: {'line': b'copying turtle_sim/head_server.py -> /home/narayan/ros2_ws/build/turtle_sim/build/lib/turtle_sim\n'}
+[6.764179] (turtle_sim) StdoutLine: {'line': b'running install\n'}
+[6.790753] (turtle_sim) StdoutLine: {'line': b'running install_lib\n'}
+[6.855941] (-) TimerEvent: {}
+[6.879009] (turtle_sim) StdoutLine: {'line': b'copying /home/narayan/ros2_ws/build/turtle_sim/build/lib/turtle_sim/head_server.py -> /home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim\n'}
+[6.884263] (turtle_sim) StdoutLine: {'line': b'byte-compiling /home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim/head_server.py to head_server.cpython-312.pyc\n'}
+[6.888557] (turtle_sim) StdoutLine: {'line': b'running install_data\n'}
+[6.890516] (turtle_sim) StdoutLine: {'line': b'copying package.xml -> /home/narayan/ros2_ws/install/turtle_sim/share/turtle_sim\n'}
+[6.891281] (turtle_sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.956099] (-) TimerEvent: {}
+[6.988976] (turtle_sim) StdoutLine: {'line': b"removing '/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[6.991915] (turtle_sim) StdoutLine: {'line': b'Copying ../../build/turtle_sim/turtle_sim.egg-info to /home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim-0.0.0-py3.12.egg-info\n'}
+[6.998979] (turtle_sim) StdoutLine: {'line': b'running install_scripts\n'}
+[7.056207] (-) TimerEvent: {}
+[7.156799] (-) TimerEvent: {}
+[7.257484] (-) TimerEvent: {}
+[7.358018] (-) TimerEvent: {}
+[7.458585] (-) TimerEvent: {}
+[7.559201] (-) TimerEvent: {}
+[7.659945] (-) TimerEvent: {}
+[7.663110] (turtle_sim) StdoutLine: {'line': b'Installing server script to /home/narayan/ros2_ws/install/turtle_sim/lib/turtle_sim\n'}
+[7.665242] (turtle_sim) StdoutLine: {'line': b'Installing spawner script to /home/narayan/ros2_ws/install/turtle_sim/lib/turtle_sim\n'}
+[7.666853] (turtle_sim) StdoutLine: {'line': b"writing list of installed files to '/home/narayan/ros2_ws/build/turtle_sim/install.log'\n"}
+[7.760223] (-) TimerEvent: {}
+[7.808038] (turtle_sim) CommandEnded: {'returncode': 0}
+[7.860469] (-) TimerEvent: {}
+[7.926463] (turtle_sim) JobEnded: {'identifier': 'turtle_sim', 'rc': 0}
+[7.930712] (-) EventReactorShutdown: {}

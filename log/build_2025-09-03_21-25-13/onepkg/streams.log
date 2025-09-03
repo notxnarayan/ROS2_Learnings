@@ -1,0 +1,26 @@
+[8.651s] Invoking command in '/home/narayan/ros2_ws/src/onepkg': CMAKE_PREFIX_PATH=/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onepkg build --build-base /home/narayan/ros2_ws/build/onepkg/build install --record /home/narayan/ros2_ws/build/onepkg/install.log --single-version-externally-managed install_data
+[10.597s] running egg_info
+[10.727s] writing ../../build/onepkg/onepkg.egg-info/PKG-INFO
+[10.729s] writing dependency_links to ../../build/onepkg/onepkg.egg-info/dependency_links.txt
+[10.731s] writing entry points to ../../build/onepkg/onepkg.egg-info/entry_points.txt
+[10.737s] writing requirements to ../../build/onepkg/onepkg.egg-info/requires.txt
+[10.740s] writing top-level names to ../../build/onepkg/onepkg.egg-info/top_level.txt
+[11.021s] reading manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+[11.027s] writing manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+[11.027s] running build
+[11.030s] running build_py
+[11.032s] running install
+[11.063s] running install_lib
+[11.199s] running install_data
+[11.202s] running install_egg_info
+[11.459s] removing '/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info' (and everything under it)
+[11.467s] Copying ../../build/onepkg/onepkg.egg-info to /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info
+[11.483s] running install_scripts
+[12.421s] Installing client script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[12.425s] Installing firstnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[12.427s] Installing interface_test script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[12.428s] Installing server script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[12.430s] Installing smphnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[12.432s] Installing transnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg
+[12.436s] writing list of installed files to '/home/narayan/ros2_ws/build/onepkg/install.log'
+[12.644s] Invoked command in '/home/narayan/ros2_ws/src/onepkg' returned '0': CMAKE_PREFIX_PATH=/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/narayan/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onepkg build --build-base /home/narayan/ros2_ws/build/onepkg/build install --record /home/narayan/ros2_ws/build/onepkg/install.log --single-version-externally-managed install_data

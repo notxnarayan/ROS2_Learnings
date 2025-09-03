@@ -17,7 +17,7 @@ class CreateNode(Node):
         while not self.client_post_.wait_for_service(1.0):
             self.get_logger().warn("Waiting for server...")
 
-        self.timer_ = self.create_timer(5.0,self.spawn)
+        self.timer_ = self.create_timer(1.0,self.spawn)
 
     def spawn(self):
         msg = Spawn.Request()

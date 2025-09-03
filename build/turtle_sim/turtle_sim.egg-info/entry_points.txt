@@ -1,3 +1,4 @@
 [console_scripts]
 server = turtle_sim.head_server:main
 spawner = turtle_sim.spawner:main
+turtle = turtle_sim.turtle1:main

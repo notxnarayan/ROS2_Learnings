@@ -1,0 +1,15 @@
+<launch>
+
+    <node pkg="turtle_sim" exec="server">
+    </node>
+
+    <node pkg="turtle_sim" exec="spawner">
+    </node>
+
+    <node pkg="turtle_sim" exec="turtle">
+    </node>
+
+    <node pkg="turtlesim" exec="turtlesim_node">
+    </node>
+
+</launch>

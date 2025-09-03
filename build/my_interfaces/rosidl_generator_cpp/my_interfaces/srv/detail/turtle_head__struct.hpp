@@ -201,12 +201,21 @@ struct TurtleHead_Response_
   using _success_type =
     bool;
   _success_type success;
+  using _nearest_type =
+    std::vector<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>>;
+  _nearest_type nearest;
 
   // setters for named parameter idiom
   Type & set__success(
     const bool & _arg)
   {
     this->success = _arg;
+    return *this;
+  }
+  Type & set__nearest(
+    const std::vector<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>> & _arg)
+  {
+    this->nearest = _arg;
     return *this;
   }
 
@@ -253,6 +262,9 @@ struct TurtleHead_Response_
   bool operator==(const TurtleHead_Response_ & other) const
   {
     if (this->success != other.success) {
+      return false;
+    }
+    if (this->nearest != other.nearest) {
       return false;
     }
     return true;

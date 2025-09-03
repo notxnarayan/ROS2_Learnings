@@ -158,6 +158,24 @@ inline void to_flow_style_yaml(
   {
     out << "success: ";
     rosidl_generator_traits::value_to_yaml(msg.success, out);
+    out << ", ";
+  }
+
+  // member: nearest
+  {
+    if (msg.nearest.size() == 0) {
+      out << "nearest: []";
+    } else {
+      out << "nearest: [";
+      size_t pending_items = msg.nearest.size();
+      for (auto item : msg.nearest) {
+        rosidl_generator_traits::value_to_yaml(item, out);
+        if (--pending_items > 0) {
+          out << ", ";
+        }
+      }
+      out << "]";
+    }
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -174,6 +192,26 @@ inline void to_block_style_yaml(
     out << "success: ";
     rosidl_generator_traits::value_to_yaml(msg.success, out);
     out << "\n";
+  }
+
+  // member: nearest
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    if (msg.nearest.size() == 0) {
+      out << "nearest: []\n";
+    } else {
+      out << "nearest:\n";
+      for (auto item : msg.nearest) {
+        if (indentation > 0) {
+          out << std::string(indentation, ' ');
+        }
+        out << "- ";
+        rosidl_generator_traits::value_to_yaml(item, out);
+        out << "\n";
+      }
+    }
   }
 }  // NOLINT(readability/fn_size)
 
@@ -223,11 +261,11 @@ inline const char * name<my_interfaces::srv::TurtleHead_Response>()
 
 template<>
 struct has_fixed_size<my_interfaces::srv::TurtleHead_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<my_interfaces::srv::TurtleHead_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<my_interfaces::srv::TurtleHead_Response>

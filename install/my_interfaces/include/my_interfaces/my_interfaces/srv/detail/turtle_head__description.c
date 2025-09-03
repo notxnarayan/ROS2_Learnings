@@ -11,10 +11,10 @@ my_interfaces__srv__TurtleHead__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x0a, 0xc8, 0xbe, 0x40, 0x9c, 0xfd, 0x58, 0xd3,
-      0xe9, 0x18, 0x30, 0xfe, 0x40, 0xa3, 0x61, 0xf5,
-      0xde, 0x33, 0x99, 0x5a, 0x50, 0x51, 0xdc, 0x4b,
-      0xba, 0x35, 0xbe, 0xf0, 0xea, 0x65, 0x97, 0x44,
+      0x1a, 0x99, 0x85, 0x94, 0xed, 0x4f, 0x30, 0xdc,
+      0x89, 0xdb, 0xfb, 0xa6, 0x89, 0x91, 0x1b, 0xde,
+      0xa2, 0x2e, 0x52, 0x69, 0x6a, 0xf3, 0xb3, 0x78,
+      0x3b, 0x86, 0x73, 0xcd, 0x6e, 0x50, 0x24, 0xe0,
     }};
   return &hash;
 }
@@ -41,10 +41,10 @@ my_interfaces__srv__TurtleHead_Response__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0xad, 0xd2, 0x93, 0x41, 0xc8, 0x05, 0x11, 0x4e,
-      0x9b, 0xf1, 0xaf, 0x48, 0xe9, 0x51, 0xa9, 0xce,
-      0x7c, 0x54, 0xa7, 0x41, 0x7c, 0x61, 0xf4, 0x6b,
-      0xcd, 0xae, 0x7f, 0xd3, 0x11, 0xc8, 0x16, 0x5c,
+      0xe5, 0xf8, 0x04, 0xd2, 0x4e, 0x09, 0x58, 0x41,
+      0x10, 0xb7, 0x19, 0x99, 0xb9, 0x97, 0x6d, 0x7f,
+      0xde, 0x9a, 0x6b, 0x8f, 0x88, 0xe7, 0x1c, 0x1b,
+      0xae, 0xf6, 0xca, 0x6c, 0x84, 0x41, 0xe4, 0x56,
     }};
   return &hash;
 }
@@ -56,10 +56,10 @@ my_interfaces__srv__TurtleHead_Event__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x3d, 0xb5, 0x5e, 0x78, 0xf5, 0x08, 0x23, 0x65,
-      0xee, 0x7e, 0xdf, 0x24, 0x20, 0x84, 0x3f, 0x37,
-      0xfd, 0x48, 0x69, 0xda, 0x1e, 0x34, 0x03, 0x90,
-      0x0a, 0x66, 0xfa, 0x4e, 0x2e, 0xf8, 0x7d, 0xd3,
+      0x67, 0xfc, 0xdd, 0x96, 0x3c, 0x0d, 0x14, 0xca,
+      0xdb, 0xd4, 0x2f, 0x49, 0x8c, 0xce, 0xf2, 0xc9,
+      0xac, 0x45, 0x18, 0x4b, 0xb7, 0xfd, 0x0a, 0x03,
+      0x10, 0x7a, 0x58, 0xfc, 0x73, 0x66, 0xfc, 0x93,
     }};
   return &hash;
 }
@@ -68,8 +68,8 @@ my_interfaces__srv__TurtleHead_Event__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "service_msgs/msg/detail/service_event_info__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
+#include "service_msgs/msg/detail/service_event_info__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG
@@ -238,12 +238,23 @@ my_interfaces__srv__TurtleHead_Request__get_type_description(
 }
 // Define type names, field names, and default values
 static char my_interfaces__srv__TurtleHead_Response__FIELD_NAME__success[] = "success";
+static char my_interfaces__srv__TurtleHead_Response__FIELD_NAME__nearest[] = "nearest";
 
 static rosidl_runtime_c__type_description__Field my_interfaces__srv__TurtleHead_Response__FIELDS[] = {
   {
     {my_interfaces__srv__TurtleHead_Response__FIELD_NAME__success, 7, 7},
     {
       rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_BOOLEAN,
+      0,
+      0,
+      {NULL, 0, 0},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {my_interfaces__srv__TurtleHead_Response__FIELD_NAME__nearest, 7, 7},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_STRING_UNBOUNDED_SEQUENCE,
       0,
       0,
       {NULL, 0, 0},
@@ -261,7 +272,7 @@ my_interfaces__srv__TurtleHead_Response__get_type_description(
   static const rosidl_runtime_c__type_description__TypeDescription description = {
     {
       {my_interfaces__srv__TurtleHead_Response__TYPE_NAME, 37, 37},
-      {my_interfaces__srv__TurtleHead_Response__FIELDS, 1, 1},
+      {my_interfaces__srv__TurtleHead_Response__FIELDS, 2, 2},
     },
     {NULL, 0, 0},
   };
@@ -357,7 +368,8 @@ static char toplevel_type_raw_source[] =
   "float64 x\n"
   "float64 y\n"
   "---\n"
-  "bool success";
+  "bool success\n"
+  "string[] nearest";
 
 static char srv_encoding[] = "srv";
 static char implicit_encoding[] = "implicit";
@@ -372,7 +384,7 @@ my_interfaces__srv__TurtleHead__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {my_interfaces__srv__TurtleHead__TYPE_NAME, 28, 28},
     {srv_encoding, 3, 3},
-    {toplevel_type_raw_source, 48, 48},
+    {toplevel_type_raw_source, 65, 65},
   };
   return &source;
 }

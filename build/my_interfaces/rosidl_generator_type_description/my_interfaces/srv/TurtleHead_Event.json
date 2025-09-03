@@ -108,6 +108,16 @@
               "nested_type_name": ""
             },
             "default_value": ""
+          },
+          {
+            "name": "nearest",
+            "type": {
+              "type_id": 161,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
           }
         ]
       },
@@ -161,7 +171,7 @@
   "type_hashes": [
     {
       "type_name": "my_interfaces/srv/TurtleHead_Event",
-      "hash_string": "RIHS01_3db55e78f5082365ee7edf2420843f37fd4869da1e3403900a66fa4e2ef87dd3"
+      "hash_string": "RIHS01_67fcdd963c0d14cadbd42f498ccef2c9ac45184bb7fd0a03107a58fc7366fc93"
     },
     {
       "type_name": "builtin_interfaces/msg/Time",
@@ -173,7 +183,7 @@
     },
     {
       "type_name": "my_interfaces/srv/TurtleHead_Response",
-      "hash_string": "RIHS01_add29341c805114e9bf1af48e951a9ce7c54a7417c61f46bcdae7fd311c8165c"
+      "hash_string": "RIHS01_e5f804d24e09584110b71999b9976d7fde9a6b8f88e71c1baef6ca6c8441e456"
     },
     {
       "type_name": "service_msgs/msg/ServiceEventInfo",

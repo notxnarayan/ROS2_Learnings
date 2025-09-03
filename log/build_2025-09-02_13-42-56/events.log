@@ -1,0 +1,582 @@
+[0.000000] (-) TimerEvent: {}
+[0.000624] (TransNum) JobQueued: {'identifier': 'TransNum', 'dependencies': OrderedDict()}
+[0.001292] (my_interfaces) JobQueued: {'identifier': 'my_interfaces', 'dependencies': OrderedDict()}
+[0.002496] (led_activity) JobQueued: {'identifier': 'led_activity', 'dependencies': OrderedDict({'my_interfaces': '/home/narayan/ros2_ws/install/my_interfaces'})}
+[0.003698] (onepkg) JobQueued: {'identifier': 'onepkg', 'dependencies': OrderedDict({'my_interfaces': '/home/narayan/ros2_ws/install/my_interfaces'})}
+[0.004002] (turtle_sim) JobQueued: {'identifier': 'turtle_sim', 'dependencies': OrderedDict({'my_interfaces': '/home/narayan/ros2_ws/install/my_interfaces'})}
+[0.004196] (launch_file) JobQueued: {'identifier': 'launch_file', 'dependencies': OrderedDict({'TransNum': '/home/narayan/ros2_ws/install/TransNum', 'my_interfaces': '/home/narayan/ros2_ws/install/my_interfaces', 'onepkg': '/home/narayan/ros2_ws/install/onepkg', 'turtle_sim': '/home/narayan/ros2_ws/install/turtle_sim'})}
+[0.004440] (my_interfaces) JobStarted: {'identifier': 'my_interfaces'}
+[0.051636] (TransNum) JobStarted: {'identifier': 'TransNum'}
+[0.099273] (-) TimerEvent: {}
+[0.103344] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'cmake'}
+[0.111131] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'build'}
+[0.113793] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/narayan/ros2_ws/build/my_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/narayan/ros2_ws/build/my_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '9b0f19e1-78dc-4b7b-bf22-4c9b462c49b3', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/narayan/ros2_ws/install/my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2037', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3045', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:18251', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2251,unix/narayan-desktop:/tmp/.ICE-unix/2251', 'INVOCATION_ID': '568e6029930f4727bf63a7164f258414', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TMP4B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0efa59bd-d3ed-49ab-a33f-b8c2860d0fae', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/my_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy'}), 'shell': False}
+[0.199459] (-) TimerEvent: {}
+[0.300243] (-) TimerEvent: {}
+[0.400931] (-) TimerEvent: {}
+[0.504622] (-) TimerEvent: {}
+[0.605815] (-) TimerEvent: {}
+[0.706940] (-) TimerEvent: {}
+[0.808010] (-) TimerEvent: {}
+[0.909049] (-) TimerEvent: {}
+[1.009771] (-) TimerEvent: {}
+[1.110488] (-) TimerEvent: {}
+[1.154701] (my_interfaces) StdoutLine: {'line': b'[  1%] Built target my_interfaces__rosidl_generator_type_description\n'}
+[1.210706] (-) TimerEvent: {}
+[1.313707] (-) TimerEvent: {}
+[1.417984] (-) TimerEvent: {}
+[1.446490] (my_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_my_interfaces\n'}
+[1.518296] (-) TimerEvent: {}
+[1.595401] (my_interfaces) StdoutLine: {'line': b'[  3%] Built target my_interfaces__cpp\n'}
+[1.618472] (-) TimerEvent: {}
+[1.719839] (-) TimerEvent: {}
+[1.821064] (-) TimerEvent: {}
+[1.922389] (-) TimerEvent: {}
+[2.023102] (-) TimerEvent: {}
+[2.126644] (-) TimerEvent: {}
+[2.227918] (-) TimerEvent: {}
+[2.330804] (-) TimerEvent: {}
+[2.431560] (-) TimerEvent: {}
+[2.535629] (-) TimerEvent: {}
+[2.636280] (-) TimerEvent: {}
+[2.736901] (-) TimerEvent: {}
+[2.838786] (-) TimerEvent: {}
+[2.925977] (my_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.938946] (-) TimerEvent: {}
+[3.039649] (-) TimerEvent: {}
+[3.058787] (my_interfaces) StdoutLine: {'line': b'writing my_interfaces.egg-info/PKG-INFO\n'}
+[3.059803] (my_interfaces) StdoutLine: {'line': b'writing dependency_links to my_interfaces.egg-info/dependency_links.txt\n'}
+[3.060672] (my_interfaces) StdoutLine: {'line': b'writing top-level names to my_interfaces.egg-info/top_level.txt\n'}
+[3.139823] (-) TimerEvent: {}
+[3.240608] (-) TimerEvent: {}
+[3.344476] (-) TimerEvent: {}
+[3.445112] (-) TimerEvent: {}
+[3.463854] (my_interfaces) StdoutLine: {'line': b"reading manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[3.467189] (my_interfaces) StdoutLine: {'line': b"writing manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[3.545417] (-) TimerEvent: {}
+[3.628817] (my_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_my_interfaces_egg\n'}
+[3.645602] (-) TimerEvent: {}
+[3.746327] (-) TimerEvent: {}
+[3.846995] (-) TimerEvent: {}
+[3.885223] (my_interfaces) StdoutLine: {'line': b'[ 25%] Built target my_interfaces__rosidl_generator_c\n'}
+[3.948997] (-) TimerEvent: {}
+[4.049838] (-) TimerEvent: {}
+[4.097731] (my_interfaces) StdoutLine: {'line': b'[ 34%] Built target my_interfaces__rosidl_typesupport_cpp\n'}
+[4.150045] (-) TimerEvent: {}
+[4.250867] (-) TimerEvent: {}
+[4.290449] (my_interfaces) StdoutLine: {'line': b'[ 43%] Built target my_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.351130] (-) TimerEvent: {}
+[4.446530] (my_interfaces) StdoutLine: {'line': b'[ 53%] Built target my_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.451291] (-) TimerEvent: {}
+[4.552020] (-) TimerEvent: {}
+[4.600629] (my_interfaces) StdoutLine: {'line': b'[ 62%] Built target my_interfaces__rosidl_typesupport_c\n'}
+[4.654331] (-) TimerEvent: {}
+[4.755107] (-) TimerEvent: {}
+[4.768050] (my_interfaces) StdoutLine: {'line': b'[ 71%] Built target my_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.855277] (-) TimerEvent: {}
+[4.922738] (my_interfaces) StdoutLine: {'line': b'[ 81%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.955437] (-) TimerEvent: {}
+[5.036452] (my_interfaces) StdoutLine: {'line': b'[ 81%] Built target my_interfaces\n'}
+[5.055591] (-) TimerEvent: {}
+[5.156009] (my_interfaces) StdoutLine: {'line': b'[ 82%] Built target my_interfaces__py\n'}
+[5.156706] (-) TimerEvent: {}
+[5.260512] (-) TimerEvent: {}
+[5.365392] (my_interfaces) StdoutLine: {'line': b'[ 90%] Built target my_interfaces__rosidl_generator_py\n'}
+[5.366101] (-) TimerEvent: {}
+[5.467074] (-) TimerEvent: {}
+[5.556462] (my_interfaces) StdoutLine: {'line': b'[ 93%] Built target my_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[5.568364] (-) TimerEvent: {}
+[5.672302] (-) TimerEvent: {}
+[5.737982] (my_interfaces) StdoutLine: {'line': b'[ 96%] Built target my_interfaces_s__rosidl_typesupport_c\n'}
+[5.777328] (-) TimerEvent: {}
+[5.878083] (-) TimerEvent: {}
+[5.980879] (-) TimerEvent: {}
+[6.065201] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[6.085371] (-) TimerEvent: {}
+[6.163645] (my_interfaces) CommandEnded: {'returncode': 0}
+[6.177348] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'install'}
+[6.185558] (-) TimerEvent: {}
+[6.241478] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/narayan/ros2_ws/build/my_interfaces'], 'cwd': '/home/narayan/ros2_ws/build/my_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '9b0f19e1-78dc-4b7b-bf22-4c9b462c49b3', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/narayan/ros2_ws/install/my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2037', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3045', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:18251', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2251,unix/narayan-desktop:/tmp/.ICE-unix/2251', 'INVOCATION_ID': '568e6029930f4727bf63a7164f258414', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TMP4B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0efa59bd-d3ed-49ab-a33f-b8c2860d0fae', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/my_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy'}), 'shell': False}
+[6.285796] (-) TimerEvent: {}
+[6.309669] (my_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.318449] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces\n'}
+[6.320819] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HdStatus.json\n'}
+[6.321941] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/msg/LEDstatus.json\n'}
+[6.322705] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/srv/SetLED.json\n'}
+[6.326088] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/srv/TurtleHead.json\n'}
+[6.335272] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[6.339092] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[6.343086] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/set_led.h\n'}
+[6.343655] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/turtle_head.h\n'}
+[6.345099] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[6.346609] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__functions.c\n'}
+[6.348247] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__struct.h\n'}
+[6.348757] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__type_support.c\n'}
+[6.351532] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__type_support.c\n'}
+[6.356567] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__type_support.h\n'}
+[6.357723] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__functions.h\n'}
+[6.358099] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__description.c\n'}
+[6.358508] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__description.c\n'}
+[6.358831] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__functions.h\n'}
+[6.359130] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__type_support.h\n'}
+[6.359507] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__functions.c\n'}
+[6.359827] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__struct.h\n'}
+[6.360118] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[6.363309] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/le_dstatus.h\n'}
+[6.363938] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/hd_status.h\n'}
+[6.364513] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.366075] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[6.366576] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__description.c\n'}
+[6.367087] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__type_support.h\n'}
+[6.367741] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__type_support.c\n'}
+[6.368826] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__functions.c\n'}
+[6.369901] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__description.c\n'}
+[6.370377] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__struct.h\n'}
+[6.370810] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__functions.h\n'}
+[6.371165] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__type_support.h\n'}
+[6.371623] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__struct.h\n'}
+[6.372077] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__functions.c\n'}
+[6.372594] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__functions.h\n'}
+[6.373052] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__type_support.c\n'}
+[6.373723] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh\n'}
+[6.374159] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv\n'}
+[6.378493] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so\n'}
+[6.379824] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[6.380574] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[6.381126] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[6.381829] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[6.382413] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__rosidl_typesupport_fastrtps_c.h\n'}
+[6.383061] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[6.383845] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.384307] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[6.384679] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__rosidl_typesupport_fastrtps_c.h\n'}
+[6.385004] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__rosidl_typesupport_fastrtps_c.h\n'}
+[6.385898] (-) TimerEvent: {}
+[6.390101] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[6.395326] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[6.396905] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[6.398641] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[6.399219] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__type_support.c\n'}
+[6.399896] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__type_support.c\n'}
+[6.403427] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__rosidl_typesupport_introspection_c.h\n'}
+[6.403956] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[6.404438] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[6.404904] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.405315] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[6.405952] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__rosidl_typesupport_introspection_c.h\n'}
+[6.406667] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__type_support.c\n'}
+[6.408918] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__rosidl_typesupport_introspection_c.h\n'}
+[6.409410] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__type_support.c\n'}
+[6.411438] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[6.415612] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so\n'}
+[6.417049] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[6.417663] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[6.418232] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/set_led.hpp\n'}
+[6.418884] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/turtle_head.hpp\n'}
+[6.419617] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[6.420320] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__builder.hpp\n'}
+[6.421074] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__struct.hpp\n'}
+[6.421974] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__traits.hpp\n'}
+[6.422434] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__type_support.hpp\n'}
+[6.422823] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__builder.hpp\n'}
+[6.423151] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__type_support.hpp\n'}
+[6.423833] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__traits.hpp\n'}
+[6.424520] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__struct.hpp\n'}
+[6.425628] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[6.426660] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.427669] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/le_dstatus.hpp\n'}
+[6.428565] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/hd_status.hpp\n'}
+[6.429050] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[6.429485] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__type_support.hpp\n'}
+[6.429946] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__type_support.hpp\n'}
+[6.433235] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__struct.hpp\n'}
+[6.434760] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__traits.hpp\n'}
+[6.436265] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__builder.hpp\n'}
+[6.437417] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__builder.hpp\n'}
+[6.438502] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__traits.hpp\n'}
+[6.439753] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__struct.hpp\n'}
+[6.440864] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[6.443602] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[6.445716] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[6.447691] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/dds_fastrtps\n'}
+[6.449364] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.450430] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.451372] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[6.452547] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.453831] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[6.455008] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.456116] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.457419] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dds_fastrtps\n'}
+[6.459057] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.460044] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[6.461221] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[6.462366] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[6.464001] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.465443] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/turtle_head__type_support.cpp\n'}
+[6.466207] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__type_support.cpp\n'}
+[6.467206] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.467847] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[6.469001] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[6.469985] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__type_support.cpp\n'}
+[6.471122] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hd_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.472128] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__type_support.cpp\n'}
+[6.473754] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/le_dstatus__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.475905] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[6.478399] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so\n'}
+[6.480823] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh\n'}
+[6.482213] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv\n'}
+[6.486476] (-) TimerEvent: {}
+[6.491995] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info\n'}
+[6.493561] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[6.496748] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[6.505016] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[6.507664] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[6.509984] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces\n'}
+[6.511490] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.512846] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/srv\n'}
+[6.514044] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/srv/__init__.py\n'}
+[6.515980] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/srv/_turtle_head_s.c\n'}
+[6.517034] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/srv/_turtle_head.py\n'}
+[6.518274] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/srv/_set_led_s.c\n'}
+[6.519661] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/srv/_set_led.py\n'}
+[6.520841] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[6.522091] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.so\n'}
+[6.523229] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg\n'}
+[6.524356] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg/_hd_status_s.c\n'}
+[6.525419] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg/_hd_status.py\n'}
+[6.526590] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg/_le_dstatus_s.c\n'}
+[6.527535] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg/_le_dstatus.py\n'}
+[6.528302] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg/__init__.py\n'}
+[6.529589] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.531146] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/__init__.py\n'}
+[6.532214] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.532970] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[6.589556] (-) TimerEvent: {}
+[6.675561] (TransNum) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/TransNum', 'build', '--build-base', '/home/narayan/ros2_ws/build/TransNum/build', 'install', '--record', '/home/narayan/ros2_ws/build/TransNum/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/narayan/ros2_ws/src/TransNum', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '9b0f19e1-78dc-4b7b-bf22-4c9b462c49b3', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/narayan/ros2_ws/install/my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2037', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3045', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:18251', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2251,unix/narayan-desktop:/tmp/.ICE-unix/2251', 'INVOCATION_ID': '568e6029930f4727bf63a7164f258414', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TMP4B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0efa59bd-d3ed-49ab-a33f-b8c2860d0fae', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/TransNum', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/build/TransNum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.689705] (-) TimerEvent: {}
+[6.782164] (my_interfaces) StdoutLine: {'line': b"Listing '/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces'...\n"}
+[6.782878] (my_interfaces) StdoutLine: {'line': b"Listing '/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/msg'...\n"}
+[6.783740] (my_interfaces) StdoutLine: {'line': b"Listing '/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/srv'...\n"}
+[6.790407] (-) TimerEvent: {}
+[6.827494] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.833060] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[6.836979] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.so\n'}
+[6.841292] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so\n'}
+[6.842789] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HdStatus.idl\n'}
+[6.843931] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/msg/LEDstatus.idl\n'}
+[6.844788] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/srv/SetLED.idl\n'}
+[6.845258] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/srv/TurtleHead.idl\n'}
+[6.846021] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HdStatus.msg\n'}
+[6.846896] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/msg/LEDstatus.msg\n'}
+[6.847494] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/srv/SetLED.srv\n'}
+[6.848470] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/srv/TurtleHead.srv\n'}
+[6.848957] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces\n'}
+[6.849532] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces\n'}
+[6.849983] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh\n'}
+[6.851541] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv\n'}
+[6.852103] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.sh\n'}
+[6.852614] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv\n'}
+[6.852934] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.bash\n'}
+[6.853591] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.sh\n'}
+[6.854131] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh\n'}
+[6.854629] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv\n'}
+[6.855435] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/package.dsv\n'}
+[6.855920] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces\n'}
+[6.858850] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake\n'}
+[6.859722] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.861681] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.862531] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.864574] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.865497] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.867493] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[6.868439] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.870467] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake\n'}
+[6.872593] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.873388] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.875403] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.876330] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.878500] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[6.879867] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.881094] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake\n'}
+[6.882041] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.883384] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[6.883968] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.884570] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.885136] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.886456] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.887002] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.887640] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.888259] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake\n'}
+[6.888861] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake\n'}
+[6.889857] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/my_interfaces/share/my_interfaces/package.xml\n'}
+[6.890403] (-) TimerEvent: {}
+[6.904911] (my_interfaces) CommandEnded: {'returncode': 0}
+[6.990711] (-) TimerEvent: {}
+[7.044226] (my_interfaces) JobEnded: {'identifier': 'my_interfaces', 'rc': 0}
+[7.050591] (onepkg) JobStarted: {'identifier': 'onepkg'}
+[7.088480] (turtle_sim) JobStarted: {'identifier': 'turtle_sim'}
+[7.090963] (-) TimerEvent: {}
+[7.130763] (led_activity) JobStarted: {'identifier': 'led_activity'}
+[7.191124] (-) TimerEvent: {}
+[7.291846] (-) TimerEvent: {}
+[7.392662] (-) TimerEvent: {}
+[7.493500] (-) TimerEvent: {}
+[7.597665] (-) TimerEvent: {}
+[7.698387] (-) TimerEvent: {}
+[7.799018] (-) TimerEvent: {}
+[7.901218] (-) TimerEvent: {}
+[8.001961] (-) TimerEvent: {}
+[8.105496] (-) TimerEvent: {}
+[8.206280] (-) TimerEvent: {}
+[8.261987] (TransNum) StdoutLine: {'line': b'running egg_info\n'}
+[8.306434] (-) TimerEvent: {}
+[8.368451] (TransNum) StdoutLine: {'line': b'writing ../../build/TransNum/TransNum.egg-info/PKG-INFO\n'}
+[8.370610] (TransNum) StdoutLine: {'line': b'writing dependency_links to ../../build/TransNum/TransNum.egg-info/dependency_links.txt\n'}
+[8.371871] (TransNum) StdoutLine: {'line': b'writing entry points to ../../build/TransNum/TransNum.egg-info/entry_points.txt\n'}
+[8.372708] (TransNum) StdoutLine: {'line': b'writing requirements to ../../build/TransNum/TransNum.egg-info/requires.txt\n'}
+[8.373611] (TransNum) StdoutLine: {'line': b'writing top-level names to ../../build/TransNum/TransNum.egg-info/top_level.txt\n'}
+[8.406592] (-) TimerEvent: {}
+[8.510490] (-) TimerEvent: {}
+[8.611288] (-) TimerEvent: {}
+[8.612364] (TransNum) StdoutLine: {'line': b"reading manifest file '../../build/TransNum/TransNum.egg-info/SOURCES.txt'\n"}
+[8.619059] (TransNum) StdoutLine: {'line': b"writing manifest file '../../build/TransNum/TransNum.egg-info/SOURCES.txt'\n"}
+[8.621044] (TransNum) StdoutLine: {'line': b'running build\n'}
+[8.621786] (TransNum) StdoutLine: {'line': b'running build_py\n'}
+[8.625200] (TransNum) StdoutLine: {'line': b'running install\n'}
+[8.651308] (TransNum) StdoutLine: {'line': b'running install_lib\n'}
+[8.711449] (-) TimerEvent: {}
+[8.762107] (TransNum) StdoutLine: {'line': b'running install_data\n'}
+[8.763581] (TransNum) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.811622] (-) TimerEvent: {}
+[8.866210] (TransNum) StdoutLine: {'line': b"removing '/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[8.869464] (TransNum) StdoutLine: {'line': b'Copying ../../build/TransNum/TransNum.egg-info to /home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum-0.0.0-py3.12.egg-info\n'}
+[8.875149] (TransNum) StdoutLine: {'line': b'running install_scripts\n'}
+[8.911772] (-) TimerEvent: {}
+[9.012599] (-) TimerEvent: {}
+[9.115544] (-) TimerEvent: {}
+[9.219738] (-) TimerEvent: {}
+[9.320931] (-) TimerEvent: {}
+[9.421788] (-) TimerEvent: {}
+[9.525558] (-) TimerEvent: {}
+[9.626654] (-) TimerEvent: {}
+[9.702601] (TransNum) StdoutLine: {'line': b'Installing number_publisher script to /home/narayan/ros2_ws/install/TransNum/lib/TransNum\n'}
+[9.704917] (TransNum) StdoutLine: {'line': b'Installing two_way script to /home/narayan/ros2_ws/install/TransNum/lib/TransNum\n'}
+[9.706798] (TransNum) StdoutLine: {'line': b"writing list of installed files to '/home/narayan/ros2_ws/build/TransNum/install.log'\n"}
+[9.726911] (-) TimerEvent: {}
+[9.828058] (-) TimerEvent: {}
+[9.928946] (-) TimerEvent: {}
+[10.029639] (-) TimerEvent: {}
+[10.130274] (-) TimerEvent: {}
+[10.230881] (-) TimerEvent: {}
+[10.331643] (-) TimerEvent: {}
+[10.398643] (TransNum) CommandEnded: {'returncode': 0}
+[10.432230] (TransNum) JobEnded: {'identifier': 'TransNum', 'rc': 0}
+[10.437083] (-) TimerEvent: {}
+[10.540857] (-) TimerEvent: {}
+[10.641640] (-) TimerEvent: {}
+[10.742313] (-) TimerEvent: {}
+[10.844573] (-) TimerEvent: {}
+[10.945356] (-) TimerEvent: {}
+[11.046129] (-) TimerEvent: {}
+[11.149514] (-) TimerEvent: {}
+[11.250250] (-) TimerEvent: {}
+[11.353518] (-) TimerEvent: {}
+[11.454870] (-) TimerEvent: {}
+[11.555566] (-) TimerEvent: {}
+[11.656238] (-) TimerEvent: {}
+[11.758775] (-) TimerEvent: {}
+[11.859711] (-) TimerEvent: {}
+[11.961413] (-) TimerEvent: {}
+[12.062154] (-) TimerEvent: {}
+[12.163372] (-) TimerEvent: {}
+[12.266651] (-) TimerEvent: {}
+[12.369956] (-) TimerEvent: {}
+[12.470732] (-) TimerEvent: {}
+[12.571900] (-) TimerEvent: {}
+[12.675650] (-) TimerEvent: {}
+[12.776859] (-) TimerEvent: {}
+[12.880637] (-) TimerEvent: {}
+[12.984613] (-) TimerEvent: {}
+[13.085432] (-) TimerEvent: {}
+[13.186113] (-) TimerEvent: {}
+[13.289522] (-) TimerEvent: {}
+[13.390647] (-) TimerEvent: {}
+[13.491772] (-) TimerEvent: {}
+[13.595684] (-) TimerEvent: {}
+[13.700863] (-) TimerEvent: {}
+[13.802709] (-) TimerEvent: {}
+[13.873550] (onepkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/onepkg', 'build', '--build-base', '/home/narayan/ros2_ws/build/onepkg/build', 'install', '--record', '/home/narayan/ros2_ws/build/onepkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/narayan/ros2_ws/src/onepkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '9b0f19e1-78dc-4b7b-bf22-4c9b462c49b3', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/narayan/ros2_ws/install/my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2037', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3045', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:18251', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2251,unix/narayan-desktop:/tmp/.ICE-unix/2251', 'INVOCATION_ID': '568e6029930f4727bf63a7164f258414', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TMP4B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0efa59bd-d3ed-49ab-a33f-b8c2860d0fae', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/onepkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[13.898512] (turtle_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_sim', 'build', '--build-base', '/home/narayan/ros2_ws/build/turtle_sim/build', 'install', '--record', '/home/narayan/ros2_ws/build/turtle_sim/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/narayan/ros2_ws/src/turtle_sim', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '9b0f19e1-78dc-4b7b-bf22-4c9b462c49b3', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/narayan/ros2_ws/install/my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2037', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3045', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:18251', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2251,unix/narayan-desktop:/tmp/.ICE-unix/2251', 'INVOCATION_ID': '568e6029930f4727bf63a7164f258414', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TMP4B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0efa59bd-d3ed-49ab-a33f-b8c2860d0fae', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/turtle_sim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/build/turtle_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[13.910643] (-) TimerEvent: {}
+[13.972624] (led_activity) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/led_activity', 'build', '--build-base', '/home/narayan/ros2_ws/build/led_activity/build', 'install', '--record', '/home/narayan/ros2_ws/build/led_activity/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/narayan/ros2_ws/src/led_activity', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '9b0f19e1-78dc-4b7b-bf22-4c9b462c49b3', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/narayan/ros2_ws/install/my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2037', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3045', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:18251', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2251,unix/narayan-desktop:/tmp/.ICE-unix/2251', 'INVOCATION_ID': '568e6029930f4727bf63a7164f258414', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TMP4B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0efa59bd-d3ed-49ab-a33f-b8c2860d0fae', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/led_activity', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/build/led_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[14.010805] (-) TimerEvent: {}
+[14.114719] (-) TimerEvent: {}
+[14.217739] (-) TimerEvent: {}
+[14.318770] (-) TimerEvent: {}
+[14.422250] (-) TimerEvent: {}
+[14.526563] (-) TimerEvent: {}
+[14.627439] (-) TimerEvent: {}
+[14.730042] (-) TimerEvent: {}
+[14.834318] (-) TimerEvent: {}
+[14.935032] (-) TimerEvent: {}
+[15.040277] (-) TimerEvent: {}
+[15.155618] (-) TimerEvent: {}
+[15.259341] (-) TimerEvent: {}
+[15.360160] (-) TimerEvent: {}
+[15.463621] (-) TimerEvent: {}
+[15.567630] (-) TimerEvent: {}
+[15.669595] (-) TimerEvent: {}
+[15.772386] (-) TimerEvent: {}
+[15.873157] (-) TimerEvent: {}
+[15.913269] (onepkg) StdoutLine: {'line': b'running egg_info\n'}
+[15.977508] (-) TimerEvent: {}
+[16.025606] (led_activity) StdoutLine: {'line': b'running egg_info\n'}
+[16.075701] (onepkg) StdoutLine: {'line': b'writing ../../build/onepkg/onepkg.egg-info/PKG-INFO\n'}
+[16.082330] (onepkg) StdoutLine: {'line': b'writing dependency_links to ../../build/onepkg/onepkg.egg-info/dependency_links.txt\n'}
+[16.083068] (-) TimerEvent: {}
+[16.091019] (onepkg) StdoutLine: {'line': b'writing entry points to ../../build/onepkg/onepkg.egg-info/entry_points.txt\n'}
+[16.092087] (onepkg) StdoutLine: {'line': b'writing requirements to ../../build/onepkg/onepkg.egg-info/requires.txt\n'}
+[16.100226] (onepkg) StdoutLine: {'line': b'writing top-level names to ../../build/onepkg/onepkg.egg-info/top_level.txt\n'}
+[16.111402] (turtle_sim) StdoutLine: {'line': b'running egg_info\n'}
+[16.185327] (-) TimerEvent: {}
+[16.274976] (led_activity) StdoutLine: {'line': b'writing ../../build/led_activity/led_activity.egg-info/PKG-INFO\n'}
+[16.279872] (led_activity) StdoutLine: {'line': b'writing dependency_links to ../../build/led_activity/led_activity.egg-info/dependency_links.txt\n'}
+[16.283446] (led_activity) StdoutLine: {'line': b'writing entry points to ../../build/led_activity/led_activity.egg-info/entry_points.txt\n'}
+[16.287082] (-) TimerEvent: {}
+[16.290555] (led_activity) StdoutLine: {'line': b'writing requirements to ../../build/led_activity/led_activity.egg-info/requires.txt\n'}
+[16.291393] (led_activity) StdoutLine: {'line': b'writing top-level names to ../../build/led_activity/led_activity.egg-info/top_level.txt\n'}
+[16.335548] (turtle_sim) StdoutLine: {'line': b'writing ../../build/turtle_sim/turtle_sim.egg-info/PKG-INFO\n'}
+[16.343849] (turtle_sim) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_sim/turtle_sim.egg-info/dependency_links.txt\n'}
+[16.344566] (turtle_sim) StdoutLine: {'line': b'writing entry points to ../../build/turtle_sim/turtle_sim.egg-info/entry_points.txt\n'}
+[16.345067] (turtle_sim) StdoutLine: {'line': b'writing requirements to ../../build/turtle_sim/turtle_sim.egg-info/requires.txt\n'}
+[16.345661] (turtle_sim) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_sim/turtle_sim.egg-info/top_level.txt\n'}
+[16.390321] (-) TimerEvent: {}
+[16.479374] (onepkg) StdoutLine: {'line': b"reading manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'\n"}
+[16.493325] (-) TimerEvent: {}
+[16.496633] (onepkg) StdoutLine: {'line': b"writing manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'\n"}
+[16.500515] (onepkg) StdoutLine: {'line': b'running build\n'}
+[16.501273] (onepkg) StdoutLine: {'line': b'running build_py\n'}
+[16.520327] (onepkg) StdoutLine: {'line': b'running install\n'}
+[16.557297] (onepkg) StdoutLine: {'line': b'running install_lib\n'}
+[16.594376] (-) TimerEvent: {}
+[16.643044] (led_activity) StdoutLine: {'line': b"reading manifest file '../../build/led_activity/led_activity.egg-info/SOURCES.txt'\n"}
+[16.662326] (led_activity) StdoutLine: {'line': b"writing manifest file '../../build/led_activity/led_activity.egg-info/SOURCES.txt'\n"}
+[16.663134] (led_activity) StdoutLine: {'line': b'running build\n'}
+[16.663829] (led_activity) StdoutLine: {'line': b'running build_py\n'}
+[16.697753] (-) TimerEvent: {}
+[16.707322] (led_activity) StdoutLine: {'line': b'running install\n'}
+[16.752130] (led_activity) StdoutLine: {'line': b'running install_lib\n'}
+[16.771624] (onepkg) StdoutLine: {'line': b'running install_data\n'}
+[16.775111] (onepkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.792522] (turtle_sim) StdoutLine: {'line': b"reading manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'\n"}
+[16.800321] (-) TimerEvent: {}
+[16.807352] (turtle_sim) StdoutLine: {'line': b"writing manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'\n"}
+[16.815445] (turtle_sim) StdoutLine: {'line': b'running build\n'}
+[16.816281] (turtle_sim) StdoutLine: {'line': b'running build_py\n'}
+[16.826895] (turtle_sim) StdoutLine: {'line': b'copying turtle_sim/turtle1.py -> /home/narayan/ros2_ws/build/turtle_sim/build/lib/turtle_sim\n'}
+[16.831119] (turtle_sim) StdoutLine: {'line': b'running install\n'}
+[16.872305] (turtle_sim) StdoutLine: {'line': b'running install_lib\n'}
+[16.900507] (-) TimerEvent: {}
+[16.983487] (led_activity) StdoutLine: {'line': b'running install_data\n'}
+[16.988351] (led_activity) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.000770] (-) TimerEvent: {}
+[17.006332] (onepkg) StdoutLine: {'line': b"removing '/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[17.020029] (onepkg) StdoutLine: {'line': b'Copying ../../build/onepkg/onepkg.egg-info to /home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info\n'}
+[17.044512] (onepkg) StdoutLine: {'line': b'running install_scripts\n'}
+[17.068998] (turtle_sim) StdoutLine: {'line': b'copying /home/narayan/ros2_ws/build/turtle_sim/build/lib/turtle_sim/turtle1.py -> /home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim\n'}
+[17.078317] (turtle_sim) StdoutLine: {'line': b'byte-compiling /home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim/turtle1.py to turtle1.cpython-312.pyc\n'}
+[17.083351] (turtle_sim) StdoutLine: {'line': b'running install_data\n'}
+[17.086336] (turtle_sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.103346] (-) TimerEvent: {}
+[17.210333] (-) TimerEvent: {}
+[17.280313] (led_activity) StdoutLine: {'line': b"removing '/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[17.287380] (led_activity) StdoutLine: {'line': b'Copying ../../build/led_activity/led_activity.egg-info to /home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity-0.0.0-py3.12.egg-info\n'}
+[17.309001] (led_activity) StdoutLine: {'line': b'running install_scripts\n'}
+[17.310516] (-) TimerEvent: {}
+[17.362393] (turtle_sim) StdoutLine: {'line': b"removing '/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[17.366378] (turtle_sim) StdoutLine: {'line': b'Copying ../../build/turtle_sim/turtle_sim.egg-info to /home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim-0.0.0-py3.12.egg-info\n'}
+[17.390314] (turtle_sim) StdoutLine: {'line': b'running install_scripts\n'}
+[17.410717] (-) TimerEvent: {}
+[17.514886] (-) TimerEvent: {}
+[17.617445] (-) TimerEvent: {}
+[17.718283] (-) TimerEvent: {}
+[17.819165] (-) TimerEvent: {}
+[17.922294] (-) TimerEvent: {}
+[18.023006] (-) TimerEvent: {}
+[18.124322] (-) TimerEvent: {}
+[18.227348] (-) TimerEvent: {}
+[18.329975] (-) TimerEvent: {}
+[18.432433] (-) TimerEvent: {}
+[18.534336] (-) TimerEvent: {}
+[18.550770] (onepkg) StdoutLine: {'line': b'Installing client script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg\n'}
+[18.554668] (onepkg) StdoutLine: {'line': b'Installing firstnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg\n'}
+[18.562447] (onepkg) StdoutLine: {'line': b'Installing interface_test script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg\n'}
+[18.563452] (onepkg) StdoutLine: {'line': b'Installing server script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg\n'}
+[18.571789] (onepkg) StdoutLine: {'line': b'Installing smphnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg\n'}
+[18.584402] (onepkg) StdoutLine: {'line': b'Installing transnode script to /home/narayan/ros2_ws/install/onepkg/lib/onepkg\n'}
+[18.586230] (onepkg) StdoutLine: {'line': b"writing list of installed files to '/home/narayan/ros2_ws/build/onepkg/install.log'\n"}
+[18.634647] (-) TimerEvent: {}
+[18.739648] (-) TimerEvent: {}
+[18.830842] (onepkg) CommandEnded: {'returncode': 0}
+[18.840679] (-) TimerEvent: {}
+[18.904844] (onepkg) JobEnded: {'identifier': 'onepkg', 'rc': 0}
+[18.940871] (-) TimerEvent: {}
+[19.046627] (-) TimerEvent: {}
+[19.147443] (-) TimerEvent: {}
+[19.230839] (led_activity) StdoutLine: {'line': b'Installing battery script to /home/narayan/ros2_ws/install/led_activity/lib/led_activity\n'}
+[19.233970] (led_activity) StdoutLine: {'line': b'Installing led_server script to /home/narayan/ros2_ws/install/led_activity/lib/led_activity\n'}
+[19.237351] (led_activity) StdoutLine: {'line': b"writing list of installed files to '/home/narayan/ros2_ws/build/led_activity/install.log'\n"}
+[19.247656] (-) TimerEvent: {}
+[19.265334] (turtle_sim) StdoutLine: {'line': b'Installing server script to /home/narayan/ros2_ws/install/turtle_sim/lib/turtle_sim\n'}
+[19.280786] (turtle_sim) StdoutLine: {'line': b'Installing spawner script to /home/narayan/ros2_ws/install/turtle_sim/lib/turtle_sim\n'}
+[19.282085] (turtle_sim) StdoutLine: {'line': b'Installing turtle script to /home/narayan/ros2_ws/install/turtle_sim/lib/turtle_sim\n'}
+[19.288443] (turtle_sim) StdoutLine: {'line': b"writing list of installed files to '/home/narayan/ros2_ws/build/turtle_sim/install.log'\n"}
+[19.352396] (-) TimerEvent: {}
+[19.453633] (-) TimerEvent: {}
+[19.512576] (led_activity) CommandEnded: {'returncode': 0}
+[19.554032] (-) TimerEvent: {}
+[19.586590] (led_activity) JobEnded: {'identifier': 'led_activity', 'rc': 0}
+[19.593472] (turtle_sim) CommandEnded: {'returncode': 0}
+[19.635462] (turtle_sim) JobEnded: {'identifier': 'turtle_sim', 'rc': 0}
+[19.639306] (launch_file) JobStarted: {'identifier': 'launch_file'}
+[19.657460] (-) TimerEvent: {}
+[19.758388] (-) TimerEvent: {}
+[19.762959] (launch_file) JobProgress: {'identifier': 'launch_file', 'progress': 'cmake'}
+[19.782961] (launch_file) JobProgress: {'identifier': 'launch_file', 'progress': 'build'}
+[19.783279] (launch_file) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/narayan/ros2_ws/build/launch_file', '--', '-j4', '-l4'], 'cwd': '/home/narayan/ros2_ws/build/launch_file', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '9b0f19e1-78dc-4b7b-bf22-4c9b462c49b3', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/narayan/ros2_ws/install/my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2037', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3045', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:18251', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2251,unix/narayan-desktop:/tmp/.ICE-unix/2251', 'INVOCATION_ID': '568e6029930f4727bf63a7164f258414', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TMP4B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0efa59bd-d3ed-49ab-a33f-b8c2860d0fae', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/launch_file', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy'}), 'shell': False}
+[19.861388] (-) TimerEvent: {}
+[19.963378] (-) TimerEvent: {}
+[20.064228] (-) TimerEvent: {}
+[20.103260] (launch_file) CommandEnded: {'returncode': 0}
+[20.108932] (launch_file) JobProgress: {'identifier': 'launch_file', 'progress': 'install'}
+[20.109874] (launch_file) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/narayan/ros2_ws/build/launch_file'], 'cwd': '/home/narayan/ros2_ws/build/launch_file', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '9b0f19e1-78dc-4b7b-bf22-4c9b462c49b3', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/narayan/ros2_ws/install/my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/narayan', 'OLDPWD': '/home/narayan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2037', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3045', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/narayan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'narayan', 'JOURNAL_STREAM': '8:18251', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/narayan-desktop:@/tmp/.ICE-unix/2251,unix/narayan-desktop:/tmp/.ICE-unix/2251', 'INVOCATION_ID': '568e6029930f4727bf63a7164f258414', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TMP4B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/home/narayan/ros2_ws/install/my_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0efa59bd-d3ed-49ab-a33f-b8c2860d0fae', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan/ros2_ws/build/launch_file', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/narayan/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/TransNum/lib/python3.12/site-packages:/home/narayan/ros2_ws/install/led_activity/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/narayan/ros2_ws/install/my_interfaces:/home/narayan/ros2_ws/install/launch_file:/home/narayan/ros2_ws/install/led_activity:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy'}), 'shell': False}
+[20.166780] (-) TimerEvent: {}
+[20.211885] (launch_file) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.212958] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/launch\n'}
+[20.227412] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/launch/radio_station.xml\n'}
+[20.228788] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/launch/python_launcher.xml\n'}
+[20.229704] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/launch/turtle_launcher.xml\n'}
+[20.233573] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/launch/number_counter_launch.py\n'}
+[20.235058] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/launch/number_counter_launch.xml\n'}
+[20.240989] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/config\n'}
+[20.241759] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/config/number_params.yaml\n'}
+[20.244511] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/ament_index/resource_index/package_run_dependencies/launch_file\n'}
+[20.245500] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/ament_index/resource_index/parent_prefix_path/launch_file\n'}
+[20.252001] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/environment/ament_prefix_path.sh\n'}
+[20.252793] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/environment/ament_prefix_path.dsv\n'}
+[20.256483] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/environment/path.sh\n'}
+[20.257539] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/environment/path.dsv\n'}
+[20.260908] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/local_setup.bash\n'}
+[20.262108] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/local_setup.sh\n'}
+[20.265310] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/local_setup.zsh\n'}
+[20.265948] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/local_setup.dsv\n'}
+[20.268381] (-) TimerEvent: {}
+[20.269794] (launch_file) StdoutLine: {'line': b'-- Installing: /home/narayan/ros2_ws/install/launch_file/share/launch_file/package.dsv\n'}
+[20.271663] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/ament_index/resource_index/packages/launch_file\n'}
+[20.272127] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/cmake/launch_fileConfig.cmake\n'}
+[20.277028] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/cmake/launch_fileConfig-version.cmake\n'}
+[20.278102] (launch_file) StdoutLine: {'line': b'-- Up-to-date: /home/narayan/ros2_ws/install/launch_file/share/launch_file/package.xml\n'}
+[20.278603] (launch_file) CommandEnded: {'returncode': 0}
+[20.368615] (-) TimerEvent: {}
+[20.376530] (launch_file) JobEnded: {'identifier': 'launch_file', 'rc': 0}
+[20.388733] (-) EventReactorShutdown: {}

@@ -421,6 +421,11 @@ cdr_serialize(
   // Member: success
   cdr << (ros_message.success ? true : false);
 
+  // Member: nearest
+  {
+    cdr << ros_message.nearest;
+  }
+
   return true;
 }
 
@@ -435,6 +440,11 @@ cdr_deserialize(
     uint8_t tmp;
     cdr >> tmp;
     ros_message.success = tmp ? true : false;
+  }
+
+  // Member: nearest
+  {
+    cdr >> ros_message.nearest;
   }
 
   return true;
@@ -459,6 +469,18 @@ get_serialized_size(
     size_t item_size = sizeof(ros_message.success);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: nearest
+  {
+    size_t array_size = ros_message.nearest.size();
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        (ros_message.nearest[index].size() + 1);
+    }
   }
 
   return current_alignment - initial_alignment;
@@ -490,6 +512,21 @@ max_serialized_size_TurtleHead_Response(
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
+  // Member: nearest
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -499,7 +536,7 @@ max_serialized_size_TurtleHead_Response(
     using DataType = my_interfaces::srv::TurtleHead_Response;
     is_plain =
       (
-      offsetof(DataType, success) +
+      offsetof(DataType, nearest) +
       last_member_size
       ) == ret_val;
   }
@@ -515,6 +552,11 @@ cdr_serialize_key(
 {
   // Member: success
   cdr << (ros_message.success ? true : false);
+
+  // Member: nearest
+  {
+    cdr << ros_message.nearest;
+  }
 
   return true;
 }
@@ -537,6 +579,18 @@ get_serialized_size_key(
     size_t item_size = sizeof(ros_message.success);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: nearest
+  {
+    size_t array_size = ros_message.nearest.size();
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        (ros_message.nearest[index].size() + 1);
+    }
   }
 
   return current_alignment - initial_alignment;
@@ -568,6 +622,22 @@ max_serialized_size_key_TurtleHead_Response(
     current_alignment += array_size * sizeof(uint8_t);
   }
 
+  // Member: nearest
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -576,7 +646,7 @@ max_serialized_size_key_TurtleHead_Response(
     using DataType = my_interfaces::srv::TurtleHead_Response;
     is_plain =
       (
-      offsetof(DataType, success) +
+      offsetof(DataType, nearest) +
       last_member_size
       ) == ret_val;
   }

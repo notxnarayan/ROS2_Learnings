@@ -44,10 +44,16 @@ typedef struct my_interfaces__srv__TurtleHead_Request__Sequence
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'nearest'
+// already included above
+// #include "rosidl_runtime_c/string.h"
+
 /// Struct defined in srv/TurtleHead in the package my_interfaces.
 typedef struct my_interfaces__srv__TurtleHead_Response
 {
   bool success;
+  rosidl_runtime_c__String__Sequence nearest;
 } my_interfaces__srv__TurtleHead_Response;
 
 // Struct for a sequence of my_interfaces__srv__TurtleHead_Response.

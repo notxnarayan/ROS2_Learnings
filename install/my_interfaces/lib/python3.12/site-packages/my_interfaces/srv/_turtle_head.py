@@ -239,17 +239,20 @@ class TurtleHead_Response(metaclass=Metaclass_TurtleHead_Response):
 
     __slots__ = [
         '_success',
+        '_nearest',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
         'success': 'boolean',
+        'nearest': 'sequence<string>',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.UnboundedString()),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -262,6 +265,7 @@ class TurtleHead_Response(metaclass=Metaclass_TurtleHead_Response):
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.success = kwargs.get('success', bool())
+        self.nearest = kwargs.get('nearest', [])
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -295,6 +299,8 @@ class TurtleHead_Response(metaclass=Metaclass_TurtleHead_Response):
             return False
         if self.success != other.success:
             return False
+        if self.nearest != other.nearest:
+            return False
         return True
 
     @classmethod
@@ -314,6 +320,29 @@ class TurtleHead_Response(metaclass=Metaclass_TurtleHead_Response):
                 isinstance(value, bool), \
                 "The 'success' field must be of type 'bool'"
         self._success = value
+
+    @builtins.property
+    def nearest(self):
+        """Message field 'nearest'."""
+        return self._nearest
+
+    @nearest.setter
+    def nearest(self, value):
+        if self._check_fields:
+            from collections.abc import Sequence
+            from collections.abc import Set
+            from collections import UserList
+            from collections import UserString
+            assert \
+                ((isinstance(value, Sequence) or
+                  isinstance(value, Set) or
+                  isinstance(value, UserList)) and
+                 not isinstance(value, str) and
+                 not isinstance(value, UserString) and
+                 all(isinstance(v, str) for v in value) and
+                 True), \
+                "The 'nearest' field must be a set or sequence and each value of type 'str'"
+        self._nearest = value
 
 
 # Import statements for member types

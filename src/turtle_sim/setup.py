@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             "spawner = turtle_sim.spawner:main",
             "server = turtle_sim.head_server:main",
+            "turtle = turtle_sim.turtle1:main",
         ],
     },
 )

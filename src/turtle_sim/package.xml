@@ -12,6 +12,8 @@
   <depend>my_interfaces</depend>
   <depend>math</depend>
   <depend>random</depend>
+  <depend>geometry_msgs</depend>
+  <depend>time</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

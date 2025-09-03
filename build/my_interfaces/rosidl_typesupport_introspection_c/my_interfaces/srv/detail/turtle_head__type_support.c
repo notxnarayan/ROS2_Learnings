@@ -145,6 +145,11 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 // #include "my_interfaces/srv/detail/turtle_head__struct.h"
 
 
+// Include directives for member types
+// Member `nearest`
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -164,7 +169,62 @@ void my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c
   my_interfaces__srv__TurtleHead_Response__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__TurtleHead_Response_message_member_array[1] = {
+size_t my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__size_function__TurtleHead_Response__nearest(
+  const void * untyped_member)
+{
+  const rosidl_runtime_c__String__Sequence * member =
+    (const rosidl_runtime_c__String__Sequence *)(untyped_member);
+  return member->size;
+}
+
+const void * my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__get_const_function__TurtleHead_Response__nearest(
+  const void * untyped_member, size_t index)
+{
+  const rosidl_runtime_c__String__Sequence * member =
+    (const rosidl_runtime_c__String__Sequence *)(untyped_member);
+  return &member->data[index];
+}
+
+void * my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__get_function__TurtleHead_Response__nearest(
+  void * untyped_member, size_t index)
+{
+  rosidl_runtime_c__String__Sequence * member =
+    (rosidl_runtime_c__String__Sequence *)(untyped_member);
+  return &member->data[index];
+}
+
+void my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__fetch_function__TurtleHead_Response__nearest(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const rosidl_runtime_c__String * item =
+    ((const rosidl_runtime_c__String *)
+    my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__get_const_function__TurtleHead_Response__nearest(untyped_member, index));
+  rosidl_runtime_c__String * value =
+    (rosidl_runtime_c__String *)(untyped_value);
+  *value = *item;
+}
+
+void my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__assign_function__TurtleHead_Response__nearest(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  rosidl_runtime_c__String * item =
+    ((rosidl_runtime_c__String *)
+    my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__get_function__TurtleHead_Response__nearest(untyped_member, index));
+  const rosidl_runtime_c__String * value =
+    (const rosidl_runtime_c__String *)(untyped_value);
+  *item = *value;
+}
+
+bool my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__resize_function__TurtleHead_Response__nearest(
+  void * untyped_member, size_t size)
+{
+  rosidl_runtime_c__String__Sequence * member =
+    (rosidl_runtime_c__String__Sequence *)(untyped_member);
+  rosidl_runtime_c__String__Sequence__fini(member);
+  return rosidl_runtime_c__String__Sequence__init(member, size);
+}
+
+static rosidl_typesupport_introspection_c__MessageMember my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__TurtleHead_Response_message_member_array[2] = {
   {
     "success",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
@@ -182,13 +242,31 @@ static rosidl_typesupport_introspection_c__MessageMember my_interfaces__srv__Tur
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "nearest",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    true,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(my_interfaces__srv__TurtleHead_Response, nearest),  // bytes offset in struct
+    NULL,  // default value
+    my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__size_function__TurtleHead_Response__nearest,  // size() function pointer
+    my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__get_const_function__TurtleHead_Response__nearest,  // get_const(index) function pointer
+    my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__get_function__TurtleHead_Response__nearest,  // get(index) function pointer
+    my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__fetch_function__TurtleHead_Response__nearest,  // fetch(index, &value) function pointer
+    my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__assign_function__TurtleHead_Response__nearest,  // assign(index, value) function pointer
+    my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__resize_function__TurtleHead_Response__nearest  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__TurtleHead_Response_message_members = {
   "my_interfaces__srv",  // message namespace
   "TurtleHead_Response",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(my_interfaces__srv__TurtleHead_Response),
   false,  // has_any_key_member_
   my_interfaces__srv__TurtleHead_Response__rosidl_typesupport_introspection_c__TurtleHead_Response_message_member_array,  // message members

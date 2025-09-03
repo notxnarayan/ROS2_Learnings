@@ -200,7 +200,52 @@ void TurtleHead_Response_fini_function(void * message_memory)
   typed_message->~TurtleHead_Response();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember TurtleHead_Response_message_member_array[1] = {
+size_t size_function__TurtleHead_Response__nearest(const void * untyped_member)
+{
+  const auto * member = reinterpret_cast<const std::vector<std::string> *>(untyped_member);
+  return member->size();
+}
+
+const void * get_const_function__TurtleHead_Response__nearest(const void * untyped_member, size_t index)
+{
+  const auto & member =
+    *reinterpret_cast<const std::vector<std::string> *>(untyped_member);
+  return &member[index];
+}
+
+void * get_function__TurtleHead_Response__nearest(void * untyped_member, size_t index)
+{
+  auto & member =
+    *reinterpret_cast<std::vector<std::string> *>(untyped_member);
+  return &member[index];
+}
+
+void fetch_function__TurtleHead_Response__nearest(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const auto & item = *reinterpret_cast<const std::string *>(
+    get_const_function__TurtleHead_Response__nearest(untyped_member, index));
+  auto & value = *reinterpret_cast<std::string *>(untyped_value);
+  value = item;
+}
+
+void assign_function__TurtleHead_Response__nearest(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  auto & item = *reinterpret_cast<std::string *>(
+    get_function__TurtleHead_Response__nearest(untyped_member, index));
+  const auto & value = *reinterpret_cast<const std::string *>(untyped_value);
+  item = value;
+}
+
+void resize_function__TurtleHead_Response__nearest(void * untyped_member, size_t size)
+{
+  auto * member =
+    reinterpret_cast<std::vector<std::string> *>(untyped_member);
+  member->resize(size);
+}
+
+static const ::rosidl_typesupport_introspection_cpp::MessageMember TurtleHead_Response_message_member_array[2] = {
   {
     "success",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
@@ -218,13 +263,31 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember TurtleHead_Re
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "nearest",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is key
+    true,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(my_interfaces::srv::TurtleHead_Response, nearest),  // bytes offset in struct
+    nullptr,  // default value
+    size_function__TurtleHead_Response__nearest,  // size() function pointer
+    get_const_function__TurtleHead_Response__nearest,  // get_const(index) function pointer
+    get_function__TurtleHead_Response__nearest,  // get(index) function pointer
+    fetch_function__TurtleHead_Response__nearest,  // fetch(index, &value) function pointer
+    assign_function__TurtleHead_Response__nearest,  // assign(index, value) function pointer
+    resize_function__TurtleHead_Response__nearest  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers TurtleHead_Response_message_members = {
   "my_interfaces::srv",  // message namespace
   "TurtleHead_Response",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(my_interfaces::srv::TurtleHead_Response),
   false,  // has_any_key_member_
   TurtleHead_Response_message_member_array,  // message members

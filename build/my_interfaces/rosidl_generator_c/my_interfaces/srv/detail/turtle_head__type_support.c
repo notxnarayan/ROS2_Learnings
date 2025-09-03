@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "my_interfaces/srv/detail/turtle_head__type_support.h"
 #include "my_interfaces/srv/detail/turtle_head__functions.h"
 #include "my_interfaces/srv/detail/turtle_head__struct.h"
+#include "my_interfaces/srv/detail/turtle_head__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

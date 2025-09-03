@@ -266,6 +266,11 @@ my_interfaces__srv__TurtleHead_Request__Sequence__copy(
 }
 
 
+// Include directives for member types
+// Member `nearest`
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
 bool
 my_interfaces__srv__TurtleHead_Response__init(my_interfaces__srv__TurtleHead_Response * msg)
 {
@@ -273,6 +278,11 @@ my_interfaces__srv__TurtleHead_Response__init(my_interfaces__srv__TurtleHead_Res
     return false;
   }
   // success
+  // nearest
+  if (!rosidl_runtime_c__String__Sequence__init(&msg->nearest, 0)) {
+    my_interfaces__srv__TurtleHead_Response__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -283,6 +293,8 @@ my_interfaces__srv__TurtleHead_Response__fini(my_interfaces__srv__TurtleHead_Res
     return;
   }
   // success
+  // nearest
+  rosidl_runtime_c__String__Sequence__fini(&msg->nearest);
 }
 
 bool
@@ -293,6 +305,12 @@ my_interfaces__srv__TurtleHead_Response__are_equal(const my_interfaces__srv__Tur
   }
   // success
   if (lhs->success != rhs->success) {
+    return false;
+  }
+  // nearest
+  if (!rosidl_runtime_c__String__Sequence__are_equal(
+      &(lhs->nearest), &(rhs->nearest)))
+  {
     return false;
   }
   return true;
@@ -308,6 +326,12 @@ my_interfaces__srv__TurtleHead_Response__copy(
   }
   // success
   output->success = input->success;
+  // nearest
+  if (!rosidl_runtime_c__String__Sequence__copy(
+      &(input->nearest), &(output->nearest)))
+  {
+    return false;
+  }
   return true;
 }
 

@@ -98,16 +98,32 @@ namespace srv
 namespace builder
 {
 
+class Init_TurtleHead_Response_nearest
+{
+public:
+  explicit Init_TurtleHead_Response_nearest(::my_interfaces::srv::TurtleHead_Response & msg)
+  : msg_(msg)
+  {}
+  ::my_interfaces::srv::TurtleHead_Response nearest(::my_interfaces::srv::TurtleHead_Response::_nearest_type arg)
+  {
+    msg_.nearest = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::my_interfaces::srv::TurtleHead_Response msg_;
+};
+
 class Init_TurtleHead_Response_success
 {
 public:
   Init_TurtleHead_Response_success()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::my_interfaces::srv::TurtleHead_Response success(::my_interfaces::srv::TurtleHead_Response::_success_type arg)
+  Init_TurtleHead_Response_nearest success(::my_interfaces::srv::TurtleHead_Response::_success_type arg)
   {
     msg_.success = std::move(arg);
-    return std::move(msg_);
+    return Init_TurtleHead_Response_nearest(msg_);
   }
 
 private:

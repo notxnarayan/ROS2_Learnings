@@ -12,6 +12,16 @@
             "nested_type_name": ""
           },
           "default_value": ""
+        },
+        {
+          "name": "nearest",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
         }
       ]
     },
@@ -20,7 +30,7 @@
   "type_hashes": [
     {
       "type_name": "my_interfaces/srv/TurtleHead_Response",
-      "hash_string": "RIHS01_add29341c805114e9bf1af48e951a9ce7c54a7417c61f46bcdae7fd311c8165c"
+      "hash_string": "RIHS01_e5f804d24e09584110b71999b9976d7fde9a6b8f88e71c1baef6ca6c8441e456"
     }
   ]
 }

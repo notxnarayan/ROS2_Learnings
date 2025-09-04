@@ -1,4 +1,7 @@
+/home/narayan/ros2_ws/install/urdf_test/share/urdf_test//urdf/joints.xacro
+/home/narayan/ros2_ws/install/urdf_test/share/urdf_test//urdf/links.xacro
 /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//urdf/my_robot.xacro
+/home/narayan/ros2_ws/install/urdf_test/share/urdf_test//urdf/materials.xacro
 /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//launch/display.launch.xml
 /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//rviz_save/my_robot.rviz
 /home/narayan/ros2_ws/install/urdf_test/share/ament_index/resource_index/package_run_dependencies/urdf_test

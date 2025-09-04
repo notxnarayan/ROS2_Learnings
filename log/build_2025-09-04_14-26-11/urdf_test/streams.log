@@ -1,0 +1,27 @@
+[0.057s] Invoking command in '/home/narayan/ros2_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/narayan/ros2_ws/build/urdf_test -- -j4 -l4
+[0.264s] Invoked command in '/home/narayan/ros2_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/narayan/ros2_ws/build/urdf_test -- -j4 -l4
+[0.318s] Invoking command in '/home/narayan/ros2_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/narayan/ros2_ws/build/urdf_test
+[0.366s] -- Install configuration: ""
+[0.370s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//urdf
+[0.371s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//urdf/links.xacro
+[0.372s] -- Installing: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//urdf/my_robot.xacro
+[0.373s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//launch
+[0.373s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//launch/display.launch.xml
+[0.374s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//rviz_save
+[0.374s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//rviz_save/my_robot.rviz
+[0.375s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/ament_index/resource_index/package_run_dependencies/urdf_test
+[0.375s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/ament_index/resource_index/parent_prefix_path/urdf_test
+[0.375s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.sh
+[0.376s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.dsv
+[0.377s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test/environment/path.sh
+[0.377s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test/environment/path.dsv
+[0.378s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test/local_setup.bash
+[0.378s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test/local_setup.sh
+[0.379s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test/local_setup.zsh
+[0.379s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test/local_setup.dsv
+[0.380s] -- Installing: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test/package.dsv
+[0.380s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/ament_index/resource_index/packages/urdf_test
+[0.381s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test/cmake/urdf_testConfig.cmake
+[0.382s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test/cmake/urdf_testConfig-version.cmake
+[0.384s] -- Up-to-date: /home/narayan/ros2_ws/install/urdf_test/share/urdf_test/package.xml
+[0.385s] Invoked command in '/home/narayan/ros2_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan/ros2_ws/install/turtle_sim:/home/narayan/ros2_ws/install/onepkg:/home/narayan/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/narayan/ros2_ws/build/urdf_test

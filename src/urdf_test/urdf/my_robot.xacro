@@ -1,33 +1,123 @@
-<?xml version="1.0"?>
-<robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
-
-    <xacro:include filename="materials.xacro" />
-    <xacro:include filename="links.xacro" />
-    <xacro:include filename="joints.xacro" />
-
-    <xacro:property name="base_length" value="0.6" />
-    
-
-    <!-- <xacro:macro name="example_macro" params="a b c">
-        stuff
-        using ${a} etc...
-    </xacro:macro> -->
-
-    <!-- <xacro:example_macro a="2" b="3" c="1" -->
-
-    <!-- <joint name="base_second_joint" type="continuous">
-        <parent link="base_link" />
-        <child link="second_link" />
-        <origin xyz="0 0 0.2" rpy="0 0 0" />
-        <axis xyz="0 0 1" />
-    </joint> -->
-
-    <!-- <joint name="base_second_joint" type="prismatic">
-        <parent link="base_link" />
-        <child link="second_link" />
-        <origin xyz="0 0 0.2" rpy="0 0 0" />
-        <axis xyz="1 0 0" />
-        <limit lower="0.0" upper="0.5" velocity="100" effort="100" />
-    </joint> -->
-
-</robot>    
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="(Unsaved)">
+    <link name="base">
+        <inertial>
+            <origin xyz="0.0008223144260215306 1.973712041524325e-10 0.009266969689636867" rpy="0.0 0.0 0.0" />
+            <mass value="0.4573772989307287" />
+            <inertia ixx="6.683277879258534e-05" iyy="0.00025359566623103314" izz="0.00029307903194205145" ixy="3.21815854370631e-12" iyz="4.1009766970174006e-14" ixz="-7.073165358312158e-08" />
+        </inertial>
+        <visual name="base_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/base.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="base_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/base.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="steering">
+        <inertial>
+            <origin xyz="-0.0037663810496018704 2.6816932522572467e-10 0.004608964195140794" rpy="0.0 -0.0 0.0" />
+            <mass value="0.0022331707953948026" />
+            <inertia ixx="3.5663821715718204e-08" iyy="5.943179529055522e-08" izz="5.871726437717775e-08" ixy="6.841246453702055e-15" iyz="-1.1530872167369278e-15" ixz="1.921765263778425e-08" />
+        </inertial>
+        <visual name="steering_visual">
+            <origin xyz="0.05050000000000001 -1.6653345369377347e-18 0.005" rpy="3.141592653589793 -0.0 0.0" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/steering.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="steering_collision">
+            <origin xyz="0.05050000000000001 -1.6653345369377347e-18 0.005" rpy="3.141592653589793 -0.0 0.0" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/steering.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="front_wheel">
+        <inertial>
+            <origin xyz="8.866190892575787e-10 7.450580596923828e-11 0.003000000000000002" rpy="0.0 -0.0 0.0" />
+            <mass value="0.008303387259265533" />
+            <inertia ixx="1.4047457758420725e-07" iyy="1.4047457758420304e-07" izz="2.3559678534938288e-07" ixy="-4.235164736271502e-22" iyz="-1.7697461564018615e-23" ixz="-3.7843359830029504e-22" />
+        </inertial>
+        <visual name="front_wheel_visual">
+            <origin xyz="-0.06302599985826682 -0.003489789468550507 0.0029999999999999983" rpy="-1.5707963267948966 -0.0 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/front_wheel.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="front_wheel_collision">
+            <origin xyz="-0.06302599985826682 -0.003489789468550507 0.0029999999999999983" rpy="-1.5707963267948966 -0.0 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/front_wheel.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="right_wheel">
+        <inertial>
+            <origin xyz="0.0 -4.930380657631324e-34 0.0029999999999999983" rpy="0.0 -0.0 0.0" />
+            <mass value="0.017542070720840106" />
+            <inertia ixx="5.717776098641495e-07" iyy="5.717776098641716e-07" izz="1.0425458548287574e-06" ixy="2.4003235141830388e-36" iyz="-3.486100297322995e-22" ixz="8.470329472543003e-22" />
+        </inertial>
+        <visual name="right_wheel_visual">
+            <origin xyz="0.026000000372529027 -3.1840817234047667e-18 -0.02" rpy="1.5707963267948966 -0.0 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/right_wheel.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="right_wheel_collision">
+            <origin xyz="0.026000000372529027 -3.1840817234047667e-18 -0.02" rpy="1.5707963267948966 -0.0 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/right_wheel.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="left_wheel">
+        <inertial>
+            <origin xyz="0.0 4.440892098500626e-18 0.0030000000000000027" rpy="0.0 -0.0 0.0" />
+            <mass value="0.017542070720840106" />
+            <inertia ixx="5.717776098641648e-07" iyy="5.717776098641461e-07" izz="1.0425458548287587e-06" ixy="4.2729574083186744e-21" iyz="4.039774140954686e-22" ixz="8.470329472543003e-22" />
+        </inertial>
+        <visual name="left_wheel_visual">
+            <origin xyz="-0.0043412045063622355 0.02462019419217468 -0.02" rpy="-1.5707963267948966 -0.0 -1.396263401595464" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/left_wheel.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="left_wheel_collision">
+            <origin xyz="-0.0043412045063622355 0.02462019419217468 -0.02" rpy="-1.5707963267948966 -0.0 -1.396263401595464" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/left_wheel.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="base_Revolute-1" type="revolute">
+        <origin xyz="-0.051 0.0 0.005" rpy="3.141592653589793 -0.0 0.0" />
+        <parent link="base" />
+        <child link="steering" />
+        <axis xyz="0.0 0.0 1.0" />
+        <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="base_Revolute-3" type="continuous">
+        <origin xyz="0.0075 -0.02 0.0" rpy="-1.5707963267948966 -0.0 3.141592653589793" />
+        <parent link="base" />
+        <child link="left_wheel" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
+    <joint name="base_Revolute-4" type="continuous">
+        <origin xyz="0.0075 0.02 0.0" rpy="-1.5707963267948966 -0.0 0.0" />
+        <parent link="base" />
+        <child link="right_wheel" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
+    <joint name="steering_Revolute-6" type="continuous">
+        <origin xyz="-0.012000000000000002 -0.003 0.01" rpy="1.5707963267948966 -0.0 3.141592653589793" />
+        <parent link="steering" />
+        <child link="front_wheel" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
+</robot>

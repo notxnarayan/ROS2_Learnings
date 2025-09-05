@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <xacro:include filename="materials.xacro" />
+    <xacro:include filename="links.xacro" />
+    <xacro:include filename="joints.xacro" />
+
+    <xacro:property name="base_length" value="0.6" />
+    
+
+    <!-- <xacro:macro name="example_macro" params="a b c">
+        stuff
+        using ${a} etc...
+    </xacro:macro> -->
+
+    <!-- <xacro:example_macro a="2" b="3" c="1" -->
+
+    <!-- <joint name="base_second_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="second_link" />
+        <origin xyz="0 0 0.2" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+    </joint> -->
+
+    <!-- <joint name="base_second_joint" type="prismatic">
+        <parent link="base_link" />
+        <child link="second_link" />
+        <origin xyz="0 0 0.2" rpy="0 0 0" />
+        <axis xyz="1 0 0" />
+        <limit lower="0.0" upper="0.5" velocity="100" effort="100" />
+    </joint> -->
+
+</robot>    

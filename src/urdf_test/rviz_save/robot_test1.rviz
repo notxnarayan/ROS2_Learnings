@@ -67,6 +67,21 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+        arm_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         base:
           Alpha: 1
           Show Axes: false
@@ -107,6 +122,12 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
+        arm_1:
+          Value: true
+        arm_2:
+          Value: true
+        arm_3:
+          Value: true
         base:
           Value: true
         front_wheel:
@@ -124,6 +145,10 @@ Visualization Manager:
       Show Names: false
       Tree:
         base:
+          arm_1:
+            arm_2:
+              arm_3:
+                {}
           left_wheel:
             {}
           right_wheel:
@@ -179,25 +204,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 0.31343740224838257
+      Distance: 0.3658742904663086
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0
-        Y: 0
-        Z: 0
+        X: 0.0035894194152206182
+        Y: -0.00753210112452507
+        Z: 0.040172282606363297
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.4753980040550232
+      Pitch: 0.20539824664592743
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 2.048577308654785
+      Yaw: 4.063589572906494
     Saved: ~
 Window Geometry:
   Displays:

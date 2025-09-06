@@ -9,9 +9,11 @@
 /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//meshes/steering.stl
 /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//meshes/arm_2.stl
 /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//meshes/right_wheel.stl
+/home/narayan/ros2_ws/install/urdf_test/share/urdf_test//meshes/gripper_gear_1.stl
 /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//meshes/arm_3.stl
 /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//meshes/arm_1.stl
 /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//meshes/base.stl
+/home/narayan/ros2_ws/install/urdf_test/share/urdf_test//meshes/gripper_gear_2.stl
 /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//meshes/front_wheel.stl
 /home/narayan/ros2_ws/install/urdf_test/share/urdf_test//meshes/left_wheel.stl
 /home/narayan/ros2_ws/install/urdf_test/share/ament_index/resource_index/package_run_dependencies/urdf_test

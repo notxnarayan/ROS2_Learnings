@@ -135,20 +135,58 @@
     </link>
     <link name="arm_3">
         <inertial>
-            <origin xyz="0.017021830705348132 2.2590601918467236e-18 0.003979455780812923" rpy="0.0 -0.0 0.0" />
-            <mass value="0.015207027813440301" />
-            <inertia ixx="1.1895476288949197e-07" iyy="1.9861577194252387e-06" izz="1.9861577267136794e-06" ixy="1.7430501486614956e-21" iyz="9.183549615799121e-41" ixz="-4.684356896112298e-17" />
+            <origin xyz="0.01847214368312333 5.422946197896389e-05 0.003970952850250537" rpy="0.0 -0.0 0.0" />
+            <mass value="0.016191593837877324" />
+            <inertia ixx="1.304180623419037e-07" iyy="2.5269144712693886e-06" izz="2.516463905029504e-06" ixy="-1.924174840835271e-08" iyz="1.1026562852339944e-10" ixz="2.993078018997173e-09" />
         </inertial>
         <visual name="arm_3_visual">
-            <origin xyz="-0.09049999658483847 2.259060191846725e-18 0.003979455781202988" rpy="1.232595164407831e-32 1.5707963267948966 0" />
+            <origin xyz="-0.09049999658483845 2.259060191846725e-18 0.003979455781202988" rpy="1.232595164407831e-32 1.5707963267948966 0" />
             <geometry>
                 <mesh filename="package://urdf_test/meshes/arm_3.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="arm_3_collision">
-            <origin xyz="-0.09049999658483847 2.259060191846725e-18 0.003979455781202988" rpy="1.232595164407831e-32 1.5707963267948966 0" />
+            <origin xyz="-0.09049999658483845 2.259060191846725e-18 0.003979455781202988" rpy="1.232595164407831e-32 1.5707963267948966 0" />
             <geometry>
                 <mesh filename="package://urdf_test/meshes/arm_3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="gripper_gear_1">
+        <inertial>
+            <origin xyz="0.0017362214484572204 -0.0002862433124168184 -0.002009304671236128" rpy="0.0 -0.0 0.0" />
+            <mass value="0.0006011056672916086" />
+            <inertia ixx="1.88772495882846e-09" iyy="8.211589146672423e-09" izz="9.349750078771848e-09" ixy="5.421138409108764e-10" iyz="1.6643901023854444e-10" ixz="-1.0055595168709039e-09" />
+        </inertial>
+        <visual name="gripper_gear_1_visual">
+            <origin xyz="0.0543908059196748 -0.12899144399999998 -0.003311543941894128" rpy="-1.5707963267948963 -0.0 0.0" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/gripper_gear_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="gripper_gear_1_collision">
+            <origin xyz="0.0543908059196748 -0.12899144399999998 -0.003311543941894128" rpy="-1.5707963267948963 -0.0 0.0" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/gripper_gear_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="gripper_gear_2">
+        <inertial>
+            <origin xyz="-0.0017331970562074878 -0.0002862477685876463 -0.002009304708227388" rpy="0.0 -0.0 0.0" />
+            <mass value="0.0006011056445017347" />
+            <inertia ixx="1.88772494109159e-09" iyy="8.198613493250422e-09" izz="9.336774458920598e-09" ixy="-5.41043181725309e-10" iyz="1.6643898505927248e-10" ixz="1.0038072080775312e-09" />
+        </inertial>
+        <visual name="gripper_gear_2_visual">
+            <origin xyz="0.06143864417246264 -0.12899634400000004 -0.00331643944132532" rpy="-1.5707963267948963 -0.0 0.0" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/gripper_gear_2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="gripper_gear_2_collision">
+            <origin xyz="0.06143864417246264 -0.12899634400000004 -0.00331643944132532" rpy="-1.5707963267948963 -0.0 0.0" />
+            <geometry>
+                <mesh filename="package://urdf_test/meshes/gripper_gear_2.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -196,5 +234,20 @@
         <parent link="base" />
         <child link="arm_1" />
         <axis xyz="0.0 0.0 1.0" />
+    </joint>
+    <joint name="arm_3_Revolute-19" type="revolute">
+        <origin xyz="0.041335840000000006 -0.0032446199999999997 0.00039081000000000033" rpy="1.5707963267948966 1.5707963267948966 0" />
+        <parent link="arm_3" />
+        <child link="gripper_gear_1" />
+        <axis xyz="0.0 0.0 1.0" />
+        <limit lower="0.0" upper="1.710423" effort="1000000" velocity="1000000" />
+    </joint>
+    <joint name="arm_3_Revolute-20" type="revolute">
+        <origin xyz="0.04134074 -0.0032446199999999997 0.00742683" rpy="1.5707963267948966 1.5707963267948966 0" />
+        <parent link="arm_3" />
+        <child link="gripper_gear_2" />
+        <axis xyz="0.0 0.0 1.0" />
+        <limit lower="-1.710423" upper="0.0" effort="1000000" velocity="1000000" />
+        <mimic joint="arm_3_Revolute-19" multiplier="-1.0" offset="0.0" />
     </joint>
 </robot>

@@ -1,8 +1,9 @@
 <launch>
     <let name="urdf_path" value="$(find-pkg-share urdf_test)/urdf/example.xacro" />
 
-    <let name="rviz_path" value="$(find-pkg-share urdf_test)/rviz_save/robot_test1.rviz" />
+    <let name="rviz_path" value="$(find-pkg-share urdf_test)/rviz_save/my_robot.rviz" />
 
+    <let name="config_path" value="$(find-pkg-share gazebo_launch)/config/gazebo_bridge.yaml" />
 
     <node pkg="robot_state_publisher" exec="robot_state_publisher">
         <param name="robot_description" value="$(command 'xacro $(var urdf_path)')" />
@@ -14,7 +15,10 @@
     </include>
 
 
-    <node pkg="ros_gz_sim" exec="create" args="-topic robot_description" />
-
+    <node pkg="ros_gz_sim" exec="create" args="-topic /robot_description" />
+    <node pkg="ros_gz_bridge" exec="parameter_bridge">
+        <param name="config_file" value="$(var config_path)">
+        </param>
+    </node>
     <node pkg="rviz2" exec="rviz2" output="screen" args="-d $(var rviz_path)" /> 
 </launch>

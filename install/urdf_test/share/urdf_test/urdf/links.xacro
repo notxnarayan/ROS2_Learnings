@@ -3,16 +3,16 @@
 
     <xacro:property name="base_length" value="0.6" />
 
-    <joint name="base_right_wheel_joint" type="continuous">
+    <joint name="base_left_wheel_joint" type="continuous">
         <parent link="base_link" />
-        <child link="right_wheel_link" />
+        <child link="left_wheel_link" />
         <origin xyz="${-base_length / 4.0} ${base_length / 2.55} 0" rpy="0 0 0" />
         <axis xyz="0 1 0" />
     </joint>
 
-    <joint name="base_left_wheel_link" type="continuous">
+    <joint name="base_right_wheel_joint" type="continuous">
         <parent link="base_link" />
-        <child link="left_wheel_link" />
+        <child link="right_wheel_link" />
         <origin xyz="${-base_length / 4.0} ${-base_length / 2.55} 0" rpy="0 0 0" />
         <axis xyz="0 1 0" />
     </joint>

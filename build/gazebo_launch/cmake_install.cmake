@@ -43,7 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_launch/" TYPE DIRECTORY FILES "/home/narayan_/Documents/ros2_ws/src/gazebo_launch/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_launch/" TYPE DIRECTORY FILES
+    "/home/narayan_/Documents/ros2_ws/src/gazebo_launch/launch"
+    "/home/narayan_/Documents/ros2_ws/src/gazebo_launch/config"
+    )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

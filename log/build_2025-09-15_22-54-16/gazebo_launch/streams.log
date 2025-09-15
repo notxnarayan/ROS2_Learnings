@@ -1,0 +1,24 @@
+[0.178s] Invoking command in '/home/narayan_/Documents/ros2_ws/build/gazebo_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan_/Documents/ros2_ws/install/turtle_sim:/home/narayan_/Documents/ros2_ws/install/onepkg:/home/narayan_/Documents/ros2_ws/install/led_activity:/home/narayan_/Documents/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/narayan_/Documents/ros2_ws/build/gazebo_launch -- -j12 -l12
+[0.210s] Invoked command in '/home/narayan_/Documents/ros2_ws/build/gazebo_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan_/Documents/ros2_ws/install/turtle_sim:/home/narayan_/Documents/ros2_ws/install/onepkg:/home/narayan_/Documents/ros2_ws/install/led_activity:/home/narayan_/Documents/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/narayan_/Documents/ros2_ws/build/gazebo_launch -- -j12 -l12
+[0.218s] Invoking command in '/home/narayan_/Documents/ros2_ws/build/gazebo_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan_/Documents/ros2_ws/install/turtle_sim:/home/narayan_/Documents/ros2_ws/install/onepkg:/home/narayan_/Documents/ros2_ws/install/led_activity:/home/narayan_/Documents/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/narayan_/Documents/ros2_ws/build/gazebo_launch
+[0.224s] -- Install configuration: ""
+[0.225s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch//launch
+[0.225s] -- Installing: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch//launch/robot_launch.xml
+[0.225s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch//config
+[0.225s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch//config/gazebo_bridge.yaml
+[0.225s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/ament_index/resource_index/package_run_dependencies/gazebo_launch
+[0.225s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/ament_index/resource_index/parent_prefix_path/gazebo_launch
+[0.225s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch/environment/ament_prefix_path.sh
+[0.225s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch/environment/ament_prefix_path.dsv
+[0.225s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch/environment/path.sh
+[0.225s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch/environment/path.dsv
+[0.226s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch/local_setup.bash
+[0.226s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch/local_setup.sh
+[0.226s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch/local_setup.zsh
+[0.226s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch/local_setup.dsv
+[0.226s] -- Installing: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch/package.dsv
+[0.226s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/ament_index/resource_index/packages/gazebo_launch
+[0.226s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch/cmake/gazebo_launchConfig.cmake
+[0.226s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch/cmake/gazebo_launchConfig-version.cmake
+[0.226s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch/package.xml
+[0.227s] Invoked command in '/home/narayan_/Documents/ros2_ws/build/gazebo_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan_/Documents/ros2_ws/install/turtle_sim:/home/narayan_/Documents/ros2_ws/install/onepkg:/home/narayan_/Documents/ros2_ws/install/led_activity:/home/narayan_/Documents/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/narayan_/Documents/ros2_ws/build/gazebo_launch

@@ -1,8 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000858] (-) JobUnselected: {'identifier': 'TransNum'}
-[0.001421] (-) JobUnselected: {'identifier': 'launch_file'}
-[0.001525] (-) JobUnselected: {'identifier': 'led_activity'}
-[0.001756] (-) JobUnselected: {'identifier': 'my_interfaces'}
-[0.001818] (-) JobUnselected: {'identifier': 'onepkg'}
-[0.001873] (-) JobUnselected: {'identifier': 'turtle_sim'}
-[0.002606] (-) EventReactorShutdown: {}

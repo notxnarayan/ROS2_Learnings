@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "my_interfaces/msg/detail/le_dstatus__functions.h"
-#include "my_interfaces/msg/detail/le_dstatus__struct.h"
 #include "my_interfaces/msg/detail/le_dstatus__type_support.h"
+#include "my_interfaces/msg/detail/le_dstatus__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

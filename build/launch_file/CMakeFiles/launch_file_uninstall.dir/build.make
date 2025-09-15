@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/narayan/ros2_ws/src/launch_file
+CMAKE_SOURCE_DIR = /home/narayan_/Documents/ros2_ws/src/launch_file
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/narayan/ros2_ws/build/launch_file
+CMAKE_BINARY_DIR = /home/narayan_/Documents/ros2_ws/build/launch_file
 
 # Utility rule file for launch_file_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/launch_file_uninstall.dir/compiler_depend.make
 include CMakeFiles/launch_file_uninstall.dir/progress.make
 
 CMakeFiles/launch_file_uninstall:
-	/usr/bin/cmake -P /home/narayan/ros2_ws/build/launch_file/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 launch_file_uninstall: CMakeFiles/launch_file_uninstall
 launch_file_uninstall: CMakeFiles/launch_file_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/launch_file_uninstall.dir/clean:
 .PHONY : CMakeFiles/launch_file_uninstall.dir/clean
 
 CMakeFiles/launch_file_uninstall.dir/depend:
-	cd /home/narayan/ros2_ws/build/launch_file && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/narayan/ros2_ws/src/launch_file /home/narayan/ros2_ws/src/launch_file /home/narayan/ros2_ws/build/launch_file /home/narayan/ros2_ws/build/launch_file /home/narayan/ros2_ws/build/launch_file/CMakeFiles/launch_file_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/narayan_/Documents/ros2_ws/build/launch_file && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/narayan_/Documents/ros2_ws/src/launch_file /home/narayan_/Documents/ros2_ws/src/launch_file /home/narayan_/Documents/ros2_ws/build/launch_file /home/narayan_/Documents/ros2_ws/build/launch_file /home/narayan_/Documents/ros2_ws/build/launch_file/CMakeFiles/launch_file_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/launch_file_uninstall.dir/depend
 

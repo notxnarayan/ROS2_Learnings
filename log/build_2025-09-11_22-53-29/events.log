@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000096] (TransNum) JobQueued: {'identifier': 'TransNum', 'dependencies': OrderedDict()}
+[0.000205] (my_interfaces) JobQueued: {'identifier': 'my_interfaces', 'dependencies': OrderedDict()}
+[0.000226] (urdf_test) JobQueued: {'identifier': 'urdf_test', 'dependencies': OrderedDict()}
+[0.000241] (led_activity) JobQueued: {'identifier': 'led_activity', 'dependencies': OrderedDict({'my_interfaces': '/home/narayan_/Documents/ros2_ws/install/my_interfaces'})}
+[0.000260] (onepkg) JobQueued: {'identifier': 'onepkg', 'dependencies': OrderedDict({'my_interfaces': '/home/narayan_/Documents/ros2_ws/install/my_interfaces'})}
+[0.000277] (turtle_sim) JobQueued: {'identifier': 'turtle_sim', 'dependencies': OrderedDict({'my_interfaces': '/home/narayan_/Documents/ros2_ws/install/my_interfaces'})}
+[0.000291] (launch_file) JobQueued: {'identifier': 'launch_file', 'dependencies': OrderedDict({'TransNum': '/home/narayan_/Documents/ros2_ws/install/TransNum', 'my_interfaces': '/home/narayan_/Documents/ros2_ws/install/my_interfaces', 'onepkg': '/home/narayan_/Documents/ros2_ws/install/onepkg', 'turtle_sim': '/home/narayan_/Documents/ros2_ws/install/turtle_sim'})}
+[0.000610] (my_interfaces) JobStarted: {'identifier': 'my_interfaces'}
+[0.002785] (TransNum) JobStarted: {'identifier': 'TransNum'}
+[0.004949] (urdf_test) JobStarted: {'identifier': 'urdf_test'}
+[0.006141] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'cmake'}
+[0.006552] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/narayan_/Documents/ros2_ws/src/my_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/narayan_/Documents/ros2_ws/install/my_interfaces'], 'cwd': '/home/narayan_/Documents/ros2_ws/build/my_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2339-2-amdx-nars_TIME5375142', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan_', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/narayan_', 'OLDPWD': '/home/narayan_/Documents', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2066', 'SYSTEMD_EXEC_PID': '2339', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '45057', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'narayan_', 'JOURNAL_STREAM': '9:15634', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan_', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/amdx-nars:@/tmp/.ICE-unix/2304,unix/amdx-nars:/tmp/.ICE-unix/2304', 'INVOCATION_ID': 'da445c7160ec4f60a2e119e4e80d6434', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PNKYC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:1c1c7810-2d0f-413e-b4b1-ad239621caa5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan_/Documents/ros2_ws/build/my_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.099889] (-) TimerEvent: {}
+[0.129550] (my_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.130150] (urdf_test) JobProgress: {'identifier': 'urdf_test', 'progress': 'cmake'}
+[0.130640] (urdf_test) Command: {'cmd': ['/usr/bin/cmake', '/home/narayan_/Documents/ros2_ws/src/urdf_test', '-DCMAKE_INSTALL_PREFIX=/home/narayan_/Documents/ros2_ws/install/urdf_test'], 'cwd': '/home/narayan_/Documents/ros2_ws/build/urdf_test', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2339-2-amdx-nars_TIME5375142', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'narayan_', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/narayan_', 'OLDPWD': '/home/narayan_/Documents', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2066', 'SYSTEMD_EXEC_PID': '2339', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '45057', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'narayan_', 'JOURNAL_STREAM': '9:15634', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'narayan_', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/amdx-nars:@/tmp/.ICE-unix/2304,unix/amdx-nars:/tmp/.ICE-unix/2304', 'INVOCATION_ID': 'da445c7160ec4f60a2e119e4e80d6434', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PNKYC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:1c1c7810-2d0f-413e-b4b1-ad239621caa5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/narayan_/Documents/ros2_ws/build/urdf_test', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.133663] (my_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.146769] (my_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.170700] (urdf_test) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199973] (-) TimerEvent: {}
+[0.212123] (urdf_test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.212979] (my_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.220008] (my_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.220190] (my_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.220474] (my_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.223582] (urdf_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.226869] (my_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.286652] (urdf_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.296342] (my_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.296675] (urdf_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.296882] (urdf_test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.297169] (urdf_test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.300039] (-) TimerEvent: {}
+[0.303629] (my_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.304193] (my_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.304294] (urdf_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.304362] (my_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.312204] (my_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.312342] (my_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.312414] (my_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.312468] (my_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.312520] (my_interfaces) StderrLine: {'line': b'\n'}
+[0.312571] (my_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.312629] (my_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[0.312679] (my_interfaces) StderrLine: {'line': b'\n'}
+[0.312729] (my_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.312807] (my_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.312876] (my_interfaces) StderrLine: {'line': b'\n'}
+[0.312947] (my_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.313010] (my_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.313062] (my_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.313111] (my_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[0.313160] (my_interfaces) StderrLine: {'line': b'\n'}
+[0.313264] (my_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.313338] (my_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.315249] (my_interfaces) CommandEnded: {'returncode': 1}
+[0.329097] (my_interfaces) JobEnded: {'identifier': 'my_interfaces', 'rc': 1}
+[0.376308] (urdf_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.383504] (urdf_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.383726] (urdf_test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.384072] (urdf_test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.391843] (urdf_test) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.391999] (urdf_test) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.392086] (urdf_test) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.392156] (urdf_test) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.392222] (urdf_test) StderrLine: {'line': b'\n'}
+[0.392286] (urdf_test) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.392350] (urdf_test) StderrLine: {'line': b'  any of the following names:\n'}
+[0.392414] (urdf_test) StderrLine: {'line': b'\n'}
+[0.392475] (urdf_test) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.392536] (urdf_test) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.392597] (urdf_test) StderrLine: {'line': b'\n'}
+[0.392656] (urdf_test) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.392715] (urdf_test) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.392775] (urdf_test) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.392835] (urdf_test) StderrLine: {'line': b'  has been installed.\n'}
+[0.392897] (urdf_test) StderrLine: {'line': b'\n'}
+[0.392951] (urdf_test) StderrLine: {'line': b'\x1b[0m\n'}
+[0.393014] (urdf_test) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.395055] (urdf_test) JobEnded: {'identifier': 'urdf_test', 'rc': 'SIGINT'}
+[0.400110] (-) TimerEvent: {}
+[0.460883] (TransNum) JobEnded: {'identifier': 'TransNum', 'rc': 'SIGINT'}
+[0.471209] (led_activity) JobSkipped: {'identifier': 'led_activity'}
+[0.471273] (onepkg) JobSkipped: {'identifier': 'onepkg'}
+[0.471290] (turtle_sim) JobSkipped: {'identifier': 'turtle_sim'}
+[0.471304] (launch_file) JobSkipped: {'identifier': 'launch_file'}
+[0.471316] (-) EventReactorShutdown: {}

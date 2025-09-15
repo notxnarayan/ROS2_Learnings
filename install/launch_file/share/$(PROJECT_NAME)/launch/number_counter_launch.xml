@@ -1,4 +1,0 @@
-<launch>
-    <node pkg="TransNum" exec="number_publisher" />
-    <node pkg="TransNum" exec="two_way" />
-</launch>

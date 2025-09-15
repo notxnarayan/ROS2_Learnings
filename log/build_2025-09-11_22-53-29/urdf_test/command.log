@@ -1,0 +1,1 @@
+Invoking command in '/home/narayan_/Documents/ros2_ws/build/urdf_test': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/narayan_/Documents/ros2_ws/src/urdf_test -DCMAKE_INSTALL_PREFIX=/home/narayan_/Documents/ros2_ws/install/urdf_test

@@ -9,13 +9,13 @@
         <visual name="base_visual">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/base.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/base.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="base_collision">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/base.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/base.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -28,13 +28,13 @@
         <visual name="steering_visual">
             <origin xyz="0.05050000000000001 -1.6653345369377347e-18 0.005" rpy="3.141592653589793 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/steering.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/steering.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="steering_collision">
             <origin xyz="0.05050000000000001 -1.6653345369377347e-18 0.005" rpy="3.141592653589793 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/steering.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/steering.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -47,13 +47,13 @@
         <visual name="front_wheel_visual">
             <origin xyz="-0.06302599985826682 -0.003489789468550507 0.0029999999999999983" rpy="-1.5707963267948966 -0.0 3.141592653589793" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/front_wheel.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/front_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="front_wheel_collision">
             <origin xyz="-0.06302599985826682 -0.003489789468550507 0.0029999999999999983" rpy="-1.5707963267948966 -0.0 3.141592653589793" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/front_wheel.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/front_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -66,13 +66,13 @@
         <visual name="right_wheel_visual">
             <origin xyz="0.026000000372529027 -3.1840817234047667e-18 -0.02" rpy="1.5707963267948966 -0.0 3.141592653589793" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/right_wheel.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/right_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="right_wheel_collision">
             <origin xyz="0.026000000372529027 -3.1840817234047667e-18 -0.02" rpy="1.5707963267948966 -0.0 3.141592653589793" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/right_wheel.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/right_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -85,13 +85,13 @@
         <visual name="left_wheel_visual">
             <origin xyz="-0.004341204506362234 0.02462019419217468 -0.02" rpy="-1.5707963267948966 -0.0 -1.396263401595464" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/left_wheel.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/left_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="left_wheel_collision">
             <origin xyz="-0.004341204506362234 0.02462019419217468 -0.02" rpy="-1.5707963267948966 -0.0 -1.396263401595464" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/left_wheel.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/left_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -104,13 +104,13 @@
         <visual name="arm_1_visual">
             <origin xyz="-1.1102230246251566e-18 0.0 -0.023" rpy="0.0 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/arm_1.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/arm_1.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="arm_1_collision">
             <origin xyz="-1.1102230246251566e-18 0.0 -0.023" rpy="0.0 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/arm_1.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/arm_1.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -123,13 +123,13 @@
         <visual name="arm_2_visual">
             <origin xyz="-0.05149999658483846 3.7085770201170125e-18 0.004980669999999999" rpy="3.141592653589793 -1.5707963267948966 0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/arm_2.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/arm_2.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="arm_2_collision">
             <origin xyz="-0.05149999658483846 3.7085770201170125e-18 0.004980669999999999" rpy="3.141592653589793 -1.5707963267948966 0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/arm_2.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/arm_2.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -142,13 +142,13 @@
         <visual name="arm_3_visual">
             <origin xyz="-0.09049999658483845 2.259060191846725e-18 0.003979455781202988" rpy="1.232595164407831e-32 1.5707963267948966 0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/arm_3.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/arm_3.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="arm_3_collision">
             <origin xyz="-0.09049999658483845 2.259060191846725e-18 0.003979455781202988" rpy="1.232595164407831e-32 1.5707963267948966 0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/arm_3.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/arm_3.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -161,13 +161,13 @@
         <visual name="gripper_gear_1_visual">
             <origin xyz="0.0543908059196748 -0.12899144399999998 -0.003311543941894128" rpy="-1.5707963267948963 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/gripper_gear_1.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/gripper_gear_1.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="gripper_gear_1_collision">
             <origin xyz="0.0543908059196748 -0.12899144399999998 -0.003311543941894128" rpy="-1.5707963267948963 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/gripper_gear_1.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/gripper_gear_1.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -180,13 +180,13 @@
         <visual name="gripper_gear_2_visual">
             <origin xyz="0.06143864417246264 -0.12899634400000004 -0.00331643944132532" rpy="-1.5707963267948963 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/gripper_gear_2.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/gripper_gear_2.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="gripper_gear_2_collision">
             <origin xyz="0.06143864417246264 -0.12899634400000004 -0.00331643944132532" rpy="-1.5707963267948963 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://urdf_test/meshes/gripper_gear_2.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="model://urdf_test/meshes/gripper_gear_2.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>

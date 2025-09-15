@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/narayan/ros2_ws/src/my_interfaces
+CMAKE_SOURCE_DIR = /home/narayan_/Documents/ros2_ws/src/my_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/narayan/ros2_ws/build/my_interfaces
+CMAKE_BINARY_DIR = /home/narayan_/Documents/ros2_ws/build/my_interfaces
 
 # Utility rule file for my_interfaces.
 
@@ -66,10 +66,10 @@ include CMakeFiles/my_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/my_interfaces.dir/progress.make
 
-CMakeFiles/my_interfaces: /home/narayan/ros2_ws/src/my_interfaces/msg/HdStatus.msg
-CMakeFiles/my_interfaces: /home/narayan/ros2_ws/src/my_interfaces/msg/LEDstatus.msg
-CMakeFiles/my_interfaces: /home/narayan/ros2_ws/src/my_interfaces/srv/SetLED.srv
-CMakeFiles/my_interfaces: /home/narayan/ros2_ws/src/my_interfaces/srv/TurtleHead.srv
+CMakeFiles/my_interfaces: /home/narayan_/Documents/ros2_ws/src/my_interfaces/msg/HdStatus.msg
+CMakeFiles/my_interfaces: /home/narayan_/Documents/ros2_ws/src/my_interfaces/msg/LEDstatus.msg
+CMakeFiles/my_interfaces: /home/narayan_/Documents/ros2_ws/src/my_interfaces/srv/SetLED.srv
+CMakeFiles/my_interfaces: /home/narayan_/Documents/ros2_ws/src/my_interfaces/srv/TurtleHead.srv
 CMakeFiles/my_interfaces: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 
 my_interfaces: CMakeFiles/my_interfaces
@@ -85,6 +85,6 @@ CMakeFiles/my_interfaces.dir/clean:
 .PHONY : CMakeFiles/my_interfaces.dir/clean
 
 CMakeFiles/my_interfaces.dir/depend:
-	cd /home/narayan/ros2_ws/build/my_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/narayan/ros2_ws/src/my_interfaces /home/narayan/ros2_ws/src/my_interfaces /home/narayan/ros2_ws/build/my_interfaces /home/narayan/ros2_ws/build/my_interfaces /home/narayan/ros2_ws/build/my_interfaces/CMakeFiles/my_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/narayan_/Documents/ros2_ws/build/my_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/narayan_/Documents/ros2_ws/src/my_interfaces /home/narayan_/Documents/ros2_ws/src/my_interfaces /home/narayan_/Documents/ros2_ws/build/my_interfaces /home/narayan_/Documents/ros2_ws/build/my_interfaces /home/narayan_/Documents/ros2_ws/build/my_interfaces/CMakeFiles/my_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/my_interfaces.dir/depend
 

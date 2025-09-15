@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/TransNum/TransNum.egg-info
+writing ../../build/TransNum/TransNum.egg-info/PKG-INFO
+writing dependency_links to ../../build/TransNum/TransNum.egg-info/dependency_links.txt
+writing entry points to ../../build/TransNum/TransNum.egg-info/entry_points.txt
+writing requirements to ../../build/TransNum/TransNum.egg-info/requires.txt
+writing top-level names to ../../build/TransNum/TransNum.egg-info/top_level.txt
+writing manifest file '../../build/TransNum/TransNum.egg-info/SOURCES.txt'
+reading manifest file '../../build/TransNum/TransNum.egg-info/SOURCES.txt'
+writing manifest file '../../build/TransNum/TransNum.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/narayan_/Documents/ros2_ws/build/TransNum/build
+creating /home/narayan_/Documents/ros2_ws/build/TransNum/build/lib
+creating /home/narayan_/Documents/ros2_ws/build/TransNum/build/lib/TransNum
+copying TransNum/save.py -> /home/narayan_/Documents/ros2_ws/build/TransNum/build/lib/TransNum
+copying TransNum/NumPublisher.py -> /home/narayan_/Documents/ros2_ws/build/TransNum/build/lib/TransNum
+copying TransNum/__init__.py -> /home/narayan_/Documents/ros2_ws/build/TransNum/build/lib/TransNum
+copying TransNum/TwoWayComp.py -> /home/narayan_/Documents/ros2_ws/build/TransNum/build/lib/TransNum
+running install
+running install_lib
+creating /home/narayan_/Documents/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum
+copying /home/narayan_/Documents/ros2_ws/build/TransNum/build/lib/TransNum/save.py -> /home/narayan_/Documents/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum
+copying /home/narayan_/Documents/ros2_ws/build/TransNum/build/lib/TransNum/NumPublisher.py -> /home/narayan_/Documents/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum
+copying /home/narayan_/Documents/ros2_ws/build/TransNum/build/lib/TransNum/__init__.py -> /home/narayan_/Documents/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum
+copying /home/narayan_/Documents/ros2_ws/build/TransNum/build/lib/TransNum/TwoWayComp.py -> /home/narayan_/Documents/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum
+byte-compiling /home/narayan_/Documents/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum/save.py to save.cpython-312.pyc
+byte-compiling /home/narayan_/Documents/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum/NumPublisher.py to NumPublisher.cpython-312.pyc
+byte-compiling /home/narayan_/Documents/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/narayan_/Documents/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum/TwoWayComp.py to TwoWayComp.cpython-312.pyc
+running install_data
+creating /home/narayan_/Documents/ros2_ws/install/TransNum/share/ament_index
+creating /home/narayan_/Documents/ros2_ws/install/TransNum/share/ament_index/resource_index
+creating /home/narayan_/Documents/ros2_ws/install/TransNum/share/ament_index/resource_index/packages
+copying resource/TransNum -> /home/narayan_/Documents/ros2_ws/install/TransNum/share/ament_index/resource_index/packages
+copying package.xml -> /home/narayan_/Documents/ros2_ws/install/TransNum/share/TransNum
+running install_egg_info
+Copying ../../build/TransNum/TransNum.egg-info to /home/narayan_/Documents/ros2_ws/install/TransNum/lib/python3.12/site-packages/TransNum-0.0.0-py3.12.egg-info
+running install_scripts
+Installing number_publisher script to /home/narayan_/Documents/ros2_ws/install/TransNum/lib/TransNum
+Installing two_way script to /home/narayan_/Documents/ros2_ws/install/TransNum/lib/TransNum
+writing list of installed files to '/home/narayan_/Documents/ros2_ws/build/TransNum/install.log'

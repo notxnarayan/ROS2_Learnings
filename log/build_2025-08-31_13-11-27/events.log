@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000852] (-) JobUnselected: {'identifier': 'TransNum'}
-[0.001457] (-) JobUnselected: {'identifier': 'led_activity'}
-[0.001540] (-) JobUnselected: {'identifier': 'my_interfaces'}
-[0.001603] (-) JobUnselected: {'identifier': 'onepkg'}
-[0.002496] (-) EventReactorShutdown: {}

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <xacro:include filename="materials.xacro" />
+    <xacro:include filename="joints.xacro" />
+
+    <xacro:include filename="links.xacro" />
+
+    <xacro:property name="base_length" value="0.6" />
+    
+    <gazebo reference="castor_wheel_link">
+        <mu1>0.1</mu1>
+        <mu2>0.1</mu2>
+    </gazebo>
+
+
+    <gazebo>
+        <plugin name="gz::sim::systems::DiffDrive" filename="gz-sim-diff-drive-system">
+            <left_joint>left_wheel_joint</left_joint>
+            <right_joint>right_wheel_joint</right_joint>
+            <wheel_separation>0.34</wheel_separation>
+            <wheel_radius>0.1</wheel_radius>
+            <topic>/cmd_vel</topic>
+            <odometry_topic>/odom</odometry_topic>
+            <odometry_frame>odom</odometry_frame>
+            <robot_base_frame>base_link</robot_base_frame>
+            <update_rate>100.0</update_rate>
+            <gaussian_noise>0.0</gaussian_noise>
+            <frame_id>odom</frame_id>
+            <child_frame_id>base_footprint</child_frame_id>
+        </plugin>
+    </gazebo>   
+
+    <gazebo>
+        <plugin name = "gz::sim::systems::JointStatePublisher" filename="gz-sim-joint-state-publisher-system">
+            <joint_name>base_left_wheel_joint</joint_name>
+            <joint_name>base_right_wheel_joint</joint_name>
+        </plugin>
+    </gazebo>
+
+
+
+    <!-- <xacro:macro name="example_macro" params="a b c">
+        stuff
+        using ${a} etc...
+    </xacro:macro> -->
+
+    <!-- <xacro:example_macro a="2" b="3" c="1" -->
+
+    <!-- <joint name="base_second_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="second_link" />
+        <origin xyz="0 0 0.2" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+    </joint> -->
+
+    <!-- <joint name="base_second_joint" type="prismatic">
+        <parent link="base_link" />
+        <child link="second_link" />
+        <origin xyz="0 0 0.2" rpy="0 0 0" />
+        <axis xyz="1 0 0" />
+        <limit lower="0.0" upper="0.5" velocity="100" effort="100" />
+    </joint> -->
+
+</robot>    

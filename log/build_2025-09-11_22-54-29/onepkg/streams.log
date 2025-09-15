@@ -1,0 +1,57 @@
+[0.874s] Invoking command in '/home/narayan_/Documents/ros2_ws/src/onepkg': AMENT_PREFIX_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/narayan_/Documents/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan_/Documents/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onepkg build --build-base /home/narayan_/Documents/ros2_ws/build/onepkg/build install --record /home/narayan_/Documents/ros2_ws/build/onepkg/install.log --single-version-externally-managed install_data
+[1.063s] running egg_info
+[1.064s] creating ../../build/onepkg/onepkg.egg-info
+[1.077s] writing ../../build/onepkg/onepkg.egg-info/PKG-INFO
+[1.078s] writing dependency_links to ../../build/onepkg/onepkg.egg-info/dependency_links.txt
+[1.078s] writing entry points to ../../build/onepkg/onepkg.egg-info/entry_points.txt
+[1.078s] writing requirements to ../../build/onepkg/onepkg.egg-info/requires.txt
+[1.078s] writing top-level names to ../../build/onepkg/onepkg.egg-info/top_level.txt
+[1.078s] writing manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+[1.108s] reading manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+[1.109s] writing manifest file '../../build/onepkg/onepkg.egg-info/SOURCES.txt'
+[1.109s] running build
+[1.109s] running build_py
+[1.109s] creating /home/narayan_/Documents/ros2_ws/build/onepkg/build
+[1.110s] creating /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib
+[1.110s] creating /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg
+[1.110s] copying onepkg/smartphone.py -> /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg
+[1.110s] copying onepkg/first_node.py -> /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg
+[1.110s] copying onepkg/server_client.py -> /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg
+[1.110s] copying onepkg/__init__.py -> /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg
+[1.110s] copying onepkg/interface_test.py -> /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg
+[1.110s] copying onepkg/server_test.py -> /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg
+[1.110s] copying onepkg/topic_test.py -> /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg
+[1.110s] running install
+[1.115s] running install_lib
+[1.130s] creating /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+[1.130s] copying /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg/smartphone.py -> /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+[1.130s] copying /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg/first_node.py -> /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+[1.130s] copying /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg/server_client.py -> /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+[1.130s] copying /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg/__init__.py -> /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+[1.130s] copying /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg/interface_test.py -> /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+[1.131s] copying /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg/server_test.py -> /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+[1.131s] copying /home/narayan_/Documents/ros2_ws/build/onepkg/build/lib/onepkg/topic_test.py -> /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg
+[1.131s] byte-compiling /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/smartphone.py to smartphone.cpython-312.pyc
+[1.131s] byte-compiling /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/first_node.py to first_node.cpython-312.pyc
+[1.132s] byte-compiling /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/server_client.py to server_client.cpython-312.pyc
+[1.132s] byte-compiling /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/__init__.py to __init__.cpython-312.pyc
+[1.132s] byte-compiling /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/interface_test.py to interface_test.cpython-312.pyc
+[1.133s] byte-compiling /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/server_test.py to server_test.cpython-312.pyc
+[1.133s] byte-compiling /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg/topic_test.py to topic_test.cpython-312.pyc
+[1.133s] running install_data
+[1.133s] creating /home/narayan_/Documents/ros2_ws/install/onepkg/share/ament_index
+[1.133s] creating /home/narayan_/Documents/ros2_ws/install/onepkg/share/ament_index/resource_index
+[1.134s] creating /home/narayan_/Documents/ros2_ws/install/onepkg/share/ament_index/resource_index/packages
+[1.134s] copying resource/onepkg -> /home/narayan_/Documents/ros2_ws/install/onepkg/share/ament_index/resource_index/packages
+[1.134s] copying package.xml -> /home/narayan_/Documents/ros2_ws/install/onepkg/share/onepkg
+[1.134s] running install_egg_info
+[1.150s] Copying ../../build/onepkg/onepkg.egg-info to /home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages/onepkg-0.0.0-py3.12.egg-info
+[1.151s] running install_scripts
+[1.253s] Installing client script to /home/narayan_/Documents/ros2_ws/install/onepkg/lib/onepkg
+[1.253s] Installing firstnode script to /home/narayan_/Documents/ros2_ws/install/onepkg/lib/onepkg
+[1.254s] Installing interface_test script to /home/narayan_/Documents/ros2_ws/install/onepkg/lib/onepkg
+[1.254s] Installing server script to /home/narayan_/Documents/ros2_ws/install/onepkg/lib/onepkg
+[1.254s] Installing smphnode script to /home/narayan_/Documents/ros2_ws/install/onepkg/lib/onepkg
+[1.254s] Installing transnode script to /home/narayan_/Documents/ros2_ws/install/onepkg/lib/onepkg
+[1.254s] writing list of installed files to '/home/narayan_/Documents/ros2_ws/build/onepkg/install.log'
+[1.275s] Invoked command in '/home/narayan_/Documents/ros2_ws/src/onepkg' returned '0': AMENT_PREFIX_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/narayan_/Documents/ros2_ws/build/onepkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan_/Documents/ros2_ws/install/onepkg/lib/python3.12/site-packages:/home/narayan_/Documents/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onepkg build --build-base /home/narayan_/Documents/ros2_ws/build/onepkg/build install --record /home/narayan_/Documents/ros2_ws/build/onepkg/install.log --single-version-externally-managed install_data

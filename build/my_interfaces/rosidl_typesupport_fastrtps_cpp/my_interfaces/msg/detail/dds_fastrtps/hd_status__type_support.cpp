@@ -68,7 +68,7 @@ cdr_deserialize(
   cdr >> ros_message.debug;
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 
 size_t

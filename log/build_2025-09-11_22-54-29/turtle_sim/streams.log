@@ -1,0 +1,45 @@
+[0.874s] Invoking command in '/home/narayan_/Documents/ros2_ws/src/turtle_sim': AMENT_PREFIX_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/narayan_/Documents/ros2_ws/build/turtle_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan_/Documents/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_sim build --build-base /home/narayan_/Documents/ros2_ws/build/turtle_sim/build install --record /home/narayan_/Documents/ros2_ws/build/turtle_sim/install.log --single-version-externally-managed install_data
+[1.062s] running egg_info
+[1.062s] creating ../../build/turtle_sim/turtle_sim.egg-info
+[1.076s] writing ../../build/turtle_sim/turtle_sim.egg-info/PKG-INFO
+[1.076s] writing dependency_links to ../../build/turtle_sim/turtle_sim.egg-info/dependency_links.txt
+[1.076s] writing entry points to ../../build/turtle_sim/turtle_sim.egg-info/entry_points.txt
+[1.076s] writing requirements to ../../build/turtle_sim/turtle_sim.egg-info/requires.txt
+[1.076s] writing top-level names to ../../build/turtle_sim/turtle_sim.egg-info/top_level.txt
+[1.076s] writing manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+[1.105s] reading manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+[1.105s] writing manifest file '../../build/turtle_sim/turtle_sim.egg-info/SOURCES.txt'
+[1.105s] running build
+[1.106s] running build_py
+[1.106s] creating /home/narayan_/Documents/ros2_ws/build/turtle_sim/build
+[1.106s] creating /home/narayan_/Documents/ros2_ws/build/turtle_sim/build/lib
+[1.106s] creating /home/narayan_/Documents/ros2_ws/build/turtle_sim/build/lib/turtle_sim
+[1.106s] copying turtle_sim/turtle1.py -> /home/narayan_/Documents/ros2_ws/build/turtle_sim/build/lib/turtle_sim
+[1.106s] copying turtle_sim/spawner.py -> /home/narayan_/Documents/ros2_ws/build/turtle_sim/build/lib/turtle_sim
+[1.107s] copying turtle_sim/__init__.py -> /home/narayan_/Documents/ros2_ws/build/turtle_sim/build/lib/turtle_sim
+[1.107s] copying turtle_sim/head_server.py -> /home/narayan_/Documents/ros2_ws/build/turtle_sim/build/lib/turtle_sim
+[1.107s] running install
+[1.111s] running install_lib
+[1.125s] creating /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim
+[1.125s] copying /home/narayan_/Documents/ros2_ws/build/turtle_sim/build/lib/turtle_sim/turtle1.py -> /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim
+[1.125s] copying /home/narayan_/Documents/ros2_ws/build/turtle_sim/build/lib/turtle_sim/spawner.py -> /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim
+[1.125s] copying /home/narayan_/Documents/ros2_ws/build/turtle_sim/build/lib/turtle_sim/__init__.py -> /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim
+[1.125s] copying /home/narayan_/Documents/ros2_ws/build/turtle_sim/build/lib/turtle_sim/head_server.py -> /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim
+[1.126s] byte-compiling /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim/turtle1.py to turtle1.cpython-312.pyc
+[1.126s] byte-compiling /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim/spawner.py to spawner.cpython-312.pyc
+[1.127s] byte-compiling /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim/__init__.py to __init__.cpython-312.pyc
+[1.127s] byte-compiling /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim/head_server.py to head_server.cpython-312.pyc
+[1.127s] running install_data
+[1.128s] creating /home/narayan_/Documents/ros2_ws/install/turtle_sim/share/ament_index
+[1.128s] creating /home/narayan_/Documents/ros2_ws/install/turtle_sim/share/ament_index/resource_index
+[1.128s] creating /home/narayan_/Documents/ros2_ws/install/turtle_sim/share/ament_index/resource_index/packages
+[1.128s] copying resource/turtle_sim -> /home/narayan_/Documents/ros2_ws/install/turtle_sim/share/ament_index/resource_index/packages
+[1.128s] copying package.xml -> /home/narayan_/Documents/ros2_ws/install/turtle_sim/share/turtle_sim
+[1.128s] running install_egg_info
+[1.143s] Copying ../../build/turtle_sim/turtle_sim.egg-info to /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/python3.12/site-packages/turtle_sim-0.0.0-py3.12.egg-info
+[1.144s] running install_scripts
+[1.243s] Installing server script to /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/turtle_sim
+[1.243s] Installing spawner script to /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/turtle_sim
+[1.243s] Installing turtle script to /home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/turtle_sim
+[1.244s] writing list of installed files to '/home/narayan_/Documents/ros2_ws/build/turtle_sim/install.log'
+[1.261s] Invoked command in '/home/narayan_/Documents/ros2_ws/src/turtle_sim' returned '0': AMENT_PREFIX_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/narayan_/Documents/ros2_ws/build/turtle_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan_/Documents/ros2_ws/install/turtle_sim/lib/python3.12/site-packages:/home/narayan_/Documents/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_sim build --build-base /home/narayan_/Documents/ros2_ws/build/turtle_sim/build install --record /home/narayan_/Documents/ros2_ws/build/turtle_sim/install.log --single-version-externally-managed install_data

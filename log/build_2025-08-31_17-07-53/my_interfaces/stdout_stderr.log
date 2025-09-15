@@ -1,4 +1,0 @@
-gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_my_interfaces.dir/build.make:85: CMakeFiles/ament_cmake_python_copy_my_interfaces.dir/depend] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/my_interfaces__rosidl_generator_type_description.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:451: CMakeFiles/ament_cmake_python_copy_my_interfaces.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

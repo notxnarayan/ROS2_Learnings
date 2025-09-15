@@ -1,12 +1,12 @@
 {
   "package_name": "my_interfaces",
-  "output_dir": "/home/narayan/ros2_ws/build/my_interfaces/rosidl_typesupport_cpp/my_interfaces",
+  "output_dir": "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_typesupport_cpp/my_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:msg/HdStatus.idl",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:msg/LEDstatus.idl",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/SetLED.idl",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/TurtleHead.idl"
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:msg/HdStatus.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:msg/LEDstatus.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/SetLED.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/TurtleHead.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -20,10 +20,10 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/msg/HdStatus.idl",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/msg/LEDstatus.idl",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/SetLED.idl",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/TurtleHead.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/msg/HdStatus.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/msg/LEDstatus.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/SetLED.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/TurtleHead.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"

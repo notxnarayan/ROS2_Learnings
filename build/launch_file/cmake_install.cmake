@@ -1,8 +1,8 @@
-# Install script for directory: /home/narayan/ros2_ws/src/launch_file
+# Install script for directory: /home/narayan_/Documents/ros2_ws/src/launch_file
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/narayan/ros2_ws/install/launch_file")
+  set(CMAKE_INSTALL_PREFIX "/home/narayan_/Documents/ros2_ws/install/launch_file")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,17 +44,17 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE DIRECTORY FILES
-    "/home/narayan/ros2_ws/src/launch_file/launch"
-    "/home/narayan/ros2_ws/src/launch_file/config"
+    "/home/narayan_/Documents/ros2_ws/src/launch_file/launch"
+    "/home/narayan_/Documents/ros2_ws/src/launch_file/config"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/narayan/ros2_ws/build/launch_file/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/launch_file")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/launch_file")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/narayan/ros2_ws/build/launch_file/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/launch_file")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/launch_file")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -62,7 +62,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file/environment" TYPE FILE FILES "/home/narayan/ros2_ws/build/launch_file/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file/environment" TYPE FILE FILES "/home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,42 +70,42 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file/environment" TYPE FILE FILES "/home/narayan/ros2_ws/build/launch_file/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file/environment" TYPE FILE FILES "/home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE FILE FILES "/home/narayan/ros2_ws/build/launch_file/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE FILE FILES "/home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE FILE FILES "/home/narayan/ros2_ws/build/launch_file/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE FILE FILES "/home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE FILE FILES "/home/narayan/ros2_ws/build/launch_file/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE FILE FILES "/home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE FILE FILES "/home/narayan/ros2_ws/build/launch_file/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE FILE FILES "/home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE FILE FILES "/home/narayan/ros2_ws/build/launch_file/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE FILE FILES "/home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/narayan/ros2_ws/build/launch_file/ament_cmake_index/share/ament_index/resource_index/packages/launch_file")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_index/share/ament_index/resource_index/packages/launch_file")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file/cmake" TYPE FILE FILES
-    "/home/narayan/ros2_ws/build/launch_file/ament_cmake_core/launch_fileConfig.cmake"
-    "/home/narayan/ros2_ws/build/launch_file/ament_cmake_core/launch_fileConfig-version.cmake"
+    "/home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_core/launch_fileConfig.cmake"
+    "/home/narayan_/Documents/ros2_ws/build/launch_file/ament_cmake_core/launch_fileConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE FILE FILES "/home/narayan/ros2_ws/src/launch_file/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_file" TYPE FILE FILES "/home/narayan_/Documents/ros2_ws/src/launch_file/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -116,5 +116,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/narayan/ros2_ws/build/launch_file/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/narayan_/Documents/ros2_ws/build/launch_file/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

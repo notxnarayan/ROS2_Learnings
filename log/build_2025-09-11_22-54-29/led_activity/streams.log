@@ -1,0 +1,41 @@
+[0.873s] Invoking command in '/home/narayan_/Documents/ros2_ws/src/led_activity': AMENT_PREFIX_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/narayan_/Documents/ros2_ws/build/led_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan_/Documents/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan_/Documents/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/led_activity build --build-base /home/narayan_/Documents/ros2_ws/build/led_activity/build install --record /home/narayan_/Documents/ros2_ws/build/led_activity/install.log --single-version-externally-managed install_data
+[1.065s] running egg_info
+[1.065s] creating ../../build/led_activity/led_activity.egg-info
+[1.079s] writing ../../build/led_activity/led_activity.egg-info/PKG-INFO
+[1.079s] writing dependency_links to ../../build/led_activity/led_activity.egg-info/dependency_links.txt
+[1.079s] writing entry points to ../../build/led_activity/led_activity.egg-info/entry_points.txt
+[1.079s] writing requirements to ../../build/led_activity/led_activity.egg-info/requires.txt
+[1.080s] writing top-level names to ../../build/led_activity/led_activity.egg-info/top_level.txt
+[1.080s] writing manifest file '../../build/led_activity/led_activity.egg-info/SOURCES.txt'
+[1.108s] reading manifest file '../../build/led_activity/led_activity.egg-info/SOURCES.txt'
+[1.108s] writing manifest file '../../build/led_activity/led_activity.egg-info/SOURCES.txt'
+[1.109s] running build
+[1.109s] running build_py
+[1.109s] creating /home/narayan_/Documents/ros2_ws/build/led_activity/build
+[1.109s] creating /home/narayan_/Documents/ros2_ws/build/led_activity/build/lib
+[1.109s] creating /home/narayan_/Documents/ros2_ws/build/led_activity/build/lib/led_activity
+[1.109s] copying led_activity/led_panel.py -> /home/narayan_/Documents/ros2_ws/build/led_activity/build/lib/led_activity
+[1.109s] copying led_activity/__init__.py -> /home/narayan_/Documents/ros2_ws/build/led_activity/build/lib/led_activity
+[1.109s] copying led_activity/battery_node.py -> /home/narayan_/Documents/ros2_ws/build/led_activity/build/lib/led_activity
+[1.109s] running install
+[1.114s] running install_lib
+[1.128s] creating /home/narayan_/Documents/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity
+[1.128s] copying /home/narayan_/Documents/ros2_ws/build/led_activity/build/lib/led_activity/led_panel.py -> /home/narayan_/Documents/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity
+[1.128s] copying /home/narayan_/Documents/ros2_ws/build/led_activity/build/lib/led_activity/__init__.py -> /home/narayan_/Documents/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity
+[1.129s] copying /home/narayan_/Documents/ros2_ws/build/led_activity/build/lib/led_activity/battery_node.py -> /home/narayan_/Documents/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity
+[1.129s] byte-compiling /home/narayan_/Documents/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity/led_panel.py to led_panel.cpython-312.pyc
+[1.129s] byte-compiling /home/narayan_/Documents/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity/__init__.py to __init__.cpython-312.pyc
+[1.130s] byte-compiling /home/narayan_/Documents/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity/battery_node.py to battery_node.cpython-312.pyc
+[1.130s] running install_data
+[1.130s] creating /home/narayan_/Documents/ros2_ws/install/led_activity/share/ament_index
+[1.130s] creating /home/narayan_/Documents/ros2_ws/install/led_activity/share/ament_index/resource_index
+[1.130s] creating /home/narayan_/Documents/ros2_ws/install/led_activity/share/ament_index/resource_index/packages
+[1.130s] copying resource/led_activity -> /home/narayan_/Documents/ros2_ws/install/led_activity/share/ament_index/resource_index/packages
+[1.130s] copying package.xml -> /home/narayan_/Documents/ros2_ws/install/led_activity/share/led_activity
+[1.130s] running install_egg_info
+[1.145s] Copying ../../build/led_activity/led_activity.egg-info to /home/narayan_/Documents/ros2_ws/install/led_activity/lib/python3.12/site-packages/led_activity-0.0.0-py3.12.egg-info
+[1.146s] running install_scripts
+[1.248s] Installing battery script to /home/narayan_/Documents/ros2_ws/install/led_activity/lib/led_activity
+[1.248s] Installing led_server script to /home/narayan_/Documents/ros2_ws/install/led_activity/lib/led_activity
+[1.248s] writing list of installed files to '/home/narayan_/Documents/ros2_ws/build/led_activity/install.log'
+[1.277s] Invoked command in '/home/narayan_/Documents/ros2_ws/src/led_activity' returned '0': AMENT_PREFIX_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/narayan_/Documents/ros2_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/narayan_/Documents/ros2_ws/build/led_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/narayan_/Documents/ros2_ws/install/led_activity/lib/python3.12/site-packages:/home/narayan_/Documents/ros2_ws/install/my_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/led_activity build --build-base /home/narayan_/Documents/ros2_ws/build/led_activity/build install --record /home/narayan_/Documents/ros2_ws/build/led_activity/install.log --single-version-externally-managed install_data

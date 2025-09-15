@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/narayan/ros2_ws/src/urdf_test
+CMAKE_SOURCE_DIR = /home/narayan_/Documents/ros2_ws/src/urdf_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/narayan/ros2_ws/build/urdf_test
+CMAKE_BINARY_DIR = /home/narayan_/Documents/ros2_ws/build/urdf_test
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/narayan/ros2_ws/build/urdf_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/narayan/ros2_ws/src/urdf_test /home/narayan/ros2_ws/src/urdf_test /home/narayan/ros2_ws/build/urdf_test /home/narayan/ros2_ws/build/urdf_test /home/narayan/ros2_ws/build/urdf_test/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/narayan_/Documents/ros2_ws/build/urdf_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/narayan_/Documents/ros2_ws/src/urdf_test /home/narayan_/Documents/ros2_ws/src/urdf_test /home/narayan_/Documents/ros2_ws/build/urdf_test /home/narayan_/Documents/ros2_ws/build/urdf_test /home/narayan_/Documents/ros2_ws/build/urdf_test/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

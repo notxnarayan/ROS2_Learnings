@@ -1,18 +1,18 @@
 {
   "package_name": "my_interfaces",
-  "output_dir": "/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_c/my_interfaces",
+  "output_dir": "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_generator_c/my_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:msg/HdStatus.idl",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:msg/LEDstatus.idl",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/SetLED.idl",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/TurtleHead.idl"
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:msg/HdStatus.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:msg/LEDstatus.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/SetLED.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/TurtleHead.idl"
   ],
   "ros_interface_files": [
-    "/home/narayan/ros2_ws/src/my_interfaces/msg/HdStatus.msg",
-    "/home/narayan/ros2_ws/src/my_interfaces/msg/LEDstatus.msg",
-    "/home/narayan/ros2_ws/src/my_interfaces/srv/SetLED.srv",
-    "/home/narayan/ros2_ws/src/my_interfaces/srv/TurtleHead.srv"
+    "/home/narayan_/Documents/ros2_ws/src/my_interfaces/msg/HdStatus.msg",
+    "/home/narayan_/Documents/ros2_ws/src/my_interfaces/msg/LEDstatus.msg",
+    "/home/narayan_/Documents/ros2_ws/src/my_interfaces/srv/SetLED.srv",
+    "/home/narayan_/Documents/ros2_ws/src/my_interfaces/srv/TurtleHead.srv"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -39,18 +39,18 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/msg/HdStatus.idl",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/msg/LEDstatus.idl",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/SetLED.idl",
-    "/home/narayan/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/TurtleHead.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/msg/HdStatus.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/msg/LEDstatus.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/SetLED.idl",
+    "/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/TurtleHead.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "type_description_tuples": [
-    "msg/HdStatus.idl:/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_type_description/my_interfaces/msg/HdStatus.json",
-    "msg/LEDstatus.idl:/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_type_description/my_interfaces/msg/LEDstatus.json",
-    "srv/SetLED.idl:/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_type_description/my_interfaces/srv/SetLED.json",
-    "srv/TurtleHead.idl:/home/narayan/ros2_ws/build/my_interfaces/rosidl_generator_type_description/my_interfaces/srv/TurtleHead.json"
+    "msg/HdStatus.idl:/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_generator_type_description/my_interfaces/msg/HdStatus.json",
+    "msg/LEDstatus.idl:/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_generator_type_description/my_interfaces/msg/LEDstatus.json",
+    "srv/SetLED.idl:/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_generator_type_description/my_interfaces/srv/SetLED.json",
+    "srv/TurtleHead.idl:/home/narayan_/Documents/ros2_ws/build/my_interfaces/rosidl_generator_type_description/my_interfaces/srv/TurtleHead.json"
   ]
 }

@@ -1,5 +1,6 @@
 /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/joints.xacro
 /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/my_robot.xacro
+/home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/sensors.xacro
 /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/links.xacro
 /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/example.xacro
 /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/materials.xacro
@@ -16,6 +17,7 @@
 /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/arm_3.stl
 /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/steering.stl
 /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/front_wheel.stl
+/home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//worlds/gz_test_world.sdf
 /home/narayan_/Documents/ros2_ws/install/urdf_test/share/ament_index/resource_index/package_run_dependencies/urdf_test
 /home/narayan_/Documents/ros2_ws/install/urdf_test/share/ament_index/resource_index/parent_prefix_path/urdf_test
 /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.sh

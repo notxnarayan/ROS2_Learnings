@@ -48,6 +48,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/narayan_/Documents/ros2_ws/src/urdf_test/launch"
     "/home/narayan_/Documents/ros2_ws/src/urdf_test/rviz_save"
     "/home/narayan_/Documents/ros2_ws/src/urdf_test/meshes"
+    "/home/narayan_/Documents/ros2_ws/src/urdf_test/worlds"
     )
 endif()
 

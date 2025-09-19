@@ -1,5 +1,5 @@
 <launch>
-    <let name="urdf_path" value="$(find-pkg-share urdf_test)/urdf/example.xacro" />
+    <let name="urdf_path" value="$(find-pkg-share urdf_test)/urdf/my_robot.xacro" />
 
     <let name="rviz_path" value="$(find-pkg-share urdf_test)/rviz_save/my_robot.rviz" />
 

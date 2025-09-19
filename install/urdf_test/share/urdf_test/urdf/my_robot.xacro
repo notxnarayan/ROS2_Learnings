@@ -1,5 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<robot name="ros2_robot_test1">
+<robot name="my_robot">
+
+    <export>
+        <build_type>ament_cmake</build_type>
+        <gazebo_ros gazebo_model_path = "/home/user/Documents/ros2_ws/install/urdf_test/share/" />
+    </export>
+
+
     <link name="base">
         <inertial>
             <origin xyz="-0.00483946780539695 6.928044477352326e-10 0.009034319690654786" rpy="0.0 0.0 0.0" />
@@ -9,13 +16,16 @@
         <visual name="base_visual">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/base.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/base.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Cyan">
+                <color rgba="0 1 1 1" />
+            </material>
         </visual>
         <collision name="base_collision">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/base.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/base.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -28,13 +38,16 @@
         <visual name="steering_visual">
             <origin xyz="0.05050000000000001 -1.6653345369377347e-18 0.005" rpy="3.141592653589793 -0.0 0.0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/steering.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/steering.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Cyan">
+                <color rgba="0 1 1 1" />
+            </material>
         </visual>
         <collision name="steering_collision">
             <origin xyz="0.05050000000000001 -1.6653345369377347e-18 0.005" rpy="3.141592653589793 -0.0 0.0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/steering.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/steering.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -47,13 +60,16 @@
         <visual name="front_wheel_visual">
             <origin xyz="-0.06302599985826682 -0.003489789468550507 0.0029999999999999983" rpy="-1.5707963267948966 -0.0 3.141592653589793" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/front_wheel.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/front_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Cyan">
+                <color rgba="0 1 1 1" />
+            </material>
         </visual>
         <collision name="front_wheel_collision">
             <origin xyz="-0.06302599985826682 -0.003489789468550507 0.0029999999999999983" rpy="-1.5707963267948966 -0.0 3.141592653589793" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/front_wheel.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/front_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -66,13 +82,16 @@
         <visual name="right_wheel_visual">
             <origin xyz="0.026000000372529027 -3.1840817234047667e-18 -0.02" rpy="1.5707963267948966 -0.0 3.141592653589793" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/right_wheel.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/right_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Cyan">
+                <color rgba="0 1 1 1" />
+            </material>
         </visual>
         <collision name="right_wheel_collision">
             <origin xyz="0.026000000372529027 -3.1840817234047667e-18 -0.02" rpy="1.5707963267948966 -0.0 3.141592653589793" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/right_wheel.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/right_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -85,13 +104,16 @@
         <visual name="left_wheel_visual">
             <origin xyz="-0.004341204506362234 0.02462019419217468 -0.02" rpy="-1.5707963267948966 -0.0 -1.396263401595464" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/left_wheel.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/left_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Cyan">
+                <color rgba="0 1 1 1" />
+            </material>
         </visual>
         <collision name="left_wheel_collision">
             <origin xyz="-0.004341204506362234 0.02462019419217468 -0.02" rpy="-1.5707963267948966 -0.0 -1.396263401595464" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/left_wheel.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/left_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -104,13 +126,16 @@
         <visual name="arm_1_visual">
             <origin xyz="-1.1102230246251566e-18 0.0 -0.023" rpy="0.0 -0.0 0.0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/arm_1.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/arm_1.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Cyan">
+                <color rgba="0 1 1 1" />
+            </material>
         </visual>
         <collision name="arm_1_collision">
             <origin xyz="-1.1102230246251566e-18 0.0 -0.023" rpy="0.0 -0.0 0.0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/arm_1.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/arm_1.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -123,13 +148,16 @@
         <visual name="arm_2_visual">
             <origin xyz="-0.05149999658483846 3.7085770201170125e-18 0.004980669999999999" rpy="3.141592653589793 -1.5707963267948966 0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/arm_2.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/arm_2.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Cyan">
+                <color rgba="0 1 1 1" />
+            </material>
         </visual>
         <collision name="arm_2_collision">
             <origin xyz="-0.05149999658483846 3.7085770201170125e-18 0.004980669999999999" rpy="3.141592653589793 -1.5707963267948966 0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/arm_2.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/arm_2.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -142,13 +170,16 @@
         <visual name="arm_3_visual">
             <origin xyz="-0.09049999658483845 2.259060191846725e-18 0.003979455781202988" rpy="1.232595164407831e-32 1.5707963267948966 0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/arm_3.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/arm_3.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Cyan">
+                <color rgba="0 1 1 1" />
+            </material>
         </visual>
         <collision name="arm_3_collision">
             <origin xyz="-0.09049999658483845 2.259060191846725e-18 0.003979455781202988" rpy="1.232595164407831e-32 1.5707963267948966 0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/arm_3.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/arm_3.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -161,13 +192,16 @@
         <visual name="gripper_gear_1_visual">
             <origin xyz="0.0543908059196748 -0.12899144399999998 -0.003311543941894128" rpy="-1.5707963267948963 -0.0 0.0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/gripper_gear_1.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/gripper_gear_1.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Cyan">
+                <color rgba="0 1 1 1" />
+            </material>
         </visual>
         <collision name="gripper_gear_1_collision">
             <origin xyz="0.0543908059196748 -0.12899144399999998 -0.003311543941894128" rpy="-1.5707963267948963 -0.0 0.0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/gripper_gear_1.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/gripper_gear_1.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -180,13 +214,16 @@
         <visual name="gripper_gear_2_visual">
             <origin xyz="0.06143864417246264 -0.12899634400000004 -0.00331643944132532" rpy="-1.5707963267948963 -0.0 0.0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/gripper_gear_2.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/gripper_gear_2.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Cyan">
+                <color rgba="0 1 1 1" />
+            </material>
         </visual>
         <collision name="gripper_gear_2_collision">
             <origin xyz="0.06143864417246264 -0.12899634400000004 -0.00331643944132532" rpy="-1.5707963267948963 -0.0 0.0" />
             <geometry>
-                <mesh filename="model://urdf_test/meshes/gripper_gear_2.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="file://$(find urdf_test)/meshes/gripper_gear_2.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -221,27 +258,35 @@
         <child link="arm_2" />
         <axis xyz="0.0 0.0 1.0" />
         <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+        <dynamics damping="0.01" friction="0.01" />
     </joint>
+
     <joint name="arm_2_Revolute-10" type="revolute">
         <origin xyz="0.038 0.0 0.00898067" rpy="3.141592653589793 -0.0 0.0" />
         <parent link="arm_2" />
         <child link="arm_3" />
         <axis xyz="0.0 0.0 1.0" />
         <limit lower="-1.570796" upper="1.570796" effort="1000000" velocity="1000000" />
+        <dynamics damping="0.01" friction="0.01" />
     </joint>
+
     <joint name="base_Revolute-11" type="continuous">
         <origin xyz="0.0 0.0 0.024" rpy="0.0 -0.0 0.0" />
         <parent link="base" />
         <child link="arm_1" />
         <axis xyz="0.0 0.0 1.0" />
+        <dynamics damping="0.01" friction="0.01" />
     </joint>
+
     <joint name="arm_3_Revolute-19" type="revolute">
         <origin xyz="0.041335840000000006 -0.0032446199999999997 0.00039081000000000033" rpy="1.5707963267948966 1.5707963267948966 0" />
         <parent link="arm_3" />
         <child link="gripper_gear_1" />
         <axis xyz="0.0 0.0 1.0" />
         <limit lower="0.0" upper="1.710423" effort="1000000" velocity="1000000" />
+        <dynamics damping="0.01" friction="0.01" />
     </joint>
+
     <joint name="arm_3_Revolute-20" type="revolute">
         <origin xyz="0.04134074 -0.0032446199999999997 0.00742683" rpy="1.5707963267948966 1.5707963267948966 0" />
         <parent link="arm_3" />
@@ -249,5 +294,59 @@
         <axis xyz="0.0 0.0 1.0" />
         <limit lower="-1.710423" upper="0.0" effort="1000000" velocity="1000000" />
         <mimic joint="arm_3_Revolute-19" multiplier="-1.0" offset="0.0" />
+        <dynamics damping="0.01" friction="0.01" />
     </joint>
+
+
+    <gazebo>
+        <plugin name="gz::sim::systems::JointPositionController" filename="gz-sim-joint-position-controller-system">
+            <joint_name>arm_1_Revolute-9</joint_name>
+            <p_gain>5.0</p_gain>
+        </plugin>
+    </gazebo>   
+
+    <gazebo>
+        <plugin name="gz::sim::systems::JointPositionController" filename="gz-sim-joint-position-controller-system">
+            <joint_name>arm_2_Revolute-10</joint_name>
+            <p_gain>5.0</p_gain>
+        </plugin>
+    </gazebo>   
+
+    <gazebo>
+        <plugin name="gz::sim::systems::JointPositionController" filename="gz-sim-joint-position-controller-system">
+            <joint_name>base_Revolute-11</joint_name>
+            <p_gain>5.0</p_gain>
+        </plugin>
+    </gazebo>   
+
+
+    <gazebo>
+        <plugin name="gz::sim::systems::DiffDrive" filename="gz-sim-diff-drive-system">
+            <left_joint>base_Revolute-3</left_joint>
+            <right_joint>base_Revolute-4</right_joint>
+            <wheel_separation>0.34</wheel_separation>
+            <wheel_radius>0.1</wheel_radius>
+            <frame_id>odom</frame_id>
+            <child_frame_id>base</child_frame_id>
+        </plugin>
+    </gazebo>   
+
+    <gazebo>
+        <plugin name = "gz::sim::systems::JointStatePublisher" filename="gz-sim-joint-state-publisher-system">
+            <joint_name>base_Revolute-1</joint_name>
+            <joint_name>base_Revolute-3</joint_name>
+            <joint_name>base_Revolute-4</joint_name>
+            <joint_name>steering_Revolute-6</joint_name>
+            <joint_name>arm_1_Revolute-9</joint_name>
+            <joint_name>arm_2_Revolute-10</joint_name>
+            <joint_name>base_Revolute-11</joint_name>
+            <joint_name>arm_3_Revolute-19</joint_name>
+            <joint_name>arm_3_Revolute-20</joint_name>
+        </plugin>
+    </gazebo>
+
+
+
+
+
 </robot>

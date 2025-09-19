@@ -1,4 +1,5 @@
 /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch//launch/robot_launch.xml
+/home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch//launch/robot_launch_arm.xml
 /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/gazebo_launch//config/gazebo_bridge.yaml
 /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/ament_index/resource_index/package_run_dependencies/gazebo_launch
 /home/narayan_/Documents/ros2_ws/install/gazebo_launch/share/ament_index/resource_index/parent_prefix_path/gazebo_launch

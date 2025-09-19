@@ -6,6 +6,7 @@
 
     <xacro:include filename="links.xacro" />
     <xacro:include filename="sensors.xacro" />
+    <xacro:include filename="arm.xacro" />
 
     <xacro:property name="base_length" value="0.6" />
     

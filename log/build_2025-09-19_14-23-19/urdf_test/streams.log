@@ -1,0 +1,46 @@
+[0.176s] Invoking command in '/home/narayan_/Documents/ros2_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan_/Documents/ros2_ws/install/turtle_sim:/home/narayan_/Documents/ros2_ws/install/onepkg:/home/narayan_/Documents/ros2_ws/install/led_activity:/home/narayan_/Documents/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/narayan_/Documents/ros2_ws/build/urdf_test -- -j12 -l12
+[0.213s] Invoked command in '/home/narayan_/Documents/ros2_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan_/Documents/ros2_ws/install/turtle_sim:/home/narayan_/Documents/ros2_ws/install/onepkg:/home/narayan_/Documents/ros2_ws/install/led_activity:/home/narayan_/Documents/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/narayan_/Documents/ros2_ws/build/urdf_test -- -j12 -l12
+[0.214s] Invoking command in '/home/narayan_/Documents/ros2_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan_/Documents/ros2_ws/install/turtle_sim:/home/narayan_/Documents/ros2_ws/install/onepkg:/home/narayan_/Documents/ros2_ws/install/led_activity:/home/narayan_/Documents/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/narayan_/Documents/ros2_ws/build/urdf_test
+[0.220s] -- Install configuration: ""
+[0.220s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf
+[0.220s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/joints.xacro
+[0.220s] -- Installing: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/arm.xacro
+[0.220s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/my_robot.xacro
+[0.221s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/sensors.xacro
+[0.221s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/links.xacro
+[0.221s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/example.xacro
+[0.221s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//urdf/materials.xacro
+[0.221s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//launch
+[0.221s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//launch/display.launch.xml
+[0.221s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//rviz_save
+[0.221s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//rviz_save/robot_test1.rviz
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//rviz_save/my_robot.rviz
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/gripper_gear_1.stl
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/right_wheel.stl
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/arm_2.stl
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/gripper_gear_2.stl
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/base.stl
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/arm_1.stl
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/left_wheel.stl
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/arm_3.stl
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/steering.stl
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//meshes/front_wheel.stl
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//worlds
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test//worlds/gz_test_world.sdf
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/ament_index/resource_index/package_run_dependencies/urdf_test
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/ament_index/resource_index/parent_prefix_path/urdf_test
+[0.222s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.sh
+[0.223s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.dsv
+[0.223s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/environment/path.sh
+[0.223s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/environment/path.dsv
+[0.223s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/local_setup.bash
+[0.223s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/local_setup.sh
+[0.223s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/local_setup.zsh
+[0.223s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/local_setup.dsv
+[0.223s] -- Installing: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/package.dsv
+[0.223s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/ament_index/resource_index/packages/urdf_test
+[0.224s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/cmake/urdf_testConfig.cmake
+[0.224s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/cmake/urdf_testConfig-version.cmake
+[0.224s] -- Up-to-date: /home/narayan_/Documents/ros2_ws/install/urdf_test/share/urdf_test/package.xml
+[0.235s] Invoked command in '/home/narayan_/Documents/ros2_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/narayan_/Documents/ros2_ws/install/turtle_sim:/home/narayan_/Documents/ros2_ws/install/onepkg:/home/narayan_/Documents/ros2_ws/install/led_activity:/home/narayan_/Documents/ros2_ws/install/TransNum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/narayan_/Documents/ros2_ws/build/urdf_test
